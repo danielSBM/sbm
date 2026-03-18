@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-sbm-black text-white antialiased;
+  }
+
+  ::selection {
+    @apply bg-sbm-indigo/30 text-white;
+  }
+}
+
+@layer components {
+  .sbm-gradient-text {
+    @apply bg-sbm-gradient bg-clip-text text-transparent;
+  }
+
+  .sbm-card {
+    @apply bg-sbm-bg-secondary border border-white/5 rounded-2xl overflow-hidden transition-all duration-300 hover:border-sbm-indigo/30 hover:shadow-lg hover:shadow-sbm-indigo/5;
+  }
+
+  .sbm-cta {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-sbm-black font-heading font-bold text-sm tracking-tighter transition-all duration-300 hover:bg-sbm-indigo hover:text-white hover:shadow-lg hover:shadow-sbm-indigo/25;
+  }
+
+  .sbm-cta-outline {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-full border border-white/20 text-white font-heading font-bold text-sm tracking-tighter transition-all duration-300 hover:border-sbm-indigo hover:text-sbm-indigo;
+  }
+
+  .prose-sbm {
+    @apply text-sbm-muted leading-relaxed;
+  }
+
+  .prose-sbm h1 {
+    @apply text-white font-heading font-bold text-4xl md:text-5xl tracking-tighter mb-6;
+  }
+
+  .prose-sbm h2 {
+    @apply text-white font-heading font-bold text-2xl md:text-3xl tracking-tighter mt-12 mb-4;
+  }
+
+  .prose-sbm h3 {
+    @apply text-white font-heading font-bold text-xl md:text-2xl tracking-tighter mt-8 mb-3;
+  }
+
+  .prose-sbm p {
+    @apply mb-6 text-base md:text-lg;
+  }
+
+  .prose-sbm a {
+    @apply text-sbm-indigo underline underline-offset-4 decoration-sbm-indigo/30 hover:decoration-sbm-indigo transition-colors;
+  }
+
+  .prose-sbm ul,
+  .prose-sbm ol {
+    @apply mb-6 pl-6;
+  }
+
+  .prose-sbm li {
+    @apply mb-2 text-base md:text-lg;
+  }
+
+  .prose-sbm ul li {
+    @apply list-disc;
+  }
+
+  .prose-sbm ol li {
+    @apply list-decimal;
+  }
+
+  .prose-sbm blockquote {
+    @apply border-l-4 border-sbm-indigo pl-6 my-6 italic text-white/80;
+  }
+
+  .prose-sbm code {
+    @apply font-mono bg-sbm-bg-tertiary px-2 py-0.5 rounded text-sm text-sbm-purple;
+  }
+
+  .prose-sbm pre {
+    @apply bg-sbm-bg-tertiary rounded-xl p-6 mb-6 overflow-x-auto;
+  }
+
+  .prose-sbm pre code {
+    @apply bg-transparent px-0 py-0;
+  }
+
+  .prose-sbm img {
+    @apply rounded-xl my-8;
+  }
+
+  .prose-sbm strong {
+    @apply text-white font-semibold;
+  }
+
+  .prose-sbm table {
+    @apply w-full mb-6 border-collapse;
+  }
+
+  .prose-sbm th {
+    @apply text-left text-white font-heading font-bold p-3 border-b border-white/10;
+  }
+
+  .prose-sbm td {
+    @apply p-3 border-b border-white/5;
+  }
+}

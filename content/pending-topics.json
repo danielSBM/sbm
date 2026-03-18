@@ -1,0 +1,84 @@
+{
+  "date": "2026-03-18T08:00:00.000Z",
+  "status": "pending_approval",
+  "ideas": [
+    {
+      "id": 1,
+      "title": "Pay-Per-Result vs Retainer Agencies: The Real Cost Breakdown",
+      "slug": "pay-per-result-vs-retainer-cost-breakdown",
+      "primaryKeyword": "pay per result advertising agency",
+      "secondaryKeywords": ["performance based agency", "no retainer advertising", "pay per lead", "agency cost comparison"],
+      "category": "Performance Marketing",
+      "angle": "Data-driven comparison showing why retainers waste money for most SMBs",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": ["How much do performance marketing agencies charge?", "Is pay per result advertising worth it?", "What is a typical agency retainer fee?", "How do I choose a performance marketing agency?", "What is the difference between retainer and performance based agency?"],
+      "customerGenerationReason": "Business owners searching this are actively comparing agency models. They're frustrated with retainers and looking for alternatives — exactly the mindset where SBM's pay-per-result model becomes the obvious answer."
+    },
+    {
+      "id": 2,
+      "title": "AI Ad Creative Testing: How to Find Winning Ads 10x Faster",
+      "slug": "ai-ad-creative-testing-winning-ads",
+      "primaryKeyword": "AI ad creative testing",
+      "secondaryKeywords": ["AI advertising tools", "automated ad testing", "creative optimization", "ad creative AI", "facebook ad testing"],
+      "category": "AI Advertising",
+      "angle": "Show how AI-powered creative iteration outperforms manual A/B testing",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "medium",
+      "peopleAlsoAsk": ["How does AI help with ad creative?", "What is the best AI tool for ad creative?", "How do you test ad creatives effectively?", "Can AI create Facebook ads?", "How many ad creatives should you test?"],
+      "customerGenerationReason": "Marketers searching for AI ad tools are early adopters open to new approaches. This positions SBM as the agency that already has AI creative baked in — why build it yourself when we do it for you?"
+    },
+    {
+      "id": 3,
+      "title": "Meta Ads ROAS Benchmarks 2026: What Good Actually Looks Like",
+      "slug": "meta-ads-roas-benchmarks-2026",
+      "primaryKeyword": "Meta ads ROAS benchmarks 2026",
+      "secondaryKeywords": ["Facebook ads ROAS", "good ROAS for Facebook ads", "average ROAS by industry", "Meta ads performance benchmarks"],
+      "category": "Paid Social",
+      "angle": "Industry-specific ROAS data that most agencies won't share publicly",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": ["What is a good ROAS for Meta ads?", "What is the average ROAS for Facebook ads in 2026?", "How do I improve my ROAS on Meta?", "What ROAS should I expect from an agency?", "Is 3x ROAS good for Facebook ads?"],
+      "customerGenerationReason": "Business owners checking ROAS benchmarks are evaluating whether their current campaigns (or agency) are underperforming. When they see SBM's numbers compared to industry averages, they'll want to switch."
+    },
+    {
+      "id": 4,
+      "title": "TikTok Ads for E-commerce: The $0 to $100K Playbook",
+      "slug": "tiktok-ads-ecommerce-playbook",
+      "primaryKeyword": "TikTok ads for ecommerce",
+      "secondaryKeywords": ["TikTok advertising strategy", "TikTok shop ads", "ecommerce TikTok marketing", "DTC TikTok ads"],
+      "category": "E-commerce Growth",
+      "angle": "Step-by-step scaling framework from first ad to $100K revenue",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "medium",
+      "peopleAlsoAsk": ["Are TikTok ads worth it for ecommerce?", "How much should I spend on TikTok ads?", "What is the best TikTok ad format for ecommerce?", "How do TikTok ads compare to Facebook ads for ecommerce?", "Can you sell products directly on TikTok?"],
+      "customerGenerationReason": "E-commerce brands searching for TikTok strategies are actively scaling and need expert help. The playbook demonstrates deep platform knowledge, making SBM the obvious agency to hire for execution."
+    },
+    {
+      "id": 5,
+      "title": "How to Lower Your Cost Per Lead by 40% With AI Targeting",
+      "slug": "lower-cost-per-lead-ai-targeting",
+      "primaryKeyword": "lower cost per lead",
+      "secondaryKeywords": ["reduce CPL", "AI targeting ads", "lead generation optimization", "cheap leads advertising"],
+      "category": "Lead Generation",
+      "angle": "Practical AI targeting techniques that most businesses aren't using yet",
+      "searchIntent": "transactional",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": ["How can I reduce my cost per lead?", "What is a good cost per lead?", "Does AI targeting improve ad performance?", "How do I optimize lead generation campaigns?", "What is the average cost per lead in 2026?"],
+      "customerGenerationReason": "High-intent transactional search — these people are spending money on ads RIGHT NOW and want better results. Perfect lead-in to SBM's pay-per-result model where they only pay for qualified leads delivered."
+    },
+    {
+      "id": 6,
+      "title": "Google Ads vs Meta Ads in 2026: Where Should You Spend First?",
+      "slug": "google-ads-vs-meta-ads-2026",
+      "primaryKeyword": "Google Ads vs Meta Ads",
+      "secondaryKeywords": ["Facebook vs Google advertising", "best ad platform for business", "where to advertise online", "paid search vs paid social"],
+      "category": "Business Growth",
+      "angle": "Decision framework based on business type, budget, and goals",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "medium",
+      "peopleAlsoAsk": ["Should I use Google Ads or Facebook Ads?", "Which is better Google Ads or Meta Ads?", "How much should a small business spend on ads?", "Can you run Google and Facebook ads together?", "What type of business benefits most from Meta Ads?"],
+      "customerGenerationReason": "Business owners asking this question are about to allocate ad budget and may need agency help. The comparison naturally leads to 'or let an agency handle both platforms' — which is exactly what SBM does."
+    }
+  ]
+}

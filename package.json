@@ -1,0 +1,34 @@
+{
+  "name": "seo-blog-machine",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "research": "tsx scripts/research.ts",
+    "notify": "tsx scripts/notify.ts",
+    "generate": "tsx scripts/generate.ts",
+    "generate-batch": "tsx scripts/generate-batch.ts",
+    "generate-images": "tsx scripts/images.ts",
+    "publish-post": "tsx scripts/publish.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "autoprefixer": "^10.4.27",
+    "feed": "^5.2.0",
+    "google-trends-api": "^4.9.2",
+    "gray-matter": "^4.0.3",
+    "next": "^14.2.35",
+    "next-mdx-remote": "^6.0.0",
+    "postcss": "^8.5.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
