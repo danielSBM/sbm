@@ -1,0 +1,69 @@
+name: Auto-Publish Daily Articles
+
+on:
+  schedule:
+    # Run twice daily: 6 AM and 2 PM UTC
+    # This spreads 3-5 posts across two batches for natural publishing rhythm
+    - cron: '0 6 * * *'   # 6 AM UTC — morning batch (2-3 posts)
+    - cron: '0 14 * * *'  # 2 PM UTC — afternoon batch (2-3 posts)
+  workflow_dispatch:
+    inputs:
+      posts_count:
+        description: 'Number of posts to generate (default: 4)'
+        required: false
+        default: '4'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  auto-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run auto-publish pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          NANOBANANA_API_KEY: ${{ secrets.NANOBANANA_API_KEY }}
+          NANOBANANA_API_URL: ${{ secrets.NANOBANANA_API_URL }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          POSTS_PER_DAY: ${{ inputs.posts_count || '2' }}
+        run: npx tsx scripts/auto-publish.ts
+
+      - name: Commit and push new content
+        run: |
+          git config user.name "SEO Bot"
+          git config user.email "bot@seenbymany.com"
+          git add content/ public/images/posts/
+
+          if git diff --staged --quiet; then
+            echo "No new content to commit"
+            exit 0
+          fi
+
+          DATE=$(date +%Y-%m-%d)
+          TIME=$(date +%H:%M)
+          COUNT=$(find content/posts -name "*.mdx" -newer content/publish-log.json 2>/dev/null | wc -l | tr -d ' ')
+
+          git commit -m "feat(blog): auto-publish ${COUNT} articles — ${DATE} ${TIME}
+
+          Automated daily publish by Seen By Many SEO pipeline."
+          git push

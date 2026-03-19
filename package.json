@@ -12,7 +12,8 @@
     "generate": "tsx scripts/generate.ts",
     "generate-batch": "tsx scripts/generate-batch.ts",
     "generate-images": "tsx scripts/images.ts",
-    "publish-post": "tsx scripts/publish.ts"
+    "publish-post": "tsx scripts/publish.ts",
+    "auto-publish": "tsx scripts/auto-publish.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
