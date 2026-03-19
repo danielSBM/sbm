@@ -25,7 +25,7 @@ export default function BlogCard({ post }: { post: Post }) {
             {frontmatter.readingTime}
           </span>
         </div>
-        <h2 className="font-heading font-bold text-xl tracking-tighter text-white group-hover:text-sbm-indigo transition-colors mb-2 line-clamp-2">
+        <h2 className="font-heading font-bold text-xl tracking-tighter text-gray-900 group-hover:text-sbm-indigo transition-colors mb-2 line-clamp-2">
           {frontmatter.title}
         </h2>
         <p className="text-sbm-muted text-sm line-clamp-3">

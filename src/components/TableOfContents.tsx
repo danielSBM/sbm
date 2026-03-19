@@ -27,7 +27,7 @@ export default function TableOfContents({ items }: { items: TOCItem[] }) {
 
   return (
     <nav className="sbm-card p-6 sticky top-24">
-      <h4 className="font-heading font-bold text-sm tracking-tighter text-white mb-4 uppercase">
+      <h4 className="font-heading font-bold text-sm tracking-tighter text-gray-900 mb-4 uppercase">
         Table of Contents
       </h4>
       <ul className="space-y-2">

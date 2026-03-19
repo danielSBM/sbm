@@ -55,7 +55,7 @@ export default function BlogPostPage({ params }: Props) {
   if (!post) {
     return (
       <div className="max-w-3xl mx-auto px-6 py-20 text-center">
-        <h1 className="font-heading font-bold text-4xl tracking-tighter text-white mb-4">
+        <h1 className="font-heading font-bold text-4xl tracking-tighter text-gray-900 mb-4">
           Post Not Found
         </h1>
         <p className="text-sbm-muted">This article doesn&apos;t exist.</p>
@@ -82,14 +82,14 @@ export default function BlogPostPage({ params }: Props) {
               {frontmatter.readingTime}
             </span>
           </div>
-          <h1 className="font-heading font-bold text-4xl md:text-5xl tracking-tighter text-white mb-4">
+          <h1 className="font-heading font-bold text-4xl md:text-5xl tracking-tighter text-gray-900 mb-4">
             {frontmatter.title}
           </h1>
           <p className="text-sbm-muted text-lg mb-6">
             {frontmatter.description}
           </p>
           <div className="flex items-center gap-3 text-sm text-sbm-muted-dark">
-            <span className="font-medium text-white">
+            <span className="font-medium text-gray-900">
               {frontmatter.author}
             </span>
             <span>&middot;</span>
@@ -123,7 +123,7 @@ export default function BlogPostPage({ params }: Props) {
             {/* FAQ Section */}
             {frontmatter.faq && frontmatter.faq.length > 0 && (
               <section className="mt-16">
-                <h2 className="text-white font-heading font-bold text-2xl md:text-3xl tracking-tighter mb-8">
+                <h2 className="text-gray-900 font-heading font-bold text-2xl md:text-3xl tracking-tighter mb-8">
                   Frequently Asked Questions
                 </h2>
                 <div className="space-y-6">
@@ -132,7 +132,7 @@ export default function BlogPostPage({ params }: Props) {
                       key={i}
                       className="sbm-card p-6"
                     >
-                      <h3 className="font-heading font-bold text-lg text-white mb-2">
+                      <h3 className="font-heading font-bold text-lg text-gray-900 mb-2">
                         {item.question}
                       </h3>
                       <p className="text-sbm-muted text-base">
@@ -149,13 +149,13 @@ export default function BlogPostPage({ params }: Props) {
 
             {/* Author Bio */}
             <div className="sbm-card p-6 mt-12 flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-sbm-gradient flex-shrink-0 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-sbm-indigo flex-shrink-0 flex items-center justify-center">
                 <span className="text-white font-heading font-bold">
                   {siteConfig.author.name.charAt(0)}
                 </span>
               </div>
               <div>
-                <p className="font-heading font-bold text-white">
+                <p className="font-heading font-bold text-gray-900">
                   {siteConfig.author.name}
                 </p>
                 <p className="text-sbm-indigo text-sm mb-2">
@@ -179,7 +179,7 @@ export default function BlogPostPage({ params }: Props) {
         {/* Related Posts */}
         {relatedPosts.length > 0 && (
           <section className="max-w-6xl mx-auto mt-20">
-            <h2 className="font-heading font-bold text-2xl tracking-tighter text-white mb-8">
+            <h2 className="font-heading font-bold text-2xl tracking-tighter text-gray-900 mb-8">
               Related Articles
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

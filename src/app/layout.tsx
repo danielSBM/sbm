@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, DM_Sans, JetBrains_Mono } from "next/font/google";
+import { Inter, Source_Serif_4, JetBrains_Mono } from "next/font/google";
 import { siteConfig } from "../../config/site.config";
 import Header from "@/components/Header";
 import "./globals.css";
 
-const spaceGrotesk = Space_Grotesk({
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-space-grotesk",
-  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
+  weight: ["400", "500", "600", "700", "800"],
 });
 
-const dmSans = DM_Sans({
+const sourceSerif = Source_Serif_4({
   subsets: ["latin"],
-  variable: "--font-dm-sans",
-  weight: ["400", "500", "600"],
+  variable: "--font-source-serif",
+  weight: ["400", "500", "600", "700"],
 });
 
 const jetbrainsMono = JetBrains_Mono({
@@ -58,7 +58,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${spaceGrotesk.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}
+      className={`${inter.variable} ${sourceSerif.variable} ${jetbrainsMono.variable}`}
     >
       <head>
         <script
@@ -82,7 +82,7 @@ export default function RootLayout({
       <body className="font-body min-h-screen">
         <Header />
         <main>{children}</main>
-        <footer className="border-t border-white/5 py-12 mt-20">
+        <footer className="border-t border-slate-200 py-12 mt-20">
           <div className="max-w-6xl mx-auto px-6 text-center">
             <p className="text-sbm-muted-dark text-sm">
               &copy; {new Date().getFullYear()} {siteConfig.name}. All rights

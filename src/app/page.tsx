@@ -11,7 +11,7 @@ export default function HomePage() {
     <div className="max-w-6xl mx-auto px-6">
       {/* Hero */}
       <section className="py-20 md:py-32 text-center">
-        <h1 className="font-heading font-bold text-5xl md:text-7xl tracking-tighter text-white mb-6 max-w-4xl mx-auto">
+        <h1 className="font-heading font-bold text-5xl md:text-7xl tracking-tighter text-gray-900 mb-6 max-w-4xl mx-auto">
           Advertising Insights That{" "}
           <span className="sbm-gradient-text">Actually Work</span>
         </h1>
@@ -38,7 +38,7 @@ export default function HomePage() {
       {latestPosts.length > 0 ? (
         <section className="pb-20">
           <div className="flex items-center justify-between mb-10">
-            <h2 className="font-heading font-bold text-3xl tracking-tighter text-white">
+            <h2 className="font-heading font-bold text-3xl tracking-tighter text-gray-900">
               Latest Articles
             </h2>
             <Link
@@ -60,7 +60,7 @@ export default function HomePage() {
             <p className="font-mono text-sbm-indigo text-sm mb-4">
               System initialized
             </p>
-            <h2 className="font-heading font-bold text-2xl tracking-tighter text-white mb-3">
+            <h2 className="font-heading font-bold text-2xl tracking-tighter text-gray-900 mb-3">
               First Post Coming Soon
             </h2>
             <p className="text-sbm-muted">

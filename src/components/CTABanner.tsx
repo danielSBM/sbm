@@ -2,11 +2,11 @@ import { siteConfig } from "../../config/site.config";
 
 export default function CTABanner() {
   return (
-    <div className="my-12 p-8 rounded-2xl bg-sbm-bg-secondary border border-white/5 text-center">
-      <h3 className="font-heading font-bold text-2xl tracking-tighter text-white mb-3">
+    <div className="my-12 p-8 rounded-2xl bg-blue-50 border border-blue-200 text-center">
+      <h3 className="font-heading font-bold text-2xl tracking-tighter text-gray-900 mb-3">
         Stop Paying for Ads That Don&apos;t Work
       </h3>
-      <p className="text-sbm-muted max-w-lg mx-auto mb-6">
+      <p className="text-gray-600 max-w-lg mx-auto mb-6">
         We generate new customers for your business. You only pay for results.
         No retainers. No risk.
       </p>

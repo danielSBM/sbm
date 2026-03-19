@@ -15,7 +15,7 @@ export default function BlogPage() {
   return (
     <div className="max-w-6xl mx-auto px-6 py-16">
       <div className="mb-12">
-        <h1 className="font-heading font-bold text-4xl md:text-5xl tracking-tighter text-white mb-4">
+        <h1 className="font-heading font-bold text-4xl md:text-5xl tracking-tighter text-gray-900 mb-4">
           Blog
         </h1>
         <p className="text-sbm-muted text-lg max-w-2xl">
@@ -26,13 +26,13 @@ export default function BlogPage() {
       {/* Category filters */}
       {categories.length > 0 && (
         <div className="flex flex-wrap gap-2 mb-10">
-          <span className="text-xs font-mono text-sbm-indigo bg-sbm-indigo/10 px-3 py-1.5 rounded-full cursor-pointer hover:bg-sbm-indigo/20 transition-colors">
+          <span className="text-xs font-heading font-medium text-white bg-sbm-indigo px-3 py-1.5 rounded-full cursor-pointer transition-colors">
             All
           </span>
           {categories.map((cat) => (
             <span
               key={cat}
-              className="text-xs font-mono text-sbm-muted bg-sbm-bg-tertiary px-3 py-1.5 rounded-full cursor-pointer hover:text-sbm-indigo hover:bg-sbm-indigo/10 transition-colors"
+              className="text-xs font-heading font-medium text-gray-600 bg-slate-100 px-3 py-1.5 rounded-full cursor-pointer hover:text-sbm-indigo hover:bg-blue-50 transition-colors"
             >
               {cat}
             </span>
@@ -52,7 +52,7 @@ export default function BlogPage() {
           <p className="font-mono text-sbm-indigo text-sm mb-4">
             Pipeline active
           </p>
-          <h2 className="font-heading font-bold text-2xl tracking-tighter text-white mb-3">
+          <h2 className="font-heading font-bold text-2xl tracking-tighter text-gray-900 mb-3">
             Posts Publishing Soon
           </h2>
           <p className="text-sbm-muted">
