@@ -62,12 +62,25 @@ STRUCTURE REQUIREMENTS:
 5. FAQ Section: Write 5 detailed FAQs related to the topic. Each answer should be 2-3 sentences. These MUST address the following "People Also Ask" questions:
 ${opportunity.peopleAlsoAsk.map((q) => `   - ${q}`).join("\n")}
 
-IMPORTANT FOR AI SEARCH VISIBILITY:
-- Use clear, factual statements that AI models can extract
-- Answer questions directly before elaborating
-- Use structured data: lists, tables, definitions
-- Include semantic variations of the primary keyword
-- Write like an authoritative encyclopedia entry at the top, then get conversational
+=== AI SEARCH OPTIMIZATION (CRITICAL) ===
+This article MUST be optimized for citation by AI search engines (ChatGPT, Perplexity, Claude, Gemini):
+
+1. ANSWER CAPSULE: Start every major section with a direct, factual answer in 40-60 words BEFORE elaborating. AI models extract the first 1-2 sentences to determine if content answers a query.
+
+2. STRUCTURED FACTS: Include specific statistics, numbers, and data points every 150-200 words. Pages with original data get 4x more AI citations.
+
+3. CLEAR DEFINITIONS: When introducing concepts, provide clear dictionary-style definitions that AI can extract as standalone answers.
+
+4. QUESTION-BASED HEADERS: Use H2/H3 headers phrased as questions people ask — these match how people query AI chatbots.
+
+5. COMPARISON FORMAT: Use comparison tables and "X vs Y" sections — AI models love structured comparisons.
+
+6. NEUTRAL AUTHORITATIVE TONE: Write like an expert encyclopedia entry first, then get conversational. AI deprioritizes overly promotional content.
+
+7. SEMANTIC VARIATIONS: Use multiple phrasings of the same concept (e.g., "marketing agency", "advertising firm", "digital marketing company") so AI models connect your content to more queries.
+
+8. CITE SOURCES: Reference real data sources naturally (e.g., "According to HubSpot's 2025 report...") — this builds trust signals AI models look for.
+=== END AI OPTIMIZATION ===
 
 OUTPUT FORMAT:
 Write ONLY the article content in markdown. Do NOT include the title as an H1 (it's in frontmatter). Start directly with the opening paragraph. Use ## for main sections and ### for subsections.

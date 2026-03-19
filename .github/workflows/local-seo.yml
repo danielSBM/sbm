@@ -1,18 +1,19 @@
-name: Morning Research Brief (Needs Your Approval)
+name: Local SEO — City Articles
 
 on:
   schedule:
-    # Daily at 7 AM UTC — sends topic ideas to Slack for approval
-    - cron: '0 7 * * *'
+    # Twice daily: 8 AM and 4 PM UTC
+    - cron: '0 8 * * *'   # Morning batch
+    - cron: '0 16 * * *'  # Afternoon batch
   workflow_dispatch: # Manual trigger
 
 permissions:
   contents: write
 
 jobs:
-  research:
+  local-seo:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -29,28 +30,31 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run keyword research
+      - name: Generate local SEO articles
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: npx tsx scripts/research.ts
-
-      - name: Send Slack brief for approval
-        env:
+          NANOBANANA_API_KEY: ${{ secrets.NANOBANANA_API_KEY }}
+          NANOBANANA_API_URL: ${{ secrets.NANOBANANA_API_URL }}
+          SITE_URL: ${{ secrets.SITE_URL }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          GITHUB_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
-        run: npx tsx scripts/notify.ts
+        run: npx tsx scripts/generate-local.ts
 
-      - name: Save pending topics
+      - name: Commit and push
         run: |
           git config user.name "SEO Bot"
           git config user.email "bot@seenbymany.com"
-          git add content/pending-topics.json
+          git add content/ public/images/posts/
 
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No new content to commit"
             exit 0
           fi
 
-          git commit -m "research: daily topic ideas for $(date +%Y-%m-%d)"
+          DATE=$(date +%Y-%m-%d)
+          TIME=$(date +%H:%M)
+
+          git commit -m "feat(local-seo): city articles — ${DATE} ${TIME}
+
+          Automated local SEO publish by Seen By Many pipeline."
           git push
