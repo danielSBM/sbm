@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "src/app/api/tiktok/search/route.ts": {
+      "maxDuration": 60
+    },
+    "src/app/api/tiktok/comments/route.ts": {
+      "maxDuration": 60
+    },
+    "src/app/api/tiktok/hooks/route.ts": {
+      "maxDuration": 60
+    },
+    "src/app/api/tiktok/insights/route.ts": {
+      "maxDuration": 60
+    },
+    "src/app/api/tiktok/brief/route.ts": {
+      "maxDuration": 120
+    }
+  }
+}
