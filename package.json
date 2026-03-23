@@ -14,12 +14,15 @@
     "generate-images": "tsx scripts/images.ts",
     "publish-post": "tsx scripts/publish.ts",
     "auto-publish": "tsx scripts/auto-publish.ts",
-    "local-seo": "tsx scripts/generate-local.ts"
+    "local-seo": "tsx scripts/generate-local.ts",
+    "tiktok-agent": "tsx scripts/tiktok-agent.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
+    "@google/generative-ai": "^0.24.1",
     "@types/node": "^25.5.0",
     "@types/react": "^19.2.14",
+    "apify-client": "^2.22.3",
     "autoprefixer": "^10.4.27",
     "feed": "^5.2.0",
     "google-trends-api": "^4.9.2",
