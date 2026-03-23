@@ -66,7 +66,7 @@ export default function GeneratorPage() {
       setAnalysisError(null);
 
       try {
-        const res = await fetch("/api/analyze-brand", {
+        const res = await fetch("/api/analyze-brand/", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(data),
@@ -98,7 +98,7 @@ export default function GeneratorPage() {
     setIsLoadingAvatars(true);
 
     try {
-      const res = await fetch("/api/generate-avatars", {
+      const res = await fetch("/api/generate-avatars/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ analysis }),
@@ -141,7 +141,7 @@ export default function GeneratorPage() {
           });
 
           try {
-            const res = await fetch("/api/generate-advertorial", {
+            const res = await fetch("/api/generate-advertorial/", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({
