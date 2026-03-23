@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TikTok Analysis Agent — Seen By Many</title>
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #111118;
+      --surface2: #1a1a24;
+      --border: #2a2a3a;
+      --text: #e2e2ef;
+      --text-muted: #8888a0;
+      --indigo: #6366f1;
+      --violet: #8b5cf6;
+      --purple: #a855f7;
+      --green: #22c55e;
+      --red: #ef4444;
+      --amber: #f59e0b;
+      --gradient: linear-gradient(135deg, #6366f1, #8b5cf6, #a855f7);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .header {
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header-left { display: flex; align-items: center; gap: 1rem; }
+    .logo {
+      font-size: 1.25rem;
+      font-weight: 700;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .logo-sub { font-size: 0.75rem; color: var(--text-muted); }
+    .header-right { display: flex; gap: 0.5rem; }
+    .tab-btn {
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 0.8rem;
+      transition: all 0.2s;
+    }
+    .tab-btn.active, .tab-btn:hover {
+      background: var(--surface2);
+      color: var(--text);
+      border-color: var(--indigo);
+    }
+
+    /* ── Layout ── */
+    .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+
+    /* ── Search Panel ── */
+    .search-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .search-panel h2 {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .form-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+      gap: 1rem;
+      align-items: end;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-bottom: 0.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .form-group input, .form-group select {
+      width: 100%;
+      padding: 0.7rem 1rem;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--text);
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .form-group input:focus {
+      border-color: var(--indigo);
+    }
+    .btn-run {
+      padding: 0.7rem 2rem;
+      border-radius: 10px;
+      border: none;
+      background: var(--gradient);
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s;
+      white-space: nowrap;
+    }
+    .btn-run:hover { opacity: 0.9; }
+    .btn-run:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    /* ── Pipeline Steps ── */
+    .pipeline { margin-bottom: 2rem; display: none; }
+    .pipeline.active { display: block; }
+    .pipeline-steps {
+      display: flex;
+      gap: 0.5rem;
+    }
+    .pipe-step {
+      flex: 1;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .pipe-step .step-num {
+      font-size: 0.65rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    .pipe-step .step-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin: 0.3rem 0;
+    }
+    .pipe-step .step-detail {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+    .pipe-step .step-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 3px;
+      width: 0%;
+      background: var(--gradient);
+      transition: width 0.5s;
+    }
+    .pipe-step.running .step-bar { width: 60%; animation: pulse-bar 1.5s infinite; }
+    .pipe-step.done .step-bar { width: 100%; background: var(--green); }
+    .pipe-step.error .step-bar { width: 100%; background: var(--red); }
+    .pipe-step.done .step-title::before { content: "\2713 "; color: var(--green); }
+    .pipe-step.running .step-title::before { content: ""; }
+    .pipe-step.error .step-title::before { content: "\2717 "; color: var(--red); }
+
+    @keyframes pulse-bar {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    /* ── Results Grid ── */
+    .results { display: none; }
+    .results.active { display: block; }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+    }
+    .card h3 {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+    }
+    .card.full { grid-column: 1 / -1; }
+
+    /* ── Video Cards ── */
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+    .video-card {
+      background: var(--surface2);
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      transition: border-color 0.2s;
+    }
+    .video-card:hover { border-color: var(--indigo); }
+    .video-card .thumb {
+      width: 100%;
+      aspect-ratio: 9/16;
+      max-height: 200px;
+      object-fit: cover;
+      background: var(--border);
+    }
+    .video-card .vid-info { padding: 0.8rem; }
+    .video-card .vid-author {
+      font-size: 0.75rem;
+      color: var(--violet);
+      font-weight: 600;
+    }
+    .video-card .vid-caption {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin: 0.3rem 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .video-card .vid-stats {
+      display: flex;
+      gap: 0.6rem;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+    }
+    .video-card .vid-stats span { display: flex; align-items: center; gap: 0.2rem; }
+    .vid-er {
+      font-size: 0.65rem;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      background: rgba(99, 102, 241, 0.15);
+      color: var(--indigo);
+      font-weight: 600;
+    }
+
+    /* ── Hook Cards ── */
+    .hook-list { display: flex; flex-direction: column; gap: 0.8rem; }
+    .hook-item {
+      background: var(--surface2);
+      border-radius: 10px;
+      padding: 1rem;
+      border-left: 3px solid var(--indigo);
+    }
+    .hook-item .hook-quote {
+      font-style: italic;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+    .hook-meta {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .hook-tag {
+      font-size: 0.65rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 5px;
+      background: var(--surface);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+    .hook-score {
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.2rem 0.5rem;
+      border-radius: 5px;
+    }
+    .hook-score.high { background: rgba(34,197,94,0.15); color: var(--green); }
+    .hook-score.mid { background: rgba(245,158,11,0.15); color: var(--amber); }
+    .hook-score.low { background: rgba(239,68,68,0.15); color: var(--red); }
+
+    /* ── Insights ── */
+    .insight-group { margin-bottom: 1rem; }
+    .insight-group h4 {
+      font-size: 0.75rem;
+      color: var(--violet);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .insight-list {
+      list-style: none;
+    }
+    .insight-list li {
+      font-size: 0.85rem;
+      padding: 0.4rem 0;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-muted);
+    }
+    .insight-list li:last-child { border-bottom: none; }
+
+    /* ── Brief ── */
+    .brief-content {
+      background: var(--surface2);
+      border-radius: 10px;
+      padding: 2rem;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+    .brief-content h1 { font-size: 1.5rem; margin: 1.5rem 0 0.5rem; background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .brief-content h2 { font-size: 1.2rem; margin: 1.5rem 0 0.5rem; color: var(--indigo); }
+    .brief-content h3 { font-size: 1rem; margin: 1rem 0 0.5rem; color: var(--violet); }
+    .brief-content p { margin: 0.5rem 0; color: var(--text-muted); }
+    .brief-content ul, .brief-content ol { margin: 0.5rem 0 0.5rem 1.5rem; color: var(--text-muted); }
+    .brief-content li { margin: 0.3rem 0; }
+    .brief-content strong { color: var(--text); }
+    .brief-content code { background: var(--surface); padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.85rem; }
+    .brief-content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    .brief-actions {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .btn-copy, .btn-download {
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-copy:hover, .btn-download:hover {
+      border-color: var(--indigo);
+      color: var(--text);
+    }
+
+    /* ── Stat boxes ── */
+    .stat-row {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .stat-box {
+      flex: 1;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.2rem;
+      text-align: center;
+    }
+    .stat-box .stat-value {
+      font-size: 1.8rem;
+      font-weight: 700;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .stat-box .stat-label {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 0.3rem;
+    }
+
+    /* ── History Tab ── */
+    .history { display: none; }
+    .history.active { display: block; }
+    .history-list { display: flex; flex-direction: column; gap: 0.5rem; }
+    .history-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+    .history-item:hover { border-color: var(--indigo); }
+    .history-keyword { font-weight: 600; }
+    .history-date { font-size: 0.8rem; color: var(--text-muted); }
+
+    /* ── Error ── */
+    .error-banner {
+      background: rgba(239,68,68,0.1);
+      border: 1px solid var(--red);
+      border-radius: 10px;
+      padding: 1rem 1.5rem;
+      color: var(--red);
+      margin-bottom: 1.5rem;
+      display: none;
+    }
+    .error-banner.active { display: block; }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      .form-grid { grid-template-columns: 1fr 1fr; }
+      .results-grid { grid-template-columns: 1fr; }
+      .pipeline-steps { flex-direction: column; }
+    }
+    @media (max-width: 600px) {
+      .form-grid { grid-template-columns: 1fr; }
+      .stat-row { flex-wrap: wrap; }
+      .stat-box { min-width: 45%; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div>
+      <div class="logo">TikTok Analysis Agent</div>
+      <div class="logo-sub">Seen By Many</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <button class="tab-btn active" onclick="showTab('agent')">Agent</button>
+    <button class="tab-btn" onclick="showTab('history')">History</button>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- ── Search Panel ── -->
+  <div class="search-panel" id="searchPanel">
+    <h2>New Analysis</h2>
+    <div class="form-grid">
+      <div class="form-group">
+        <label>Keyword</label>
+        <input type="text" id="keyword" placeholder='e.g. "ugc skincare ads"' />
+      </div>
+      <div class="form-group">
+        <label>Date From</label>
+        <input type="date" id="dateFrom" />
+      </div>
+      <div class="form-group">
+        <label>Date To</label>
+        <input type="date" id="dateTo" />
+      </div>
+      <div class="form-group">
+        <label>Videos</label>
+        <input type="number" id="maxVideos" value="20" min="5" max="50" />
+      </div>
+      <div class="form-group">
+        <button class="btn-run" id="btnRun" onclick="runAgent()">Run Agent</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Error ── -->
+  <div class="error-banner" id="errorBanner"></div>
+
+  <!-- ── Pipeline Progress ── -->
+  <div class="pipeline" id="pipeline">
+    <div class="pipeline-steps">
+      <div class="pipe-step" id="step-1">
+        <div class="step-num">Step 1</div>
+        <div class="step-title">Search TikTok</div>
+        <div class="step-detail" id="step-1-detail">Waiting...</div>
+        <div class="step-bar"></div>
+      </div>
+      <div class="pipe-step" id="step-2">
+        <div class="step-num">Step 2</div>
+        <div class="step-title">Scrape Comments</div>
+        <div class="step-detail" id="step-2-detail">Waiting...</div>
+        <div class="step-bar"></div>
+      </div>
+      <div class="pipe-step" id="step-3">
+        <div class="step-num">Step 3</div>
+        <div class="step-title">Gemini Hook Analysis</div>
+        <div class="step-detail" id="step-3-detail">Waiting...</div>
+        <div class="step-bar"></div>
+      </div>
+      <div class="pipe-step" id="step-4">
+        <div class="step-num">Step 4</div>
+        <div class="step-title">AI Comment Analysis</div>
+        <div class="step-detail" id="step-4-detail">Waiting...</div>
+        <div class="step-bar"></div>
+      </div>
+      <div class="pipe-step" id="step-5">
+        <div class="step-num">Step 5</div>
+        <div class="step-title">Creative Brief</div>
+        <div class="step-detail" id="step-5-detail">Waiting...</div>
+        <div class="step-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Results ── -->
+  <div class="results" id="results">
+    <!-- Stats -->
+    <div class="stat-row" id="statRow"></div>
+
+    <div class="results-grid">
+      <!-- Videos -->
+      <div class="card full" id="videosCard" style="display:none">
+        <h3>Top Videos</h3>
+        <div class="video-grid" id="videoGrid"></div>
+      </div>
+
+      <!-- Hooks -->
+      <div class="card" id="hooksCard" style="display:none">
+        <h3>Hook Analysis</h3>
+        <div class="hook-list" id="hookList"></div>
+      </div>
+
+      <!-- Insights -->
+      <div class="card" id="insightsCard" style="display:none">
+        <h3>Audience Insights</h3>
+        <div id="insightsContent"></div>
+      </div>
+
+      <!-- Brief -->
+      <div class="card full" id="briefCard" style="display:none">
+        <h3>Creative Brief</h3>
+        <div class="brief-actions">
+          <button class="btn-copy" onclick="copyBrief()">Copy Markdown</button>
+          <button class="btn-download" onclick="downloadBrief()">Download .md</button>
+        </div>
+        <div class="brief-content" id="briefContent"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── History ── -->
+  <div class="history" id="history">
+    <div class="history-list" id="historyList"></div>
+  </div>
+
+</div>
+
+<script>
+  let currentBrief = '';
+  let currentBriefFile = '';
+
+  function showTab(tab) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+
+    document.getElementById('searchPanel').style.display = tab === 'agent' ? 'block' : 'none';
+    document.getElementById('pipeline').style.display = (tab === 'agent' && document.getElementById('pipeline').classList.contains('active')) ? 'block' : 'none';
+    document.getElementById('results').style.display = (tab === 'agent' && document.getElementById('results').classList.contains('active')) ? 'block' : 'none';
+    document.getElementById('history').style.display = tab === 'history' ? 'block' : 'none';
+
+    if (tab === 'history') loadHistory();
+  }
+
+  async function loadHistory() {
+    const res = await fetch('/api/briefs');
+    const briefs = await res.json();
+    const list = document.getElementById('historyList');
+    if (briefs.length === 0) {
+      list.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:3rem;">No briefs yet. Run your first analysis!</p>';
+      return;
+    }
+    list.innerHTML = briefs.map(b => `
+      <div class="history-item" onclick="viewBrief('${b.file}')">
+        <div>
+          <div class="history-keyword">${b.keyword || b.file}</div>
+          <div class="history-date">${b.generatedAt ? new Date(b.generatedAt).toLocaleDateString() : ''} &middot; ${b.videosAnalyzed || '?'} videos</div>
+        </div>
+        <span style="color:var(--text-muted)">&rarr;</span>
+      </div>
+    `).join('');
+  }
+
+  async function viewBrief(file) {
+    const res = await fetch('/api/briefs/' + file);
+    const md = await res.text();
+    currentBrief = md;
+    currentBriefFile = file;
+
+    // Switch to agent tab and show brief
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.tab-btn').classList.add('active');
+    document.getElementById('searchPanel').style.display = 'block';
+    document.getElementById('history').style.display = 'none';
+    document.getElementById('pipeline').style.display = 'none';
+
+    const results = document.getElementById('results');
+    results.classList.add('active');
+    results.style.display = 'block';
+
+    document.getElementById('statRow').innerHTML = '';
+    document.getElementById('videosCard').style.display = 'none';
+    document.getElementById('hooksCard').style.display = 'none';
+    document.getElementById('insightsCard').style.display = 'none';
+
+    const briefCard = document.getElementById('briefCard');
+    briefCard.style.display = 'block';
+    document.getElementById('briefContent').innerHTML = renderMarkdown(md);
+  }
+
+  function formatNum(n) {
+    if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + 'M';
+    if (n >= 1_000) return (n / 1_000).toFixed(1) + 'K';
+    return String(n);
+  }
+
+  function renderMarkdown(md) {
+    // Simple markdown renderer
+    return md
+      .replace(/^### (.*$)/gm, '<h3>$1</h3>')
+      .replace(/^## (.*$)/gm, '<h2>$1</h2>')
+      .replace(/^# (.*$)/gm, '<h1>$1</h1>')
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*(.*?)\*/g, '<em>$1</em>')
+      .replace(/`(.*?)`/g, '<code>$1</code>')
+      .replace(/^---$/gm, '<hr>')
+      .replace(/^- (.*$)/gm, '<li>$1</li>')
+      .replace(/(<li>.*<\/li>\n?)+/gs, '<ul>$&</ul>')
+      .replace(/^\d+\. (.*$)/gm, '<li>$1</li>')
+      .replace(/^(?!<[hHuUoOlL])(.*\S.*)$/gm, '<p>$1</p>')
+      .replace(/\n{2,}/g, '');
+  }
+
+  function copyBrief() {
+    navigator.clipboard.writeText(currentBrief);
+    event.target.textContent = 'Copied!';
+    setTimeout(() => event.target.textContent = 'Copy Markdown', 1500);
+  }
+
+  function downloadBrief() {
+    const blob = new Blob([currentBrief], { type: 'text/markdown' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = currentBriefFile || 'creative-brief.md';
+    a.click();
+  }
+
+  async function runAgent() {
+    const keyword = document.getElementById('keyword').value.trim();
+    if (!keyword) return document.getElementById('keyword').focus();
+
+    const config = {
+      keyword,
+      maxVideos: parseInt(document.getElementById('maxVideos').value) || 20,
+      dateFrom: document.getElementById('dateFrom').value || undefined,
+      dateTo: document.getElementById('dateTo').value || undefined,
+      topN: 5,
+      commentsPerVideo: 50,
+    };
+
+    // Reset UI
+    document.getElementById('btnRun').disabled = true;
+    document.getElementById('btnRun').textContent = 'Running...';
+    document.getElementById('errorBanner').classList.remove('active');
+    document.getElementById('results').classList.remove('active');
+    document.getElementById('results').style.display = 'none';
+    document.getElementById('videosCard').style.display = 'none';
+    document.getElementById('hooksCard').style.display = 'none';
+    document.getElementById('insightsCard').style.display = 'none';
+    document.getElementById('briefCard').style.display = 'none';
+    document.getElementById('statRow').innerHTML = '';
+
+    for (let i = 1; i <= 5; i++) {
+      const el = document.getElementById('step-' + i);
+      el.className = 'pipe-step';
+      document.getElementById('step-' + i + '-detail').textContent = 'Waiting...';
+    }
+
+    const pipeline = document.getElementById('pipeline');
+    pipeline.classList.add('active');
+    pipeline.style.display = 'block';
+
+    // Start job
+    const res = await fetch('/api/run', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(config),
+    });
+    const { jobId } = await res.json();
+
+    // Listen for SSE
+    const sse = new EventSource('/api/stream/' + jobId);
+
+    sse.addEventListener('step', (e) => {
+      const d = JSON.parse(e.data);
+      const el = document.getElementById('step-' + d.step);
+      el.className = 'pipe-step ' + d.status;
+      document.getElementById('step-' + d.step + '-detail').textContent = d.detail || '';
+
+      // Show videos when step 1 completes
+      if (d.step === 1 && d.status === 'done' && d.data) {
+        // will be populated by the videos event
+      }
+    });
+
+    sse.addEventListener('videos', (e) => {
+      const d = JSON.parse(e.data);
+      const results = document.getElementById('results');
+      results.classList.add('active');
+      results.style.display = 'block';
+
+      const card = document.getElementById('videosCard');
+      card.style.display = 'block';
+      const grid = document.getElementById('videoGrid');
+      grid.innerHTML = d.videos.map(v => `
+        <a href="${v.url}" target="_blank" rel="noopener" class="video-card" style="text-decoration:none;color:inherit;">
+          ${v.thumbnail ? `<img class="thumb" src="${v.thumbnail}" alt="" loading="lazy" onerror="this.style.display='none'" />` : '<div class="thumb" style="display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:0.75rem;">No thumbnail</div>'}
+          <div class="vid-info">
+            <div class="vid-author">@${v.author}</div>
+            <div class="vid-caption">${v.caption}</div>
+            <div class="vid-stats">
+              <span>${formatNum(v.views)} views</span>
+              <span>${formatNum(v.likes)} likes</span>
+              <span class="vid-er">${v.engagementRate}% ER</span>
+            </div>
+          </div>
+        </a>
+      `).join('');
+    });
+
+    sse.addEventListener('complete', (e) => {
+      const d = JSON.parse(e.data);
+      sse.close();
+
+      document.getElementById('btnRun').disabled = false;
+      document.getElementById('btnRun').textContent = 'Run Agent';
+
+      currentBrief = d.brief;
+      currentBriefFile = d.briefFile;
+
+      // Stats
+      document.getElementById('statRow').innerHTML = `
+        <div class="stat-box"><div class="stat-value">${d.stats.videosFound}</div><div class="stat-label">Videos Found</div></div>
+        <div class="stat-box"><div class="stat-value">${d.stats.videosAnalyzed}</div><div class="stat-label">Deep Analyzed</div></div>
+        <div class="stat-box"><div class="stat-value">${d.stats.commentsScraped}</div><div class="stat-label">Comments</div></div>
+        <div class="stat-box"><div class="stat-value">${d.stats.hooksAnalyzed}</div><div class="stat-label">Hooks Analyzed</div></div>
+        <div class="stat-box"><div class="stat-value">${d.elapsed}s</div><div class="stat-label">Time</div></div>
+      `;
+
+      // Brief
+      const briefCard = document.getElementById('briefCard');
+      briefCard.style.display = 'block';
+      document.getElementById('briefContent').innerHTML = renderMarkdown(d.brief);
+    });
+
+    // Hook analyses come via step 3 done event
+    sse.addEventListener('step', (e) => {
+      const d = JSON.parse(e.data);
+      if (d.step === 3 && d.status === 'done' && d.data?.hooks) {
+        const card = document.getElementById('hooksCard');
+        card.style.display = 'block';
+        const list = document.getElementById('hookList');
+        list.innerHTML = d.data.hooks.map(h => {
+          const scoreClass = h.score >= 7 ? 'high' : h.score >= 5 ? 'mid' : 'low';
+          return `
+            <div class="hook-item">
+              <div class="hook-quote">"${h.hookText}"</div>
+              <div class="hook-meta">
+                <span class="hook-score ${scoreClass}">${h.score}/10</span>
+                <span class="hook-tag">${h.hookType}</span>
+                <span class="hook-tag">${h.emotionalTrigger}</span>
+                <span class="hook-tag">${h.visualTechnique}</span>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      // Comment insights from step 4
+      if (d.step === 4 && d.status === 'done' && d.data?.insights) {
+        const ins = d.data.insights;
+        const card = document.getElementById('insightsCard');
+        card.style.display = 'block';
+        const content = document.getElementById('insightsContent');
+        content.innerHTML = `
+          <div class="insight-group">
+            <h4>Top Questions</h4>
+            <ul class="insight-list">${(ins.topQuestions || []).map(q => `<li>${q}</li>`).join('')}</ul>
+          </div>
+          <div class="insight-group">
+            <h4>Pain Points</h4>
+            <ul class="insight-list">${(ins.painPoints || []).map(p => `<li>${p}</li>`).join('')}</ul>
+          </div>
+          <div class="insight-group">
+            <h4>Desires</h4>
+            <ul class="insight-list">${(ins.desires || []).map(d => `<li>${d}</li>`).join('')}</ul>
+          </div>
+          <div class="insight-group">
+            <h4>Objections</h4>
+            <ul class="insight-list">${(ins.objections || []).map(o => `<li>${o}</li>`).join('')}</ul>
+          </div>
+          <p style="font-size:0.8rem;color:var(--text-muted);margin-top:1rem;">${ins.sentimentSummary || ''}</p>
+        `;
+      }
+    });
+
+    sse.addEventListener('error', (e) => {
+      try {
+        const d = JSON.parse(e.data);
+        document.getElementById('errorBanner').textContent = d.message;
+        document.getElementById('errorBanner').classList.add('active');
+      } catch {}
+      document.getElementById('btnRun').disabled = false;
+      document.getElementById('btnRun').textContent = 'Run Agent';
+    });
+
+    sse.onerror = () => {
+      document.getElementById('btnRun').disabled = false;
+      document.getElementById('btnRun').textContent = 'Run Agent';
+    };
+  }
+
+  // Enter key to run
+  document.getElementById('keyword').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') runAgent();
+  });
+</script>
+
+</body>
+</html>
