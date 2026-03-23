@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import express from "express";
 import path from "path";
 import fs from "fs";
@@ -23,15 +26,22 @@ app.use(express.static(path.join(__dirname, "dashboard")));
 // ─── SSE helpers ───────────────────────────────────────────
 type SSEClient = express.Response;
 const activeClients = new Map<string, SSEClient>();
+const eventBuffers = new Map<string, string[]>();
 
 function sendEvent(
   jobId: string,
   event: string,
   data: Record<string, unknown>
 ) {
+  const msg = `event: ${event}\ndata: ${JSON.stringify(data)}\n\n`;
   const client = activeClients.get(jobId);
   if (client) {
-    client.write(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`);
+    client.write(msg);
+  } else {
+    // Buffer events until client connects
+    const buf = eventBuffers.get(jobId) || [];
+    buf.push(msg);
+    eventBuffers.set(jobId, buf);
   }
 }
 
@@ -77,8 +87,21 @@ app.get("/api/stream/:jobId", (req, res) => {
     Connection: "keep-alive",
   });
   res.write(`event: connected\ndata: {}\n\n`);
+
+  // Flush any buffered events
+  const buffered = eventBuffers.get(req.params.jobId);
+  if (buffered) {
+    for (const msg of buffered) {
+      res.write(msg);
+    }
+    eventBuffers.delete(req.params.jobId);
+  }
+
   activeClients.set(req.params.jobId, res);
-  req.on("close", () => activeClients.delete(req.params.jobId));
+  req.on("close", () => {
+    activeClients.delete(req.params.jobId);
+    eventBuffers.delete(req.params.jobId);
+  });
 });
 
 // ─── Run agent ─────────────────────────────────────────────
@@ -501,7 +524,12 @@ Generate the full creative brief now as markdown.`,
 }
 
 // ─── Start server ──────────────────────────────────────────
-app.listen(PORT, () => {
+// Express 5 returns a Promise from listen(), so we must use
+// the http module directly to keep the process alive.
+import http from "http";
+
+const server = http.createServer(app);
+server.listen(PORT, () => {
   console.log(`
   ┌─────────────────────────────────────────────┐
   │                                             │

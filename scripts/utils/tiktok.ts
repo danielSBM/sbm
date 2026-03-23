@@ -119,75 +119,73 @@ export async function searchTikTok(
 
   const client = getApifyClient();
 
-  // Use Apify's TikTok Scraper actor
+  // Use Apify's free TikTok Scraper actor
   const input: Record<string, unknown> = {
     searchQueries: [keyword],
-    maxProfilesPerQuery: 0,
     resultsPerPage: Math.min(maxVideos, 50),
     shouldDownloadVideos: false,
     shouldDownloadCovers: false,
   };
 
-  // Run the TikTok scraper
   const run = await client.actor("clockworks/free-tiktok-scraper").call(input);
   const { items } = await client.dataset(run.defaultDatasetId).listItems();
 
   console.log(`   Found ${items.length} raw results`);
 
-  // Parse and filter results
+  // Parse results — field names match Apify's free-tiktok-scraper output:
+  // Top-level: id, text, createTime, createTimeISO, webVideoUrl
+  // Top-level stats: diggCount, shareCount, playCount, collectCount, commentCount
+  // Nested: authorMeta { name, nickName, id, fans, following, ... }
+  // Nested: hashtags [{ id, name, title }]
+  // Nested: videoMeta { duration, coverUrl, ... }
+  // Nested: mediaUrls [string]
   let videos: TikTokVideo[] = items
     .filter((item: Record<string, unknown>) => item.id)
     .map((item: Record<string, unknown>) => {
-      const authorData = (item.authorMeta || item.author || {}) as Record<
-        string,
-        unknown
-      >;
-      const statsData = (item.statsV2 || item.stats || {}) as Record<
-        string,
-        unknown
-      >;
+      const authorMeta = (item.authorMeta || {}) as Record<string, unknown>;
+      const videoMeta = (item.videoMeta || {}) as Record<string, unknown>;
       const createTime = Number(item.createTime) || 0;
 
+      // Stats are top-level fields in free-tiktok-scraper
       const stats = {
-        views: Number(statsData.playCount || statsData.views || 0),
-        likes: Number(statsData.diggCount || statsData.likes || 0),
-        comments: Number(statsData.commentCount || statsData.comments || 0),
-        shares: Number(statsData.shareCount || statsData.shares || 0),
-        saves: Number(statsData.collectCount || statsData.saves || 0),
+        views: Number(item.playCount || 0),
+        likes: Number(item.diggCount || 0),
+        comments: Number(item.commentCount || 0),
+        shares: Number(item.shareCount || 0),
+        saves: Number(item.collectCount || 0),
       };
 
       const hashtagsRaw = (item.hashtags || []) as Array<
         Record<string, unknown>
       >;
 
+      // mediaUrls contains download URLs
+      const mediaUrls = (item.mediaUrls || []) as string[];
+
       return {
         id: String(item.id),
         url: String(
           item.webVideoUrl ||
-            `https://www.tiktok.com/@${authorData.uniqueId || "user"}/video/${item.id}`
+            `https://www.tiktok.com/@${authorMeta.name || "user"}/video/${item.id}`
         ),
-        caption: String(item.text || item.desc || ""),
+        caption: String(item.text || ""),
         createTime,
-        createDate: createTime
-          ? new Date(createTime * 1000).toISOString().split("T")[0]
-          : "",
+        createDate: item.createTimeISO
+          ? String(item.createTimeISO).split("T")[0]
+          : createTime
+            ? new Date(createTime * 1000).toISOString().split("T")[0]
+            : "",
         author: {
-          uniqueId: String(authorData.uniqueId || authorData.unique_id || ""),
-          nickname: String(authorData.nickname || authorData.name || ""),
-          followers: Number(authorData.fans || authorData.followerCount || 0),
+          uniqueId: String(authorMeta.name || ""),
+          nickname: String(authorMeta.nickName || authorMeta.name || ""),
+          followers: Number(authorMeta.fans || 0),
         },
         stats,
         engagement: calcEngagement(stats),
-        thumbnailUrl: String(
-          item.coverUrl || item.cover || item.thumbnail || ""
-        ),
-        videoUrl: String(
-          item.videoUrl || item.downloadUrl || item.video_url || ""
-        ),
-        duration: Number(item.duration || item.videoLength || 0),
-        hashtags: hashtagsRaw.map(
-          (h: Record<string, unknown>) => String(h.name || h.title || "")
-        ),
+        thumbnailUrl: String(videoMeta.coverUrl || ""),
+        videoUrl: mediaUrls[0] || "",
+        duration: Number(videoMeta.duration || item.duration || 0),
+        hashtags: hashtagsRaw.map((h) => String(h.name || h.title || "")),
         comments: [],
       } as TikTokVideo;
     });
@@ -220,7 +218,7 @@ export async function searchTikTok(
       if (tag) hashtagCount.set(tag, (hashtagCount.get(tag) || 0) + 1);
     }
   }
-  const topHashtags = [...hashtagCount.entries()]
+  const topHashtags = Array.from(hashtagCount.entries())
     .sort((a, b) => b[1] - a[1])
     .slice(0, 20)
     .map(([tag, count]) => ({ tag, count }));
@@ -238,11 +236,13 @@ export async function searchTikTok(
     ),
   };
 
+  const lastVideo = videos.length > 0 ? videos[videos.length - 1] : undefined;
+
   return {
     keyword,
     totalVideos: videos.length,
     dateRange: {
-      from: dateFrom || videos.at(-1)?.createDate || "",
+      from: dateFrom || lastVideo?.createDate || "",
       to: dateTo || videos[0]?.createDate || "",
     },
     videos,
@@ -259,36 +259,82 @@ export async function scrapeComments(
 
   const client = getApifyClient();
 
-  const run = await client
-    .actor("clockworks/free-tiktok-scraper")
-    .call({
-      postURLs: [videoUrl],
-      commentsPerPost: maxComments,
-      maxRepliesPerComment: 5,
-    });
+  // The free-tiktok-scraper supports post URLs with comment scraping
+  const run = await client.actor("clockworks/free-tiktok-scraper").call({
+    postURLs: [videoUrl],
+    commentsPerPost: maxComments,
+    maxRepliesPerComment: 5,
+  });
 
   const { items } = await client.dataset(run.defaultDatasetId).listItems();
 
-  // Extract comments from the result
   const comments: TikTokComment[] = [];
 
   for (const item of items) {
+    // The scraper may return a commentsDatasetUrl, or embed comments
+    // Try direct comment fields first, then check for nested comments array
     const rawComments = (item.comments || []) as Array<
       Record<string, unknown>
     >;
-    for (const c of rawComments) {
-      const text = String(c.text || c.comment || "");
-      if (!text) continue;
-      comments.push({
-        text,
-        likes: Number(c.diggCount || c.likes || 0),
-        replies: Number(c.replyCommentTotal || c.replies || 0),
-        createTime: Number(c.createTime || 0),
-        isQuestion: isQuestion(text),
-      });
+
+    if (rawComments.length > 0) {
+      for (const c of rawComments) {
+        const text = String(c.text || c.comment || "");
+        if (!text) continue;
+        comments.push({
+          text,
+          likes: Number(c.diggCount || c.likes || 0),
+          replies: Number(c.replyCommentTotal || c.replies || 0),
+          createTime: Number(c.createTime || 0),
+          isQuestion: isQuestion(text),
+        });
+      }
+    }
+
+    // Some versions put the comment data URL in commentsDatasetUrl
+    // If we got comments from the video post itself, those are in the dataset
+    if (
+      comments.length === 0 &&
+      typeof item.commentsDatasetUrl === "string" &&
+      item.commentsDatasetUrl
+    ) {
+      try {
+        // Extract dataset ID from the URL
+        const match = (item.commentsDatasetUrl as string).match(
+          /datasets\/([^/]+)/
+        );
+        if (match) {
+          const commentsDataset = await client
+            .dataset(match[1])
+            .listItems();
+          for (const c of commentsDataset.items) {
+            const text = String(
+              (c as Record<string, unknown>).text ||
+                (c as Record<string, unknown>).comment ||
+                ""
+            );
+            if (!text) continue;
+            comments.push({
+              text,
+              likes: Number((c as Record<string, unknown>).diggCount || (c as Record<string, unknown>).likes || 0),
+              replies: Number(
+                (c as Record<string, unknown>).replyCommentTotal ||
+                  (c as Record<string, unknown>).replies ||
+                  0
+              ),
+              createTime: Number((c as Record<string, unknown>).createTime || 0),
+              isQuestion: isQuestion(text),
+            });
+          }
+        }
+      } catch (e) {
+        console.log(`   ⚠️  Could not fetch comments dataset: ${e}`);
+      }
     }
   }
 
-  console.log(`   Found ${comments.length} comments (${comments.filter((c) => c.isQuestion).length} questions)`);
+  console.log(
+    `   Found ${comments.length} comments (${comments.filter((c) => c.isQuestion).length} questions)`
+  );
   return comments;
 }
