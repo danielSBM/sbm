@@ -1,0 +1,14 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="#0a0a0f"/>
+  <rect width="800" height="450" fill="url(#grad)"/>
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" fill="#6366f1" font-family="sans-serif" font-size="18" font-weight="bold">SEEN BY MANY</text>
+  <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" fill="#a1a1aa" font-family="sans-serif" font-size="13">Content Image — Replace with nanobanana 2</text>
+</svg>
