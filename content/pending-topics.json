@@ -1,219 +1,224 @@
 {
-  "date": "2026-03-31T08:12:55.015Z",
+  "date": "2026-04-01T08:19:12.844Z",
   "status": "pending_approval",
   "ideas": [
     {
       "id": 1,
-      "title": "AI Lead Generation: How Smart Tools Get More Customers in 2024",
-      "slug": "ai-lead-generation-tools-get-customers-2024",
-      "primaryKeyword": "ai lead generation",
-      "secondaryKeywords": [
-        "lead generation companies",
-        "lead generation meaning",
-        "facebook lead generation",
-        "lead generation services",
-        "ai marketing",
-        "digital advertising",
-        "lead generation examples"
-      ],
-      "category": "Lead Generation",
-      "angle": "Focus on AI-powered lead generation as the future, showcasing how Seen By Many's AI algorithms identify and convert higher-quality leads compared to traditional methods, with real performance metrics and case studies.",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "What is AI lead generation and how does it work?",
-        "How much does AI lead generation cost?",
-        "What are the best AI lead generation tools?",
-        "How effective is AI for generating leads?",
-        "Can AI replace human lead generation efforts?"
-      ],
-      "customerGenerationReason": "Business owners searching for 'ai lead generation' are actively looking for better ways to get customers and are interested in cutting-edge solutions. This positions our AI-powered, pay-per-result model as the obvious next step since they only pay when our AI actually delivers qualified leads."
-    },
-    {
-      "id": 2,
-      "title": "What Is Performance Marketing? Complete Guide + Real Examples",
-      "slug": "what-is-performance-marketing-guide-examples",
+      "title": "What is Performance Marketing? Guide for Small Business Owners",
+      "slug": "what-is-performance-marketing-guide-small-business",
       "primaryKeyword": "what is performance marketing",
       "secondaryKeywords": [
         "performance marketing company",
-        "performance marketing services",
-        "performance marketing strategy",
+        "performance based marketing",
         "performance marketing examples",
-        "performance marketing manager",
-        "digital marketing"
+        "digital marketing",
+        "performance marketing strategy",
+        "marketing performance metrics",
+        "online performance marketing"
       ],
       "category": "Performance Marketing",
-      "angle": "Educational guide that defines performance marketing and positions pay-per-result as the purest form of performance marketing, using Seen By Many's model as the gold standard example throughout the article.",
+      "angle": "Demystify performance marketing specifically for small business owners who are tired of paying for advertising with no guaranteed results, positioning pay-per-result as the ultimate performance marketing model",
       "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What's the difference between performance marketing and digital marketing?",
-        "How do performance marketing companies charge?",
-        "What are performance marketing KPIs?",
-        "Is performance marketing worth it for small businesses?",
-        "How do I start performance marketing for my business?"
+        "How does performance marketing differ from traditional advertising?",
+        "What are the benefits of performance marketing for small businesses?",
+        "How much does performance marketing cost?",
+        "What metrics should I track in performance marketing?",
+        "Is performance marketing better than brand advertising?"
       ],
-      "customerGenerationReason": "People searching this are trying to understand performance marketing, likely because they're frustrated with traditional advertising costs. This educational content builds trust and naturally leads them to discover that pay-per-result is the ultimate performance model, making them ideal prospects for our services."
+      "customerGenerationReason": "Business owners searching this are likely frustrated with traditional advertising costs and want accountability. They're perfect prospects for our pay-per-result model since they're already interested in performance-based solutions but may not know such advertising models exist."
     },
     {
-      "id": 3,
-      "title": "Best TikTok Ads: 7 Examples That Generated Massive Results",
-      "slug": "best-tiktok-ads-examples-massive-results",
-      "primaryKeyword": "best tiktok ads",
+      "id": 2,
+      "title": "Google Ads Agency vs DIY: Which Gets Better Results in 2024?",
+      "slug": "google-ads-agency-vs-diy-comparison-2024",
+      "primaryKeyword": "google ads agency",
       "secondaryKeywords": [
-        "tiktok ad",
-        "ads on tiktok",
-        "tiktok business ads",
-        "tiktok ads manager",
-        "tiktok business",
-        "social media marketing",
-        "performance marketing brands"
+        "google ads campaign",
+        "google ads account",
+        "google search ads",
+        "google display ads",
+        "google shopping ads",
+        "google ads manager",
+        "what is google ads"
       ],
       "category": "Paid Social",
-      "angle": "Showcase successful TikTok ad campaigns with specific metrics and ROI data, emphasizing how creative strategy combined with performance tracking leads to results, subtly highlighting our pay-per-result TikTok advertising approach.",
+      "angle": "Compare the true costs and results of hiring a traditional agency vs DIY vs pay-per-result model, using real case studies and ROI calculations that favor our approach",
       "searchIntent": "commercial",
       "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "What makes a TikTok ad successful?",
-        "How much do TikTok ads cost?",
-        "What types of TikTok ads work best?",
-        "How do I create effective TikTok ads?",
-        "What's the average conversion rate for TikTok ads?"
+        "How much does a Google Ads agency charge?",
+        "Can I run Google Ads myself without an agency?",
+        "What should I look for in a Google Ads agency?",
+        "How do I know if my Google Ads agency is doing a good job?",
+        "What's the average ROI for Google Ads agencies?"
       ],
-      "customerGenerationReason": "Business owners researching successful TikTok ads are evaluating the platform for their marketing spend. They're looking for proof that TikTok works, making them prime candidates for our services since we can demonstrate results and they only pay when we deliver actual customers."
+      "customerGenerationReason": "These searchers are actively comparing options for Google Ads management and are likely ready to hire help. They're comparing agencies vs DIY, making them perfect prospects to discover our pay-per-result model as a superior third option that eliminates agency risk."
+    },
+    {
+      "id": 3,
+      "title": "AI Advertising Tools That Actually Boost ROAS (2024 List)",
+      "slug": "ai-advertising-tools-boost-roas-2024",
+      "primaryKeyword": "AI advertising",
+      "secondaryKeywords": [
+        "ROAS optimization",
+        "ad creative strategy",
+        "performance marketing tools",
+        "AI marketing tools",
+        "automated advertising",
+        "machine learning ads",
+        "AI ad optimization"
+      ],
+      "category": "AI Advertising",
+      "angle": "Review the best AI advertising tools while positioning Seen By Many's AI-powered approach as the only one that guarantees results through pay-per-result pricing",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "What are the best AI tools for advertising?",
+        "How does AI improve advertising performance?",
+        "Can AI replace human advertisers?",
+        "What's the ROI of using AI in advertising?",
+        "How much do AI advertising tools cost?"
+      ],
+      "customerGenerationReason": "Business owners researching AI advertising tools are looking for competitive advantages and better performance. They're likely tech-savvy early adopters who will appreciate our AI-powered approach and be attracted to the risk-free pay-per-result model as validation of our AI's effectiveness."
     },
     {
       "id": 4,
-      "title": "Facebook Lead Generation: Complete Setup Guide for 2024 ROI",
-      "slug": "facebook-lead-generation-setup-guide-roi",
-      "primaryKeyword": "facebook lead generation",
+      "title": "Performance Marketing Manager: Hire vs Agency vs Pay-Per-Result",
+      "slug": "performance-marketing-manager-hire-agency-pay-per-result",
+      "primaryKeyword": "performance marketing manager",
       "secondaryKeywords": [
-        "lead generation form",
-        "facebook ads",
-        "meta ads",
-        "lead generation marketing",
-        "lead generation agency",
-        "lead generation services",
-        "performance marketing"
+        "performance marketing company",
+        "performance marketing services",
+        "performance based marketing",
+        "what is performance marketing",
+        "performance marketing strategy",
+        "marketing performance management"
       ],
-      "category": "Lead Generation",
-      "angle": "Comprehensive tutorial on Facebook lead generation with emphasis on ROI tracking and conversion optimization, positioning Seen By Many's expertise in Meta advertising and pay-per-result model as the solution for businesses wanting guaranteed returns.",
+      "category": "Performance Marketing",
+      "angle": "Help businesses decide between hiring in-house, traditional agencies, or pay-per-result models by breaking down total costs, risks, and expected outcomes for each option",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How effective are Facebook lead ads?",
-        "What's a good cost per lead on Facebook?",
-        "How do I optimize Facebook lead generation campaigns?",
-        "What are Facebook lead generation best practices?",
-        "How do I reduce Facebook lead generation costs?"
+        "How much does a performance marketing manager cost?",
+        "What skills should a performance marketing manager have?",
+        "Is it better to hire in-house or outsource performance marketing?",
+        "What's the difference between a marketing manager and performance marketing manager?",
+        "How do I find a good performance marketing manager?"
       ],
-      "customerGenerationReason": "Readers are actively trying to generate leads through Facebook, indicating they have budget allocated for advertising. They're seeking better results and cost efficiency, making them perfect prospects for our pay-per-result Facebook advertising where they eliminate wasted ad spend."
+      "customerGenerationReason": "Companies searching for performance marketing managers are ready to invest significantly in growth but are weighing their options. They're ideal prospects because they understand performance marketing value but may not know about pay-per-result options that eliminate hiring risks and guarantee results."
     },
     {
       "id": 5,
-      "title": "AI Advertising Companies: Top 7 Platforms Transforming Marketing",
-      "slug": "ai-advertising-companies-platforms-transforming-marketing",
-      "primaryKeyword": "ai advertising companies",
+      "title": "Facebook Ads vs Google Ads: Which Platform ROI Wins in 2024?",
+      "slug": "facebook-ads-vs-google-ads-roi-comparison-2024",
+      "primaryKeyword": "facebook ads",
       "secondaryKeywords": [
-        "ai in advertising",
-        "ai marketing",
-        "digital advertising",
-        "ai advertising generator",
-        "performance marketing company",
-        "what is ai",
-        "meta ai"
+        "google ads",
+        "Meta ads",
+        "google search ads",
+        "ads manager",
+        "social media marketing",
+        "digital marketing",
+        "ad campaign comparison",
+        "advertising platforms"
       ],
-      "category": "AI Advertising",
-      "angle": "Review and comparison of leading AI advertising companies, with Seen By Many positioned as the only one offering true pay-per-result AI advertising, comparing features, pricing models, and actual performance outcomes.",
+      "category": "Paid Social",
+      "angle": "Provide an unbiased platform comparison while highlighting that with pay-per-result advertising, businesses don't have to choose just one platform or worry about which performs better",
       "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
+      "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "Which AI advertising company is the best?",
-        "How much do AI advertising companies charge?",
-        "What services do AI advertising companies offer?",
-        "Are AI advertising companies worth the investment?",
-        "How do I choose an AI advertising company?"
+        "Which is cheaper Facebook ads or Google ads?",
+        "Should I use Facebook ads or Google ads for my business?",
+        "What's the average ROI for Facebook vs Google ads?",
+        "Can I run both Facebook and Google ads at the same time?",
+        "Which platform is better for lead generation?"
       ],
-      "customerGenerationReason": "Searchers are actively evaluating AI advertising providers, meaning they're ready to hire someone and have likely allocated budget. By positioning ourselves as the only pay-per-result option, we appeal to their desire for guaranteed ROI and reduced risk compared to traditional retainer models."
+      "customerGenerationReason": "Business owners comparing platforms are actively planning advertising spend and looking for the best ROI. They're perfect prospects because they're ready to advertise but uncertain about platform choice - our multi-platform pay-per-result approach eliminates this decision paralysis and risk."
     },
     {
       "id": 6,
-      "title": "Local Lead Generation: 9 Proven Strategies That Actually Work",
-      "slug": "local-lead-generation-proven-strategies-work",
-      "primaryKeyword": "local lead generation",
+      "title": "Lead Generation Cost: Pay-Per-Lead vs Traditional Ad Spend",
+      "slug": "lead-generation-cost-pay-per-lead-vs-traditional-ads",
+      "primaryKeyword": "lead generation",
       "secondaryKeywords": [
-        "lead generation business",
-        "lead generation services",
-        "google ads",
-        "facebook ads",
-        "lead generation marketing",
-        "seo",
-        "real estate lead generation"
+        "cost per lead",
+        "pay per lead",
+        "lead generation cost",
+        "customer acquisition",
+        "qualified leads",
+        "lead gen pricing",
+        "B2B lead generation",
+        "performance marketing"
       ],
       "category": "Lead Generation",
-      "angle": "Focus on local business lead generation strategies across multiple channels (Google, Facebook, SEO) with emphasis on tracking local ROI and customer lifetime value, showcasing how pay-per-result works especially well for local businesses with clear lead values.",
+      "angle": "Compare the true costs of traditional advertising (including wasted spend) versus pay-per-qualified-lead pricing, showing how businesses can predict and control acquisition costs",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What's the best local lead generation strategy?",
-        "How much should local lead generation cost?",
-        "What tools are best for local lead generation?",
-        "How do I generate leads for my local business?",
-        "What's a good cost per lead for local businesses?"
+        "What's a good cost per lead for my industry?",
+        "How much should I budget for lead generation?",
+        "What's the difference between cost per lead and cost per acquisition?",
+        "How do I reduce my lead generation costs?",
+        "What's better: pay per click or pay per lead?"
       ],
-      "customerGenerationReason": "Local business owners searching this are typically struggling to get consistent customers and are looking for reliable marketing solutions. They often have clear lead values and immediate ROI needs, making them ideal for our pay-per-result model where they can directly see the value of each customer we deliver."
+      "customerGenerationReason": "Businesses researching lead generation costs are actively looking to invest in customer acquisition but want predictable ROI. They're ideal prospects because they understand the value of leads and will appreciate a model where they only pay for qualified results rather than hoping their ad spend converts."
     },
     {
       "id": 7,
-      "title": "Performance Marketing Manager: Skills, Salary & Career Guide 2024",
-      "slug": "performance-marketing-manager-skills-salary-career",
-      "primaryKeyword": "performance marketing manager",
+      "title": "YouTube Ads for E-commerce: Complete ROI Guide for 2024",
+      "slug": "youtube-ads-ecommerce-roi-guide-2024",
+      "primaryKeyword": "youtube ads",
       "secondaryKeywords": [
-        "performance marketing strategy",
-        "digital marketing",
-        "performance marketing company",
-        "online performance marketing",
-        "marketing strategy",
-        "performance marketing services"
+        "e-commerce growth",
+        "video advertising",
+        "youtube advertising",
+        "ecommerce marketing",
+        "video ads ROI",
+        "youtube ads cost",
+        "video marketing strategy",
+        "online store advertising"
       ],
-      "category": "Performance Marketing",
-      "angle": "Career guide that also educates business owners on what to look for in performance marketing talent versus outsourcing to specialists, subtly positioning Seen By Many as the expert alternative to hiring full-time performance marketing managers.",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "What does a performance marketing manager do?",
-        "How much do performance marketing managers make?",
-        "What skills do performance marketing managers need?",
-        "Should I hire a performance marketing manager or agency?",
-        "What's the difference between a marketing manager and performance marketing manager?"
-      ],
-      "customerGenerationReason": "This attracts two audiences: job seekers (who might refer clients) and business owners researching whether to hire internally or outsource. Business owners will learn about the high costs and skills required for performance marketing managers, making our pay-per-result outsourcing model an attractive alternative."
-    },
-    {
-      "id": 8,
-      "title": "Content Performance Marketing: How to Turn Content Into Customers",
-      "slug": "content-performance-marketing-turn-content-customers",
-      "primaryKeyword": "content performance marketing",
-      "secondaryKeywords": [
-        "content marketing",
-        "performance marketing strategy",
-        "digital marketing",
-        "performance marketing examples",
-        "social media marketing",
-        "performance marketing brands"
-      ],
-      "category": "Performance Marketing",
-      "angle": "Bridge the gap between content marketing and performance marketing, showing how to measure content ROI and use content in paid advertising campaigns, emphasizing trackable results and customer acquisition rather than vanity metrics.",
+      "category": "E-commerce Growth",
+      "angle": "Focus specifically on e-commerce success with YouTube ads, providing actionable strategies while positioning pay-per-result as the safest way to test this potentially high-ROI platform",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What is content performance marketing?",
-        "How do you measure content marketing performance?",
-        "Can content marketing generate direct sales?",
-        "What's the ROI of content marketing?",
-        "How do I turn content into customers?"
+        "Do YouTube ads work for e-commerce stores?",
+        "How much do YouTube ads cost for e-commerce?",
+        "What's the best YouTube ad format for online stores?",
+        "How do I measure YouTube ads ROI for e-commerce?",
+        "Should e-commerce brands use YouTube ads or Facebook ads?"
       ],
-      "customerGenerationReason": "Businesses searching this are frustrated with content marketing that doesn't generate measurable results. They're looking for ways to connect content efforts to actual revenue, making them excellent prospects for our performance-based advertising approach that guarantees measurable customer acquisition."
+      "customerGenerationReason": "E-commerce owners researching YouTube ads are looking for new growth channels and are likely already spending on other platforms. They're perfect prospects because they understand digital advertising value but may hesitate to test YouTube due to complexity and risk - our pay-per-result model removes that barrier."
+    },
+    {
+      "id": 8,
+      "title": "Performance Marketing Software vs Pay-Per-Result Agencies",
+      "slug": "performance-marketing-software-vs-pay-per-result-agencies",
+      "primaryKeyword": "performance marketing software",
+      "secondaryKeywords": [
+        "performance marketing tools",
+        "marketing performance metrics",
+        "performance based marketing",
+        "performance marketing services",
+        "automated marketing",
+        "marketing software ROI",
+        "performance tracking tools"
+      ],
+      "category": "Performance Marketing",
+      "angle": "Compare the costs and complexity of performance marketing software solutions against full-service pay-per-result agencies, highlighting the hidden costs of software-only approaches",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "What's the best performance marketing software?",
+        "How much does performance marketing software cost?",
+        "Do I need software or an agency for performance marketing?",
+        "What features should performance marketing software have?",
+        "Can performance marketing software replace agencies?"
+      ],
+      "customerGenerationReason": "Companies researching performance marketing software are looking for scalable growth solutions but may underestimate the complexity of execution. They're ideal prospects because they want performance-based results but may not realize that software requires significant expertise to use effectively - our full-service pay-per-result model provides the outcome they want without the complexity."
     }
   ]
 }
