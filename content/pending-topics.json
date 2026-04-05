@@ -1,221 +1,228 @@
 {
-  "date": "2026-04-05T07:57:57.392Z",
+  "date": "2026-04-05T07:59:39.330Z",
   "status": "pending_approval",
   "ideas": [
     {
       "id": 1,
-      "title": "What is Performance Marketing? Definition & Strategy Guide 2024",
-      "slug": "what-is-performance-marketing-definition-strategy-guide",
-      "primaryKeyword": "what is performance marketing",
+      "title": "What Is Customer Acquisition Cost & How to Calculate CAC",
+      "slug": "what-is-customer-acquisition-cost-calculate-cac",
+      "primaryKeyword": "what is customer acquisition cost",
       "secondaryKeywords": [
-        "performance marketing definition",
-        "performance marketing strategy",
-        "pay for performance marketing",
-        "performance marketing vs digital marketing",
-        "performance digital marketing",
-        "performance marketing services",
-        "online performance marketing"
+        "calculate customer acquisition cost",
+        "cac customer acquisition cost",
+        "customer acquisition cost",
+        "cost of customer acquisition",
+        "customer acquisition definition",
+        "customer acquisition process",
+        "customer acquisition examples"
       ],
-      "category": "Performance Marketing",
-      "angle": "Educational guide that positions pay-per-result as the ultimate performance marketing model, with real examples and ROI calculations",
+      "category": "Business Growth",
+      "angle": "Comprehensive guide showing how CAC calculation reveals when traditional agencies are too expensive and pay-per-result models deliver better economics",
       "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How does performance marketing differ from traditional advertising?",
-        "What are the benefits of performance-based advertising?",
-        "How do you measure performance marketing success?",
-        "What platforms are best for performance marketing?",
-        "How much does performance marketing cost?"
+        "How do you calculate customer acquisition cost?",
+        "What is a good customer acquisition cost?",
+        "What's included in customer acquisition cost?",
+        "How can I reduce my customer acquisition cost?",
+        "What's the difference between CAC and LTV?"
       ],
-      "customerGenerationReason": "Business owners searching for performance marketing definitions are likely frustrated with traditional advertising costs and seeking ROI-focused solutions. This article positions our pay-per-result model as the purest form of performance marketing, naturally leading readers to consider our risk-free approach when they're already interested in results-based advertising."
+      "customerGenerationReason": "Business owners searching for CAC calculations are actively evaluating their marketing spend efficiency. This positions our pay-per-result model as a CAC-optimized solution where they only pay when we deliver actual customers, making their CAC predictable and profitable."
     },
     {
       "id": 2,
-      "title": "TikTok Ads Manager: Complete Setup & Optimization Guide",
-      "slug": "tiktok-ads-manager-setup-optimization-guide",
-      "primaryKeyword": "tiktok ads manager",
+      "title": "Meta Ads Manager Guide: Setup & Optimization for 2024",
+      "slug": "meta-ads-manager-guide-setup-optimization",
+      "primaryKeyword": "meta ads manager",
       "secondaryKeywords": [
-        "tiktok business ads",
-        "tik tok ads",
-        "tiktok business",
-        "tiktok ads campaign",
+        "ads manager",
+        "facebook meta ads",
+        "meta business",
+        "meta ad",
+        "facebook ads",
         "instagram ads",
-        "youtube ads",
-        "ads manager setup"
+        "ads library",
+        "meta ai ads"
       ],
       "category": "Paid Social",
-      "angle": "Technical setup guide with insider optimization tips, highlighting common costly mistakes and how our AI-powered approach eliminates them",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "How do I set up TikTok ads manager account?",
-        "What's the minimum budget for TikTok ads?",
-        "How do TikTok ads compare to Facebook ads?",
-        "What are the best TikTok ad formats for businesses?",
-        "How do you optimize TikTok ad performance?"
-      ],
-      "customerGenerationReason": "Users searching for TikTok ads manager guidance are actively planning to run ads but may lack expertise in setup and optimization. This positions us as TikTok advertising experts while demonstrating the complexity they'd face alone, making our done-for-you, pay-per-result model attractive to business owners who want TikTok results without the learning curve."
-    },
-    {
-      "id": 3,
-      "title": "Best Performance Marketing Agencies: How to Choose in 2024",
-      "slug": "best-performance-marketing-agencies-how-to-choose",
-      "primaryKeyword": "best performance marketing agencies",
-      "secondaryKeywords": [
-        "performance marketing agencies",
-        "performance marketing company",
-        "performance marketing services",
-        "performance marketing companies",
-        "pay for performance marketing",
-        "performance marketing group"
-      ],
-      "category": "Performance Marketing",
-      "angle": "Agency selection framework emphasizing the importance of pay-per-result models, with red flags to avoid and questions to ask potential agencies",
+      "angle": "Expert walkthrough of Meta Ads Manager with insider optimization tactics that most business owners miss, leading to wasted ad spend",
       "searchIntent": "commercial",
       "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "How much do performance marketing agencies charge?",
-        "What should I look for in a performance marketing agency?",
-        "Do performance marketing agencies guarantee results?",
-        "What's the difference between retainer and performance-based pricing?",
-        "How do I evaluate performance marketing agency success?"
+        "How do I set up Meta Ads Manager?",
+        "Why is my Meta ads manager not working?",
+        "How much does Meta advertising cost?",
+        "What's the difference between Facebook and Meta ads?",
+        "How do I optimize Meta ads for better results?"
       ],
-      "customerGenerationReason": "Business owners actively searching for performance marketing agencies are ready to hire and invest in advertising. This article positions our pay-per-result model as the gold standard while educating on agency selection criteria, naturally leading high-intent prospects to contact us when they see we only charge for actual results versus expensive retainers."
+      "customerGenerationReason": "People learning Meta Ads Manager are either new to advertising or struggling with current performance. After showing the complexity involved, we can position our AI-powered management as a way to get professional results without the learning curve or ongoing management burden."
+    },
+    {
+      "id": 3,
+      "title": "Customer Acquisition Strategy: 7 Proven Methods for 2024",
+      "slug": "customer-acquisition-strategy-proven-methods",
+      "primaryKeyword": "customer acquisition strategy",
+      "secondaryKeywords": [
+        "customer acquisition marketing",
+        "new customer acquisition",
+        "customer acquisition model",
+        "customer acquisition and retention",
+        "customer acquisition rate",
+        "customer acquisition examples",
+        "customer acquisition process"
+      ],
+      "category": "Lead Generation",
+      "angle": "Data-driven comparison of acquisition channels with real performance metrics, highlighting why paid advertising dominates when done correctly",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "What are the best customer acquisition channels?",
+        "How do you create a customer acquisition funnel?",
+        "What's the fastest way to acquire customers?",
+        "How much should I spend on customer acquisition?",
+        "What customer acquisition strategies work best for small businesses?"
+      ],
+      "customerGenerationReason": "Business owners researching acquisition strategies are actively looking to grow their customer base and comparing different approaches. This content positions paid advertising as the most scalable method, then presents our pay-per-result model as the lowest-risk way to test and scale acquisition."
     },
     {
       "id": 4,
-      "title": "Google Ads Campaign Optimization: 15 Pro Tips for Better ROAS",
-      "slug": "google-ads-campaign-optimization-tips-better-roas",
-      "primaryKeyword": "google ads campaign",
+      "title": "AI Advertising: How Machine Learning Optimizes Ad Performance",
+      "slug": "ai-advertising-machine-learning-ad-optimization",
+      "primaryKeyword": "AI advertising",
       "secondaryKeywords": [
-        "google ads optimization",
-        "google ads manager",
-        "google search ads",
-        "google ads account",
-        "google analytics",
-        "ROAS optimization",
-        "google ads strategy"
+        "AI ad optimization",
+        "machine learning ads",
+        "automated advertising",
+        "AI marketing",
+        "programmatic advertising",
+        "smart bidding",
+        "AI ad creative",
+        "automated ad management"
       ],
-      "category": "Lead Generation",
-      "angle": "Advanced optimization tactics used by our AI system, with specific examples of ROAS improvements and common mistakes that waste ad spend",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "How do you optimize Google Ads for better performance?",
-        "What's a good ROAS for Google Ads?",
-        "How often should you optimize Google Ads campaigns?",
-        "What are the most common Google Ads mistakes?",
-        "How do you improve Google Ads quality score?"
-      ],
-      "customerGenerationReason": "Business owners searching for Google Ads optimization are likely running campaigns with poor performance, burning money on ineffective ads. This article demonstrates our expertise while highlighting the complexity of proper optimization, positioning our pay-per-result model as a risk-free alternative to continued wasteful spending or expensive agency retainers."
-    },
-    {
-      "id": 5,
-      "title": "Pay for Performance Marketing: Complete Guide & Pricing Models",
-      "slug": "pay-for-performance-marketing-guide-pricing-models",
-      "primaryKeyword": "pay for performance marketing",
-      "secondaryKeywords": [
-        "performance marketing pricing",
-        "pay-per-result advertising",
-        "performance-based marketing",
-        "performance marketing cost",
-        "results-based advertising",
-        "performance marketing ROI"
-      ],
-      "category": "Performance Marketing",
-      "angle": "Comprehensive breakdown of pay-for-performance models, why most agencies avoid them, and how to find legitimate pay-per-result partners",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "How does pay for performance marketing work?",
-        "What are the risks of pay for performance advertising?",
-        "Why don't more agencies offer pay for performance?",
-        "How do you price pay for performance campaigns?",
-        "What results should you expect from performance marketing?"
-      ],
-      "customerGenerationReason": "Business owners specifically searching for pay-for-performance marketing are our ideal prospects - they want results-based pricing and are likely frustrated with traditional agency models. This article directly showcases our core differentiator while educating on why this model is superior, making it highly likely readers will contact us for our pay-per-result services."
-    },
-    {
-      "id": 6,
-      "title": "Facebook Ads vs TikTok Ads: Which Platform ROI is Better?",
-      "slug": "facebook-ads-vs-tiktok-ads-platform-roi-comparison",
-      "primaryKeyword": "facebook ads vs tiktok ads",
-      "secondaryKeywords": [
-        "facebook ads",
-        "tiktok ads",
-        "social media advertising",
-        "meta ads",
-        "instagram ads",
-        "paid social media",
-        "ad platform comparison",
-        "social ads ROI"
-      ],
-      "category": "Paid Social",
-      "angle": "Data-driven platform comparison using real campaign results from our clients, with decision framework for choosing the right platform mix",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "Which is cheaper Facebook ads or TikTok ads?",
-        "What demographics work best on each platform?",
-        "Should I run ads on both Facebook and TikTok?",
-        "Which platform has better targeting options?",
-        "How do conversion rates compare between platforms?"
-      ],
-      "customerGenerationReason": "Business owners comparing ad platforms are actively planning advertising campaigns but unsure where to invest their budget. This article demonstrates our multi-platform expertise while showing the complexity of platform selection and optimization, positioning our done-for-you approach as the solution to avoid costly platform choice mistakes."
-    },
-    {
-      "id": 7,
-      "title": "E-commerce Customer Acquisition Cost: Calculate & Reduce CAC",
-      "slug": "ecommerce-customer-acquisition-cost-calculate-reduce-cac",
-      "primaryKeyword": "customer acquisition cost",
-      "secondaryKeywords": [
-        "CAC calculation",
-        "e-commerce customer acquisition",
-        "customer acquisition strategy",
-        "reduce customer acquisition cost",
-        "customer acquisition channels",
-        "CAC optimization",
-        "customer lifetime value"
-      ],
-      "category": "E-commerce Growth",
-      "angle": "CAC calculation framework with industry benchmarks and specific tactics our AI uses to reduce acquisition costs across different channels",
+      "category": "AI Advertising",
+      "angle": "Behind-the-scenes look at how AI algorithms actually work in advertising platforms and why human + AI hybrid approaches outperform both alone",
       "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What is a good customer acquisition cost for e-commerce?",
-        "How do you calculate customer acquisition cost?",
-        "What's the difference between CAC and CPA?",
-        "How can I reduce my customer acquisition costs?",
-        "What factors affect customer acquisition cost?"
+        "How does AI improve advertising performance?",
+        "What is AI advertising and how does it work?",
+        "Can AI create better ads than humans?",
+        "Which platforms use AI for advertising?",
+        "How much does AI advertising cost?"
       ],
-      "customerGenerationReason": "E-commerce business owners researching customer acquisition costs are likely struggling with expensive or ineffective customer acquisition, seeking ways to improve their unit economics. This positions our pay-per-result model as the ultimate CAC solution since they only pay for actual customers acquired, directly addressing their core profitability concerns."
+      "customerGenerationReason": "Forward-thinking business owners and marketing managers searching for AI advertising are looking for competitive advantages and efficiency gains. This establishes our expertise in AI-powered advertising while demonstrating why professional AI implementation delivers better results than DIY approaches."
     },
     {
-      "id": 8,
-      "title": "YouTube Ads Campaign Strategy: Drive Sales with Video Advertising",
-      "slug": "youtube-ads-campaign-strategy-drive-sales-video-advertising",
-      "primaryKeyword": "youtube ads campaign",
+      "id": 5,
+      "title": "YouTube Ads Strategy: Complete Guide to Video Advertising ROI",
+      "slug": "youtube-ads-strategy-video-advertising-roi",
+      "primaryKeyword": "YouTube ads",
       "secondaryKeywords": [
-        "youtube ads",
-        "video advertising",
-        "youtube advertising strategy",
-        "youtube ads for business",
-        "video ad campaigns",
-        "youtube marketing",
+        "YouTube advertising",
+        "video ads",
+        "YouTube marketing",
+        "Google ads YouTube",
+        "video advertising strategy",
+        "YouTube ad targeting",
+        "YouTube ad costs",
         "video ad optimization"
       ],
-      "category": "Lead Generation",
-      "angle": "Strategic framework for profitable YouTube campaigns with creative best practices and targeting strategies that our AI system uses to drive conversions",
+      "category": "Paid Social",
+      "angle": "Comprehensive YouTube advertising blueprint with cost breakdowns and ROI calculations that reveal why most businesses fail at video ads",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How much do YouTube ads cost per view?",
-        "What types of YouTube ads convert best?",
-        "How long should YouTube ads be for best results?",
-        "How do you target the right audience on YouTube?",
-        "What's the minimum budget for YouTube advertising?"
+        "How much do YouTube ads cost?",
+        "How do I create effective YouTube ads?",
+        "What types of YouTube ads work best?",
+        "How do I target the right audience on YouTube?",
+        "What's a good ROI for YouTube advertising?"
       ],
-      "customerGenerationReason": "Business owners searching for YouTube advertising strategies are looking to expand beyond traditional platforms and tap into video marketing. This showcases our YouTube expertise while highlighting the complexity of video advertising, positioning our comprehensive approach as ideal for businesses wanting YouTube results without the video production and optimization challenges."
+      "customerGenerationReason": "Businesses researching YouTube ads are looking for new acquisition channels but often underestimate the complexity of video advertising. This content showcases the potential while highlighting the expertise required, positioning our pay-per-result video ad management as a risk-free way to test this high-potential channel."
+    },
+    {
+      "id": 6,
+      "title": "E-commerce Growth: 5 Scaling Strategies That Actually Work",
+      "slug": "ecommerce-growth-scaling-strategies-that-work",
+      "primaryKeyword": "e-commerce growth",
+      "secondaryKeywords": [
+        "ecommerce scaling",
+        "online store growth",
+        "ecommerce marketing",
+        "digital commerce growth",
+        "ecommerce optimization",
+        "online business growth",
+        "ecommerce customer acquisition",
+        "scaling online sales"
+      ],
+      "category": "E-commerce Growth",
+      "angle": "Real case studies of e-commerce brands that scaled from 6 to 7+ figures, focusing on the advertising strategies that drove growth",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "How do I scale my e-commerce business?",
+        "What are the best growth strategies for online stores?",
+        "How do successful e-commerce brands acquire customers?",
+        "What marketing channels work best for e-commerce?",
+        "How much should e-commerce businesses spend on advertising?"
+      ],
+      "customerGenerationReason": "E-commerce business owners searching for growth strategies are at a scaling phase where they need reliable customer acquisition systems. This content demonstrates proven growth tactics while positioning our pay-per-result model as the perfect solution for e-commerce brands wanting to scale advertising spend based on actual revenue results."
+    },
+    {
+      "id": 7,
+      "title": "ROAS Optimization: 8 Tactics to Maximize Ad Return 2024",
+      "slug": "roas-optimization-tactics-maximize-ad-return",
+      "primaryKeyword": "ROAS optimization",
+      "secondaryKeywords": [
+        "return on ad spend",
+        "ROAS improvement",
+        "ad spend optimization",
+        "advertising ROI",
+        "optimize ROAS",
+        "improve ad performance",
+        "ad spend efficiency",
+        "maximize advertising returns"
+      ],
+      "category": "Performance Marketing",
+      "angle": "Advanced ROAS optimization techniques used by top agencies, including AI-powered bid strategies and creative testing methodologies",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "What is a good ROAS for advertising?",
+        "How do I improve my ROAS?",
+        "What's the difference between ROAS and ROI?",
+        "How do you calculate ROAS?",
+        "Why is my ROAS declining?"
+      ],
+      "customerGenerationReason": "Businesses searching for ROAS optimization are already spending on ads but not getting satisfactory returns. They're prime candidates for professional ad management services. This content positions our expertise while showing how our pay-per-result model aligns our success with their ROAS goals, eliminating the risk of paying for poor performance."
+    },
+    {
+      "id": 8,
+      "title": "Pay Per Result Advertising: Why Performance-Based Ads Win",
+      "slug": "pay-per-result-advertising-performance-based-model",
+      "primaryKeyword": "pay per result advertising",
+      "secondaryKeywords": [
+        "performance based advertising",
+        "results based marketing",
+        "pay for performance ads",
+        "outcome based advertising",
+        "performance marketing",
+        "risk free advertising",
+        "guaranteed results advertising",
+        "pay per lead advertising"
+      ],
+      "category": "Performance Marketing",
+      "angle": "Industry analysis of why pay-per-result models are becoming the preferred choice for smart businesses, with ROI comparisons vs traditional agency models",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "How does pay per result advertising work?",
+        "Is performance-based advertising better than traditional ads?",
+        "What are the benefits of pay per result marketing?",
+        "How do agencies make money with performance-based pricing?",
+        "What results can I expect from performance marketing?"
+      ],
+      "customerGenerationReason": "Business owners researching pay-per-result advertising are frustrated with traditional agency models or wary of advertising risk. This content directly explains our business model's advantages and addresses common concerns, making it highly likely to convert readers who are already interested in our exact service offering."
     }
   ]
 }
