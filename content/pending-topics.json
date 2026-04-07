@@ -1,219 +1,221 @@
 {
-  "date": "2026-04-07T08:16:57.875Z",
+  "date": "2026-04-07T08:18:24.499Z",
   "status": "pending_approval",
   "ideas": [
     {
       "id": 1,
-      "title": "What Is Customer Acquisition? Complete Guide for 2024",
-      "slug": "what-is-customer-acquisition-complete-guide",
-      "primaryKeyword": "what is customer acquisition",
+      "title": "What is Customer Acquisition Cost? Complete Guide for 2024",
+      "slug": "what-is-customer-acquisition-cost-complete-guide",
+      "primaryKeyword": "what is customer acquisition cost",
       "secondaryKeywords": [
+        "customer acquisition cost",
+        "cac customer acquisition cost",
+        "cost of customer acquisition",
         "customer acquisition definition",
         "customer acquisition meaning",
-        "customer acquisition process",
-        "customer acquisition examples",
-        "customer acquisition strategy",
-        "new customer acquisition",
-        "customer acquisition tools"
+        "customer acquisition rate",
+        "new customer acquisition"
       ],
       "category": "Business Growth",
-      "angle": "Comprehensive educational guide that positions AI-powered advertising as the most effective customer acquisition method, with pay-per-result model as risk-free entry point",
+      "angle": "Comprehensive guide that shows how pay-per-result advertising eliminates CAC uncertainty by only charging for actual customers acquired",
       "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What are the best customer acquisition strategies?",
-        "How much should you spend on customer acquisition?",
+        "How do you calculate customer acquisition cost?",
         "What is a good customer acquisition cost?",
-        "How do you measure customer acquisition success?",
-        "What's the difference between customer acquisition and retention?"
+        "How can I reduce my customer acquisition cost?",
+        "What's the difference between CAC and LTV?",
+        "Why is customer acquisition cost important for businesses?"
       ],
-      "customerGenerationReason": "Business owners searching this fundamental question are likely new to systematic customer acquisition or struggling with current methods. They represent high-intent prospects who need advertising help but may be hesitant about agency costs, making our pay-per-result model extremely appealing as a risk-free way to start."
+      "customerGenerationReason": "Business owners searching for CAC information are actively trying to understand their advertising costs and likely struggling with unpredictable marketing spend. This positions our pay-per-result model as the perfect solution since they only pay when we actually acquire customers, eliminating CAC uncertainty."
     },
     {
       "id": 2,
-      "title": "How to Calculate Customer Acquisition Cost (+ Free Calculator)",
-      "slug": "how-to-calculate-customer-acquisition-cost-calculator",
-      "primaryKeyword": "calculate customer acquisition cost",
+      "title": "Google Ads Cost Guide: What You'll Really Pay in 2024",
+      "slug": "google-ads-cost-guide-what-youll-really-pay",
+      "primaryKeyword": "google ads cost",
       "secondaryKeywords": [
-        "customer acquisition cost formula",
-        "cac customer acquisition cost",
-        "customer acquisition cost",
-        "what is customer acquisition cost",
-        "customer acquisition costs",
-        "cost of customer acquisition"
+        "google ad",
+        "google ads campaign",
+        "google ads manager",
+        "google ads account",
+        "what is google ads",
+        "google search ads",
+        "google ads login"
       ],
-      "category": "Performance Marketing",
-      "angle": "Actionable guide with free calculator tool, showing how pay-per-result eliminates CAC uncertainty and provides predictable acquisition costs",
+      "category": "Paid Social",
+      "angle": "Transparent cost breakdown that highlights how pay-per-result eliminates the guesswork and waste in traditional Google Ads spending",
       "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
+      "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "What is included in customer acquisition cost?",
-        "What is a good customer acquisition cost ratio?",
-        "How can I reduce my customer acquisition cost?",
-        "What's the difference between CAC and LTV?",
-        "How often should I calculate customer acquisition cost?"
+        "How much do Google Ads cost per month?",
+        "Why are my Google Ads so expensive?",
+        "How can I reduce Google Ads costs?",
+        "What factors affect Google Ads pricing?",
+        "Is Google Ads worth the cost for small businesses?"
       ],
-      "customerGenerationReason": "Business owners calculating CAC are actively managing advertising spend and likely frustrated with unpredictable costs or poor performance. They're prime candidates for our pay-per-result model since it eliminates the guesswork and provides guaranteed cost-per-acquisition, solving their exact pain point."
+      "customerGenerationReason": "People searching for Google Ads costs are in the consideration phase of hiring advertising help and are concerned about budget. This article attracts cost-conscious business owners who would be interested in our risk-free, pay-per-result model instead of traditional agency retainers."
     },
     {
       "id": 3,
-      "title": "Customer Acquisition Rate: How to Track & Improve Yours",
-      "slug": "customer-acquisition-rate-how-to-track-improve",
-      "primaryKeyword": "customer acquisition rate",
+      "title": "New Customer Acquisition Strategies That Actually Work",
+      "slug": "new-customer-acquisition-strategies-that-work",
+      "primaryKeyword": "new customer acquisition",
       "secondaryKeywords": [
-        "customer acquisition process",
-        "customer acquisition tools",
-        "customer acquisition marketing",
         "customer acquisition strategy",
-        "new customer acquisition",
-        "customer acquisition examples"
+        "customer acquisition strategies",
+        "customer acquisition marketing",
+        "customer acquisition process",
+        "customer acquisition model",
+        "customer acquisition services"
       ],
-      "category": "Performance Marketing",
-      "angle": "Data-driven approach to measuring and optimizing acquisition rates, showcasing AI advertising tools and pay-per-result model for guaranteed improvement",
+      "category": "Lead Generation",
+      "angle": "Data-driven strategies guide that showcases AI-powered advertising as the most effective method for acquiring new customers at scale",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What is a good customer acquisition rate?",
-        "How do you increase customer acquisition rate?",
-        "What factors affect customer acquisition rate?",
-        "How is customer acquisition rate different from conversion rate?",
-        "What tools help track customer acquisition rate?"
+        "What are the best customer acquisition channels?",
+        "How do you create a customer acquisition strategy?",
+        "What's the fastest way to acquire new customers?",
+        "How much should I spend on customer acquisition?",
+        "Which customer acquisition strategy has the highest ROI?"
       ],
-      "customerGenerationReason": "Searchers are actively trying to improve their acquisition performance, indicating they're dissatisfied with current results and have budget allocated for solutions. These are qualified prospects who understand the value of customer acquisition and are likely ready to invest in proven methods like our AI-powered advertising."
+      "customerGenerationReason": "Business owners searching for customer acquisition strategies are actively looking to grow and likely frustrated with current results. This article positions our AI-powered, multi-platform approach as the solution, with pay-per-result eliminating their risk of trying new acquisition methods."
     },
     {
       "id": 4,
-      "title": "AI Advertising: The Complete Guide to Automated Ad Success",
-      "slug": "ai-advertising-complete-guide-automated-ad-success",
-      "primaryKeyword": "AI advertising",
+      "title": "YouTube Ads vs Facebook Ads: Which Delivers Better ROI?",
+      "slug": "youtube-ads-vs-facebook-ads-roi-comparison",
+      "primaryKeyword": "youtube ads",
       "secondaryKeywords": [
-        "AI advertising tools",
-        "artificial intelligence advertising",
-        "AI powered advertising",
-        "AI ad optimization",
-        "automated advertising",
-        "AI marketing automation",
-        "machine learning advertising"
+        "facebook ads",
+        "youtube ads campaign",
+        "ads manager",
+        "google ads manager",
+        "video advertising",
+        "social media advertising",
+        "paid advertising platforms"
       ],
-      "category": "AI Advertising",
-      "angle": "Comprehensive guide positioning Seen By Many as AI advertising pioneers, demonstrating superior results through case studies and explaining pay-per-result confidence",
+      "category": "Paid Social",
+      "angle": "Platform comparison that demonstrates our expertise across multiple channels and how our AI determines the best platform mix for each client",
       "searchIntent": "commercial",
-      "estimatedDifficulty": "medium",
+      "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How does AI improve advertising performance?",
-        "What are the best AI advertising platforms?",
-        "Is AI advertising worth the investment?",
-        "How much does AI advertising cost?",
-        "What results can I expect from AI advertising?"
+        "Are YouTube ads more expensive than Facebook ads?",
+        "Which platform is better for video advertising?",
+        "How do YouTube ad costs compare to Facebook?",
+        "Should I run ads on YouTube or Facebook first?",
+        "What type of business works best with YouTube ads?"
       ],
-      "customerGenerationReason": "Businesses researching AI advertising are forward-thinking and looking for competitive advantages. They're likely spending significant amounts on traditional advertising and seeking better results, making them ideal prospects for our AI-powered approach and pay-per-result model that guarantees ROI."
+      "customerGenerationReason": "Businesses comparing advertising platforms are ready to invest in paid advertising but unsure where to start. This article attracts decision-makers who need expert guidance on platform selection - exactly what our AI-powered, multi-platform approach solves, with pay-per-result reducing their platform testing risk."
     },
     {
       "id": 5,
-      "title": "YouTube Ads Strategy: Complete 2024 Guide for Business Growth",
-      "slug": "youtube-ads-strategy-complete-guide-business-growth",
-      "primaryKeyword": "YouTube ads",
+      "title": "AI Advertising Tools: Complete Guide for Business Owners",
+      "slug": "ai-advertising-tools-complete-guide-business-owners",
+      "primaryKeyword": "AI advertising",
       "secondaryKeywords": [
-        "YouTube advertising",
-        "YouTube ads strategy",
-        "YouTube video ads",
-        "YouTube ads cost",
-        "YouTube ads targeting",
-        "YouTube ads campaign",
-        "YouTube marketing"
+        "AI marketing tools",
+        "artificial intelligence advertising",
+        "automated advertising",
+        "AI ad optimization",
+        "machine learning marketing",
+        "AI advertising platforms",
+        "smart advertising"
       ],
-      "category": "Paid Social",
-      "angle": "Complete YouTube advertising guide showcasing AI-powered optimization techniques and positioning pay-per-result model for risk-free YouTube advertising",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "medium",
+      "category": "AI Advertising",
+      "angle": "Educational guide that positions Seen By Many's AI capabilities as advanced yet accessible, showing how AI eliminates guesswork in advertising",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How much do YouTube ads cost?",
-        "What types of YouTube ads work best?",
-        "How do you target audiences on YouTube?",
-        "What's a good YouTube ads conversion rate?",
-        "How do you measure YouTube ads success?"
+        "How does AI improve advertising performance?",
+        "What are the best AI advertising platforms?",
+        "Can small businesses use AI for advertising?",
+        "How much do AI advertising tools cost?",
+        "What's the ROI of AI-powered advertising?"
       ],
-      "customerGenerationReason": "Business owners exploring YouTube ads are looking to expand beyond traditional platforms and reach new audiences. They're in growth mode with advertising budget and seeking expert guidance on a complex platform, making them perfect candidates for our specialized YouTube advertising services."
+      "customerGenerationReason": "Business owners researching AI advertising are forward-thinking and looking for competitive advantages. They're likely frustrated with manual campaign management and ready to invest in advanced solutions. This positions our AI-powered approach as cutting-edge while the pay-per-result model makes it risk-free to try."
     },
     {
       "id": 6,
-      "title": "ROAS Optimization: 7 Proven Strategies to Maximize Ad Returns",
-      "slug": "roas-optimization-proven-strategies-maximize-ad-returns",
+      "title": "E-commerce Growth Strategies: Scale from $10K to $100K/Month",
+      "slug": "ecommerce-growth-strategies-scale-10k-100k-month",
+      "primaryKeyword": "e-commerce growth",
+      "secondaryKeywords": [
+        "ecommerce scaling",
+        "online store growth",
+        "ecommerce marketing",
+        "ecommerce advertising",
+        "online business growth",
+        "ecommerce revenue growth",
+        "digital commerce growth"
+      ],
+      "category": "E-commerce Growth",
+      "angle": "Growth roadmap that showcases how AI-powered advertising across multiple platforms is essential for e-commerce scaling, with case studies of our success",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "medium",
+      "peopleAlsoAsk": [
+        "How do I scale my e-commerce business quickly?",
+        "What's the best marketing strategy for e-commerce growth?",
+        "How much should I spend on e-commerce advertising?",
+        "What are the biggest e-commerce growth challenges?",
+        "How do successful e-commerce brands scale their advertising?"
+      ],
+      "customerGenerationReason": "E-commerce owners searching for growth strategies are actively looking to scale and typically have budget to invest in advertising. They understand the need for paid advertising but want proven strategies. Our pay-per-result model is perfect for e-commerce since they only pay when we deliver actual customers."
+    },
+    {
+      "id": 7,
+      "title": "ROAS Optimization: 7 Proven Ways to Improve Ad Performance",
+      "slug": "roas-optimization-proven-ways-improve-ad-performance",
       "primaryKeyword": "ROAS optimization",
       "secondaryKeywords": [
         "return on ad spend",
-        "improve ROAS",
-        "ROAS strategy",
-        "ad spend optimization",
-        "advertising ROI",
         "ROAS improvement",
-        "maximize ROAS"
+        "ad performance optimization",
+        "advertising ROI",
+        "campaign optimization",
+        "ad spend efficiency",
+        "marketing ROI optimization"
       ],
       "category": "Performance Marketing",
-      "angle": "Actionable ROAS improvement tactics using AI and advanced optimization, with pay-per-result model eliminating ROAS risk entirely",
+      "angle": "Tactical optimization guide that demonstrates our expertise in maximizing ROAS through AI-powered campaign management and cross-platform optimization",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
         "What is a good ROAS for my industry?",
-        "How do you calculate ROAS?",
+        "How do I calculate ROAS correctly?",
         "Why is my ROAS decreasing?",
-        "What's the difference between ROAS and ROI?",
-        "How can AI improve ROAS?"
+        "What factors affect ROAS the most?",
+        "How can I improve my Facebook ads ROAS?"
       ],
-      "customerGenerationReason": "Businesses searching for ROAS optimization are currently running ads but struggling with profitability. They have active advertising budgets and are motivated to find solutions, representing high-intent prospects who would be attracted to our pay-per-result model that guarantees positive ROAS."
-    },
-    {
-      "id": 7,
-      "title": "Ad Creative Strategy: How to Create Ads That Convert in 2024",
-      "slug": "ad-creative-strategy-create-ads-that-convert",
-      "primaryKeyword": "ad creative strategy",
-      "secondaryKeywords": [
-        "ad creative optimization",
-        "advertising creative",
-        "ad creative best practices",
-        "creative testing",
-        "ad design strategy",
-        "high converting ads",
-        "creative ad campaigns"
-      ],
-      "category": "Performance Marketing",
-      "angle": "Creative strategy guide featuring AI-powered creative optimization and testing methodologies, showcasing superior creative performance through our approach",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "What makes a good ad creative?",
-        "How do you test ad creatives?",
-        "How often should you refresh ad creatives?",
-        "What are the best ad creative formats?",
-        "How do you measure creative performance?"
-      ],
-      "customerGenerationReason": "Advertisers struggling with creative performance are actively running campaigns but seeing poor results due to weak creatives. They understand the importance of good creative and are willing to invest in solutions, making them ideal prospects for our AI-powered creative optimization and pay-per-result guarantee."
+      "customerGenerationReason": "Businesses searching for ROAS optimization are already running ads but struggling with performance. They have advertising budget and experience but need expert help to improve results. This attracts our ideal clients who understand advertising metrics and would appreciate our performance-focused, pay-per-result approach."
     },
     {
       "id": 8,
-      "title": "Pay-Per-Result Advertising: The Risk-Free Way to Scale Your Business",
-      "slug": "pay-per-result-advertising-risk-free-way-scale-business",
-      "primaryKeyword": "pay-per-result advertising",
+      "title": "Google Ads Manager Guide: Setup & Optimization for Beginners",
+      "slug": "google-ads-manager-setup-optimization-beginners",
+      "primaryKeyword": "google ads manager",
       "secondaryKeywords": [
-        "performance-based advertising",
-        "pay for performance marketing",
-        "results-based advertising",
-        "pay per lead advertising",
-        "performance marketing agency",
-        "guaranteed advertising results"
+        "google ads account",
+        "google ads login",
+        "ads manager",
+        "google ads campaign",
+        "google business",
+        "google analytics",
+        "google ads setup"
       ],
-      "category": "Business Growth",
-      "angle": "Educational piece explaining the pay-per-result model benefits, directly positioning Seen By Many's unique value proposition against traditional agency models",
-      "searchIntent": "commercial",
+      "category": "Paid Social",
+      "angle": "Beginner-friendly guide that shows the complexity of Google Ads management, naturally leading to why businesses need expert help or pay-per-result solutions",
+      "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How does pay-per-result advertising work?",
-        "Is pay-per-result advertising legitimate?",
-        "What are the benefits of pay-per-result marketing?",
-        "How much does pay-per-result advertising cost?",
-        "What industries work best with pay-per-result advertising?"
+        "How do I set up Google Ads Manager?",
+        "What's the difference between Google Ads and Google Ads Manager?",
+        "How do I optimize campaigns in Google Ads Manager?",
+        "Can I manage Google Ads myself?",
+        "What are the most common Google Ads Manager mistakes?"
       ],
-      "customerGenerationReason": "Business owners searching for pay-per-result advertising have likely been burned by traditional agencies or are risk-averse about advertising spend. They're actively seeking our exact service model and represent the highest-intent prospects who are pre-qualified and ready to engage with our unique offering."
+      "customerGenerationReason": "People searching for Google Ads Manager help are either new to advertising or struggling with self-management. After reading about the complexity, they'll realize they need professional help. This positions our expertise while the pay-per-result model removes the risk of trying professional management for the first time."
     }
   ]
 }
