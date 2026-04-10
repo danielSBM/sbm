@@ -1,222 +1,225 @@
 {
-  "date": "2026-04-09T08:23:12.643Z",
+  "date": "2026-04-10T08:23:43.789Z",
   "status": "pending_approval",
   "ideas": [
     {
       "id": 1,
-      "title": "Meta Ads Manager Guide: Setup to ROAS Optimization in 2024",
-      "slug": "meta-ads-manager-guide-setup-roas-optimization-2024",
-      "primaryKeyword": "meta ads manager",
+      "title": "TikTok Ads Cost: Complete 2024 Guide + ROI Calculator",
+      "slug": "tiktok-ads-cost-guide-roi-calculator-2024",
+      "primaryKeyword": "TikTok ads cost",
       "secondaryKeywords": [
-        "ads manager setup",
-        "facebook ads manager",
-        "meta business ads",
-        "ROAS optimization",
-        "meta ad campaigns",
-        "facebook advertising guide",
-        "meta ads tutorial"
+        "ads on tiktok",
+        "tiktok business ads",
+        "tiktok ads account",
+        "tiktok ad pricing",
+        "tiktok advertising cost",
+        "tiktok ads budget",
+        "tiktok ads ROI"
       ],
       "category": "Paid Social",
-      "angle": "Complete walkthrough showing how complex Meta Ads Manager really is, then positioning our AI-powered management as the simpler alternative where businesses only pay for actual results",
-      "searchIntent": "informational",
+      "angle": "Provide transparent cost breakdowns with real case studies showing how pay-per-result pricing eliminates budget waste compared to traditional retainer models",
+      "searchIntent": "commercial",
       "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "How do I set up Meta Ads Manager for my business?",
-        "What's the difference between Facebook Ads and Meta Ads Manager?",
-        "How much does Meta Ads Manager cost?",
-        "Why are my Meta ads not converting?",
-        "What's a good ROAS for Meta ads?"
+        "How much do TikTok ads cost per click?",
+        "What's the minimum budget for TikTok ads?",
+        "Are TikTok ads worth it for small businesses?",
+        "How do TikTok ad costs compare to Facebook ads?",
+        "What factors affect TikTok advertising costs?"
       ],
-      "customerGenerationReason": "Business owners searching for Meta Ads Manager help are either struggling with the platform's complexity or getting poor results. After showing them how complicated optimization really is, we can position our pay-per-result model as the risk-free alternative where they only pay when our AI actually delivers qualified leads."
+      "customerGenerationReason": "Business owners researching TikTok ad costs are in active consideration phase for advertising spend. They're concerned about budget efficiency and ROI - perfect positioning for our pay-per-result model where they only pay for actual customers, not ad spend with uncertain returns."
     },
     {
       "id": 2,
-      "title": "AI Advertising Tools: How Smart Businesses Cut Ad Costs by 40%",
-      "slug": "ai-advertising-tools-cut-ad-costs-smart-businesses",
-      "primaryKeyword": "AI advertising",
+      "title": "Customer Acquisition Cost by Industry: 2024 Benchmarks",
+      "slug": "customer-acquisition-cost-benchmarks-by-industry-2024",
+      "primaryKeyword": "customer acquisition cost",
       "secondaryKeywords": [
-        "AI marketing tools",
-        "automated advertising",
-        "AI ad optimization",
-        "machine learning ads",
-        "AI-powered campaigns",
-        "advertising automation",
-        "AI ad targeting"
+        "cost of customer acquisition",
+        "average customer acquisition cost",
+        "customer acquisition costs",
+        "what is customer acquisition cost",
+        "customer acquisition strategy",
+        "new customer acquisition",
+        "customer acquisition rate"
       ],
-      "category": "AI Advertising",
-      "angle": "Showcase real AI advertising results and tools, then reveal that most businesses can't access enterprise-level AI unless they work with specialized agencies like us",
-      "searchIntent": "commercial",
+      "category": "Business Growth",
+      "angle": "Show how pay-per-result advertising naturally caps CAC at profitable levels, with industry comparisons proving traditional agencies often drive unsustainable acquisition costs",
+      "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What are the best AI advertising tools?",
-        "How does AI improve advertising performance?",
-        "Is AI advertising expensive?",
-        "Can small businesses use AI for advertising?",
-        "What's the ROI of AI advertising?"
+        "What is a good customer acquisition cost?",
+        "How do you calculate customer acquisition cost?",
+        "Why is my customer acquisition cost so high?",
+        "What's the difference between CAC and CPA?",
+        "How can I lower my customer acquisition cost?"
       ],
-      "customerGenerationReason": "Businesses searching for AI advertising are looking for competitive advantages and cost savings. They're likely frustrated with manual campaign management and rising ad costs. We can show them the power of AI, then offer our pay-per-result model as the most accessible way to leverage enterprise-level AI without upfront costs or technical complexity."
+      "customerGenerationReason": "Businesses searching for CAC benchmarks are likely struggling with expensive or unprofitable customer acquisition. This positions our pay-per-result model as the solution to CAC control, appealing to cost-conscious business owners who want predictable, profitable customer acquisition."
     },
     {
       "id": 3,
-      "title": "Pay Per Result Advertising: Why Smart CMOs Are Making the Switch",
-      "slug": "pay-per-result-advertising-why-cmos-making-switch",
-      "primaryKeyword": "pay per result advertising",
+      "title": "Meta Ads Manager Tutorial: Setup to Profit in 2024",
+      "slug": "meta-ads-manager-tutorial-complete-guide-2024",
+      "primaryKeyword": "meta ads manager",
       "secondaryKeywords": [
-        "performance-based advertising",
-        "pay per lead",
-        "pay per acquisition",
-        "results-based marketing",
-        "no retainer advertising",
-        "pay for performance ads",
-        "guaranteed advertising results"
+        "ads manager",
+        "facebook meta ads",
+        "meta business ads",
+        "meta ads account",
+        "facebook ads",
+        "meta ai ads",
+        "meta business",
+        "ads library"
       ],
-      "category": "Performance Marketing",
-      "angle": "Position pay-per-result as the future of advertising, addressing common objections and showing why it's actually more profitable for agencies and clients",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
+      "category": "Paid Social",
+      "angle": "Highlight common Meta Ads Manager mistakes that waste budget, then position our AI-powered optimization as the solution for businesses who want results without the learning curve",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "What is pay per result advertising?",
-        "Is pay per result advertising legit?",
-        "How does pay per lead advertising work?",
-        "What are the benefits of performance-based advertising?",
-        "Why don't more agencies offer pay per result?"
+        "How do I set up Meta Ads Manager?",
+        "Is Meta Ads Manager free to use?",
+        "Why are my Meta ads not delivering?",
+        "How do I optimize Meta ads for better results?",
+        "What's the difference between Meta and Facebook ads?"
       ],
-      "customerGenerationReason": "Decision-makers searching for pay-per-result advertising are likely burned by agencies that took retainers without delivering results. They're actively seeking our exact business model. This article lets us directly address their concerns, showcase our expertise, and present our services as the obvious solution to their advertising budget risks."
+      "customerGenerationReason": "People learning Meta Ads Manager are either new to advertising or struggling with current results. They represent high-intent prospects who need advertising help but may lack expertise or time. Our pay-per-result model removes their risk while our AI handles the complexity."
     },
     {
       "id": 4,
-      "title": "YouTube Ads Strategy: E-commerce Brands Getting 5x ROAS in 2024",
-      "slug": "youtube-ads-strategy-ecommerce-brands-5x-roas-2024",
-      "primaryKeyword": "YouTube ads",
-      "secondaryKeywords": [
-        "YouTube advertising strategy",
-        "YouTube ads for ecommerce",
-        "video advertising ROI",
-        "YouTube marketing campaign",
-        "YouTube ads optimization",
-        "video ad creative",
-        "YouTube ads targeting"
-      ],
-      "category": "E-commerce Growth",
-      "angle": "Reveal advanced YouTube advertising strategies that most e-commerce brands don't know, then show why video ads require specialized expertise that justifies our pay-per-result approach",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "medium",
-      "peopleAlsoAsk": [
-        "How much do YouTube ads cost for e-commerce?",
-        "What's the best YouTube ad format for online stores?",
-        "How do I target customers on YouTube ads?",
-        "Why are my YouTube ads not converting?",
-        "What's a good conversion rate for YouTube ads?"
-      ],
-      "customerGenerationReason": "E-commerce owners searching for YouTube ads help are likely struggling with video advertising complexity or poor performance from other platforms. They're revenue-focused and understand ROAS. After showing them what's possible with expert YouTube advertising, we can offer our pay-per-result model as the risk-free way to achieve similar results."
-    },
-    {
-      "id": 5,
-      "title": "Ad Creative Strategy: The 3-Second Rule That Doubled Our CTR",
-      "slug": "ad-creative-strategy-3-second-rule-doubled-ctr",
-      "primaryKeyword": "ad creative strategy",
-      "secondaryKeywords": [
-        "ad creative optimization",
-        "social media ad creative",
-        "video ad creative",
-        "creative testing strategy",
-        "ad design best practices",
-        "creative performance marketing",
-        "ad creative framework"
-      ],
-      "category": "Performance Marketing",
-      "angle": "Share specific creative frameworks and testing methodologies, then reveal how creative strategy is too complex and resource-intensive for most businesses to handle in-house",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "What makes a good ad creative?",
-        "How often should I change my ad creative?",
-        "What's the best size for social media ads?",
-        "How do I test ad creative performance?",
-        "Why do my ads have low click-through rates?"
-      ],
-      "customerGenerationReason": "Marketers and business owners searching for creative strategy help are likely seeing declining ad performance or high costs. They understand that creative is crucial but lack the resources for constant testing and optimization. We can demonstrate our creative expertise, then offer our pay-per-result model as the solution that includes ongoing creative optimization without additional fees."
-    },
-    {
-      "id": 6,
-      "title": "ROAS Optimization: From 2x to 8x in 90 Days (Real Case Study)",
-      "slug": "roas-optimization-2x-to-8x-90-days-case-study",
+      "title": "ROAS vs ROI: Which Metric Actually Grows Your Business?",
+      "slug": "roas-vs-roi-which-metric-grows-business-2024",
       "primaryKeyword": "ROAS optimization",
       "secondaryKeywords": [
         "return on ad spend",
-        "ad performance optimization",
-        "campaign optimization strategies",
-        "improve advertising ROI",
-        "ROAS improvement tactics",
-        "ad spend optimization",
-        "performance marketing ROI"
+        "ROAS calculation",
+        "improve ROAS",
+        "ROAS benchmarks",
+        "advertising ROI",
+        "ad performance metrics",
+        "profitable advertising"
       ],
       "category": "Performance Marketing",
-      "angle": "Deep dive into a real ROAS transformation, showing the specific optimizations and AI-powered strategies that most businesses can't implement without specialized expertise",
+      "angle": "Expose how agencies manipulate ROAS reporting and show how pay-per-result pricing aligns with true business growth metrics that matter to owners",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "What's a good ROAS for my industry?",
+        "How do you calculate ROAS?",
+        "Why is my ROAS declining?",
+        "What's the difference between ROAS and ROI?",
+        "How can I improve my advertising ROAS?"
+      ],
+      "customerGenerationReason": "Business owners comparing ROAS vs ROI are sophisticated buyers focused on profitable growth. They're likely frustrated with agencies that show good ROAS but poor business results. This positions our customer-focused, pay-per-result model as aligned with their true business goals."
+    },
+    {
+      "id": 5,
+      "title": "AI Ad Creative Strategy: Generate Winners at Scale 2024",
+      "slug": "ai-ad-creative-strategy-generate-winners-2024",
+      "primaryKeyword": "ad creative strategy",
+      "secondaryKeywords": [
+        "AI ad creative",
+        "automated ad creation",
+        "creative testing",
+        "ad creative optimization",
+        "AI advertising",
+        "creative performance",
+        "ad creative best practices",
+        "creative automation"
+      ],
+      "category": "AI Advertising",
+      "angle": "Demonstrate how AI transforms creative production and testing, positioning our AI-powered approach as superior to traditional agencies' limited creative resources",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "How does AI create ad creatives?",
+        "What makes a high-converting ad creative?",
+        "How many ad creatives should I test?",
+        "Can AI replace human creativity in advertising?",
+        "How do I scale winning ad creatives?"
+      ],
+      "customerGenerationReason": "Marketers seeking AI creative strategies are either overwhelmed by creative demands or looking for competitive advantages. They're prime prospects for AI-powered advertising services, especially when our pay-per-result model removes the risk of testing new AI approaches."
+    },
+    {
+      "id": 6,
+      "title": "E-commerce Growth Strategies That Actually Work in 2024",
+      "slug": "ecommerce-growth-strategies-that-work-2024",
+      "primaryKeyword": "e-commerce growth",
+      "secondaryKeywords": [
+        "ecommerce growth strategies",
+        "online store growth",
+        "ecommerce marketing",
+        "scale ecommerce business",
+        "ecommerce advertising",
+        "customer acquisition ecommerce",
+        "profitable ecommerce growth"
+      ],
+      "category": "E-commerce Growth",
+      "angle": "Focus on advertising-driven growth strategies with real case studies, showing how pay-per-result advertising scales e-commerce profitably without upfront risk",
       "searchIntent": "commercial",
       "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "What is a good ROAS for my industry?",
-        "How do I calculate ROAS correctly?",
-        "Why is my ROAS declining?",
-        "What factors affect ROAS the most?",
-        "How long does it take to improve ROAS?"
+        "How do I grow my e-commerce business fast?",
+        "What's the best marketing strategy for e-commerce?",
+        "How much should I spend on e-commerce advertising?",
+        "What are the biggest e-commerce growth challenges?",
+        "How do successful e-commerce brands scale?"
       ],
-      "customerGenerationReason": "Business owners searching for ROAS optimization are directly focused on advertising profitability and likely frustrated with current performance. They're perfect prospects because they understand the value of advertising but need expert help. The case study approach builds credibility, and our pay-per-result model eliminates their risk while promising the exact ROAS improvements they're seeking."
+      "customerGenerationReason": "E-commerce owners searching for growth strategies are actively looking to invest in scaling. They're ideal prospects for advertising services, especially our pay-per-result model which aligns with their cash flow needs and growth-focused mindset."
     },
     {
       "id": 7,
-      "title": "Lead Generation Costs by Industry: 2024 Benchmarks + Strategies",
-      "slug": "lead-generation-costs-industry-benchmarks-strategies-2024",
-      "primaryKeyword": "lead generation",
+      "title": "Pay Per Lead vs Retainer: Which Model Grows Faster?",
+      "slug": "pay-per-lead-vs-retainer-advertising-model-comparison",
+      "primaryKeyword": "pay per lead advertising",
       "secondaryKeywords": [
-        "cost per lead by industry",
-        "lead generation strategies",
-        "B2B lead generation",
-        "qualified lead generation",
-        "lead gen optimization",
-        "customer acquisition cost",
-        "lead generation ROI"
+        "pay per result advertising",
+        "performance based advertising",
+        "lead generation pricing",
+        "advertising retainer vs performance",
+        "cost per lead",
+        "performance marketing pricing",
+        "results based marketing"
       ],
       "category": "Lead Generation",
-      "angle": "Provide valuable industry benchmarks that businesses can't find elsewhere, then show how our pay-per-qualified-lead model guarantees they never overpay for leads again",
-      "searchIntent": "informational",
+      "angle": "Direct comparison of pricing models with real case studies showing faster growth and better ROI with pay-per-result vs traditional retainers",
+      "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What's a good cost per lead for my industry?",
-        "How much should I spend on lead generation?",
-        "What's the difference between cost per lead and cost per acquisition?",
-        "How do I reduce my cost per lead?",
-        "Which lead generation method is most cost-effective?"
+        "What is pay per lead advertising?",
+        "How much should I pay per lead?",
+        "Is pay per result advertising worth it?",
+        "What's better: retainer or performance pricing?",
+        "How does pay per lead pricing work?"
       ],
-      "customerGenerationReason": "Business owners researching lead generation costs are actively planning advertising budgets and comparing options. They're cost-conscious but understand the need to invest in customer acquisition. After showing them industry benchmarks, we can position our pay-per-qualified-lead model as the smartest way to control costs while scaling lead generation."
+      "customerGenerationReason": "Business owners comparing advertising pricing models are actively shopping for marketing services. They're high-intent prospects who are likely frustrated with retainer models. This directly positions our pay-per-result advantage and addresses their primary buying concerns."
     },
     {
       "id": 8,
-      "title": "TikTok Ads vs Meta Ads: Which Platform Wins for E-commerce?",
-      "slug": "tiktok-ads-vs-meta-ads-which-platform-wins-ecommerce",
-      "primaryKeyword": "TikTok ads",
+      "title": "YouTube Ads vs TikTok Ads: ROI Comparison for 2024",
+      "slug": "youtube-ads-vs-tiktok-ads-roi-comparison-2024",
+      "primaryKeyword": "YouTube ads vs TikTok ads",
       "secondaryKeywords": [
-        "TikTok advertising",
-        "TikTok vs Facebook ads",
-        "social media advertising comparison",
-        "ecommerce advertising platforms",
-        "TikTok marketing strategy",
-        "platform advertising costs",
-        "multi-platform advertising"
+        "youtube ads",
+        "tiktok ads",
+        "video advertising comparison",
+        "youtube advertising ROI",
+        "tiktok advertising ROI",
+        "video ad platforms",
+        "best video advertising platform",
+        "youtube vs tiktok marketing"
       ],
-      "category": "E-commerce Growth",
-      "angle": "Comprehensive platform comparison with real performance data, then reveal why the answer isn't choosing one platform but rather having expertise to optimize across all platforms simultaneously",
+      "category": "Paid Social",
+      "angle": "Platform comparison with real performance data, showing how our multi-platform AI approach optimizes across both rather than forcing clients to choose one",
       "searchIntent": "commercial",
-      "estimatedDifficulty": "medium",
+      "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "Are TikTok ads cheaper than Facebook ads?",
-        "Which platform has better targeting options?",
-        "Should I advertise on TikTok or Instagram?",
-        "What's the minimum budget for TikTok ads?",
-        "Do TikTok ads work for B2B businesses?"
+        "Which is better for advertising: YouTube or TikTok?",
+        "Are YouTube ads more expensive than TikTok ads?",
+        "What type of business should use YouTube ads?",
+        "Do TikTok ads work for B2B companies?",
+        "How do I choose between video ad platforms?"
       ],
-      "customerGenerationReason": "E-commerce businesses comparing advertising platforms are actively spending ad budget and looking to optimize their mix. They're likely already advertising but unsure about platform strategy. We can provide valuable insights, then show how our multi-platform expertise and pay-per-result model lets them test and scale across all platforms without the risk of learning each one themselves."
+      "customerGenerationReason": "Marketers comparing video platforms are in active decision-making mode for advertising spend. They want expert guidance on platform selection and performance optimization - perfect positioning for our multi-platform expertise and risk-free pay-per-result approach."
     }
   ]
 }
