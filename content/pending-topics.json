@@ -1,223 +1,214 @@
 {
-  "date": "2026-04-15T08:47:36.846Z",
+  "date": "2026-04-15T08:50:56.147Z",
   "status": "pending_approval",
   "ideas": [
     {
       "id": 1,
-      "title": "AI Advertising ROI: How Smart Campaigns Cut Costs by 40%",
-      "slug": "ai-advertising-roi-smart-campaigns-cut-costs",
-      "primaryKeyword": "AI advertising ROI",
+      "title": "What is Performance Marketing? Complete Guide for Business Owners",
+      "slug": "what-is-performance-marketing-guide",
+      "primaryKeyword": "what is performance marketing",
       "secondaryKeywords": [
-        "AI advertising costs",
-        "automated ad campaigns",
-        "AI marketing ROI",
-        "smart advertising technology",
-        "AI ad optimization",
-        "machine learning advertising",
-        "AI campaign performance"
+        "performance marketing definition",
+        "performance marketing meaning",
+        "performance marketing strategy",
+        "digital performance marketing",
+        "performance marketing company",
+        "performance marketing services"
       ],
-      "category": "AI Advertising",
-      "angle": "Position Seen By Many's AI-powered approach as the ROI-guaranteed solution that only charges when results are delivered, eliminating the risk traditional agencies carry",
-      "searchIntent": "commercial",
+      "category": "Performance Marketing",
+      "angle": "Define performance marketing through the lens of pay-per-result advertising, showing how traditional agencies charge retainers while true performance marketing (like Seen By Many) only charges for actual results",
+      "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How much can AI advertising improve ROI?",
-        "What are the costs of AI advertising platforms?",
-        "How does AI reduce advertising waste?",
-        "Which AI advertising tools provide best ROI?",
-        "How to measure AI advertising performance?"
+        "How does performance marketing differ from traditional advertising?",
+        "What are the benefits of performance-based advertising?",
+        "How much does performance marketing cost?",
+        "What platforms are best for performance marketing?",
+        "How do you measure performance marketing success?"
       ],
-      "customerGenerationReason": "Business owners searching for AI advertising ROI are actively looking to improve their ad performance and reduce costs. They're likely frustrated with current ad spend efficiency and are perfect candidates for our pay-per-result model, which eliminates their risk while guaranteeing the ROI improvements they're seeking."
+      "customerGenerationReason": "Business owners searching this are likely frustrated with traditional advertising costs and unclear ROI. By positioning pay-per-result as the ultimate performance marketing model, we attract prospects who want accountability and measurable results, making them ideal candidates for our services."
     },
     {
       "id": 2,
-      "title": "TikTok Ads Cost Per Lead: 2024 Benchmarks & Optimization",
-      "slug": "tiktok-ads-cost-per-lead-2024-benchmarks-optimization",
-      "primaryKeyword": "TikTok ads cost per lead",
+      "title": "Facebook Lead Generation: 7 Strategies That Actually Convert",
+      "slug": "facebook-lead-generation-strategies-that-convert",
+      "primaryKeyword": "facebook lead generation",
       "secondaryKeywords": [
-        "TikTok advertising costs",
-        "TikTok lead generation",
-        "TikTok ad benchmarks 2024",
-        "TikTok CPL optimization",
-        "TikTok ad pricing",
-        "TikTok marketing costs",
-        "TikTok conversion rates"
+        "lead generation marketing",
+        "Meta lead generation",
+        "social media lead generation",
+        "lead generation strategy",
+        "Facebook ads for leads",
+        "lead generation examples"
       ],
-      "category": "Paid Social",
-      "angle": "Provide exclusive benchmarks and position our pay-per-lead TikTok service as the risk-free way to achieve below-benchmark costs",
+      "category": "Lead Generation",
+      "angle": "Focus on ROI-driven Facebook lead generation tactics, emphasizing how businesses waste money on unqualified leads and how pay-per-qualified-lead models eliminate this risk",
       "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
+      "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "What is a good cost per lead on TikTok ads?",
-        "How much should I spend on TikTok advertising?",
-        "Why are my TikTok ads so expensive?",
-        "How to reduce TikTok ad costs?",
-        "What industries work best for TikTok lead generation?"
+        "How much do Facebook leads typically cost?",
+        "What's a good conversion rate for Facebook lead ads?",
+        "How do you qualify leads from Facebook ads?",
+        "What industries work best for Facebook lead generation?",
+        "How do you reduce Facebook lead generation costs?"
       ],
-      "customerGenerationReason": "Businesses searching for TikTok lead costs are actively planning campaigns or trying to optimize existing ones. They're cost-conscious and performance-focused, making them ideal for our pay-per-lead model that removes their financial risk while delivering the cost efficiency they're researching."
+      "customerGenerationReason": "Businesses searching for Facebook lead generation are actively looking to acquire customers and likely have budget allocated for advertising. They're perfect prospects because they understand the value of leads but may be frustrated with lead quality or costs, making our qualified-leads-only model highly appealing."
     },
     {
       "id": 3,
-      "title": "E-commerce Customer Acquisition: 7 Proven Strategies for 2024",
-      "slug": "ecommerce-customer-acquisition-strategies-2024",
-      "primaryKeyword": "e-commerce customer acquisition",
+      "title": "YouTube Ads Reddit: What Advertisers Are Really Saying in 2024",
+      "slug": "youtube-ads-reddit-advertiser-experiences-2024",
+      "primaryKeyword": "youtube ads reddit",
       "secondaryKeywords": [
-        "ecommerce customer acquisition cost",
-        "online customer acquisition strategies",
-        "ecommerce growth tactics",
-        "customer acquisition channels",
-        "ecommerce marketing funnel",
-        "digital customer acquisition",
-        "ecommerce lead generation"
+        "YouTube advertising",
+        "YouTube ads strategy",
+        "YouTube ads cost",
+        "video advertising",
+        "YouTube marketing",
+        "YouTube ads performance"
       ],
-      "category": "E-commerce Growth",
-      "angle": "Present comprehensive acquisition strategies while positioning our multi-platform, pay-per-customer approach as the most scalable and risk-free method for e-commerce growth",
+      "category": "Paid Social",
+      "angle": "Analyze real Reddit discussions about YouTube ads challenges, then position AI-powered YouTube advertising with pay-per-result pricing as the solution to common complaints about wasted spend and poor targeting",
       "searchIntent": "informational",
-      "estimatedDifficulty": "medium",
+      "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What is the average customer acquisition cost for e-commerce?",
-        "How do I reduce customer acquisition costs?",
-        "What are the best customer acquisition channels for e-commerce?",
-        "How to track customer acquisition metrics?",
-        "What is a good customer acquisition rate?"
+        "Are YouTube ads worth it for small businesses?",
+        "How much should I spend on YouTube ads?",
+        "Why are my YouTube ads not converting?",
+        "What's the average cost per click for YouTube ads?",
+        "How do I improve my YouTube ad targeting?"
       ],
-      "customerGenerationReason": "E-commerce owners searching for customer acquisition strategies are actively looking to grow their business and are likely struggling with current acquisition methods or costs. Our pay-per-customer model directly addresses their main concern - acquiring customers profitably - while eliminating upfront investment risk."
+      "customerGenerationReason": "People searching Reddit discussions about YouTube ads are likely researching before investing or troubleshooting current campaigns. They're seeking honest opinions about effectiveness and costs, making them receptive to a pay-per-result model that eliminates the risk they're reading about in Reddit horror stories."
     },
     {
       "id": 4,
-      "title": "YouTube Ads for Lead Generation: Complete 2024 Guide",
-      "slug": "youtube-ads-lead-generation-complete-guide-2024",
-      "primaryKeyword": "YouTube ads lead generation",
+      "title": "Best Lead Generation Software vs Pay-Per-Lead Services 2024",
+      "slug": "best-lead-generation-software-vs-pay-per-lead-services",
+      "primaryKeyword": "best lead generation software",
       "secondaryKeywords": [
-        "YouTube advertising for leads",
-        "YouTube lead gen campaigns",
-        "YouTube ad targeting",
-        "video advertising leads",
-        "YouTube conversion campaigns",
-        "YouTube marketing ROI",
-        "YouTube ad optimization"
+        "lead generation platform",
+        "lead generation services",
+        "lead generation tools",
+        "lead generation company",
+        "b2b lead generation",
+        "lead generation meaning"
       ],
       "category": "Lead Generation",
-      "angle": "Position YouTube as an untapped lead generation goldmine and showcase how our pay-per-lead YouTube service makes it risk-free to explore this high-converting channel",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "low",
+      "angle": "Compare DIY lead generation software costs and complexity against managed pay-per-qualified-lead services, showing total cost of ownership and expertise advantages",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "How effective are YouTube ads for lead generation?",
-        "What types of YouTube ads work best for leads?",
-        "How much do YouTube ads cost per lead?",
-        "How to create YouTube ads that convert?",
-        "What are YouTube lead generation best practices?"
+        "What's the difference between lead generation software and services?",
+        "How much does lead generation software cost per month?",
+        "Do I need lead generation software or an agency?",
+        "What's the ROI of lead generation software vs services?",
+        "Which lead generation method is most cost-effective?"
       ],
-      "customerGenerationReason": "Businesses searching for YouTube lead generation are looking to diversify their acquisition channels and tap into video advertising. They're likely experienced with other platforms but hesitant about YouTube's complexity and costs, making our pay-per-lead YouTube service an attractive risk-free entry point."
+      "customerGenerationReason": "Business owners comparing software options are in active buying mode with budget allocated for lead generation. They're weighing DIY vs done-for-you solutions, making them ideal prospects for our managed pay-per-result service, especially when we demonstrate the hidden costs and expertise gaps of software-only approaches."
     },
     {
       "id": 5,
-      "title": "ROAS Calculator: Optimize Ad Spend & Maximize Returns",
-      "slug": "roas-calculator-optimize-ad-spend-maximize-returns",
-      "primaryKeyword": "ROAS optimization",
+      "title": "Marketing Strategy That Guarantees ROI: Performance-Based Guide",
+      "slug": "marketing-strategy-guarantees-roi-performance-based",
+      "primaryKeyword": "marketing strategy",
       "secondaryKeywords": [
-        "ROAS calculator",
-        "return on ad spend",
-        "ad spend optimization",
-        "advertising ROI calculator",
-        "improve ROAS",
-        "ROAS benchmarks",
-        "advertising profitability",
-        "ad performance metrics"
+        "performance marketing strategy",
+        "digital marketing strategy",
+        "ROI marketing",
+        "performance-based marketing",
+        "marketing ROI optimization",
+        "customer acquisition strategy"
       ],
       "category": "Performance Marketing",
-      "angle": "Provide a valuable ROAS calculator tool while demonstrating how our pay-per-result model guarantees positive ROAS from day one",
-      "searchIntent": "transactional",
-      "estimatedDifficulty": "low",
+      "angle": "Present marketing strategy framework built around guaranteed ROI and performance accountability, contrasting traditional spray-and-pray approaches with pay-per-result methodology",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "What is a good ROAS for advertising?",
-        "How do you calculate ROAS?",
-        "How to improve ROAS on Facebook ads?",
-        "What is the difference between ROAS and ROI?",
-        "How to track ROAS across multiple platforms?"
+        "How do you create a marketing strategy with guaranteed ROI?",
+        "What's the most cost-effective marketing strategy?",
+        "How do you measure marketing strategy success?",
+        "What marketing strategies work best for small businesses?",
+        "How much should I budget for marketing strategy implementation?"
       ],
-      "customerGenerationReason": "Business owners searching for ROAS optimization are actively managing ad campaigns and concerned about profitability. They're likely experiencing poor returns or want to improve existing performance, making them prime candidates for our guaranteed results model that eliminates ROAS risk entirely."
+      "customerGenerationReason": "Business owners searching for marketing strategies with guaranteed ROI are likely burned by previous marketing investments with unclear returns. They're actively seeking accountability and measurable results, making them perfect prospects for our pay-per-result model that eliminates their primary concern about marketing waste."
     },
     {
       "id": 6,
-      "title": "Meta Ads Agency Cost: In-House vs Outsourced in 2024",
-      "slug": "meta-ads-agency-cost-inhouse-vs-outsourced-2024",
-      "primaryKeyword": "Meta ads agency cost",
+      "title": "LinkedIn Lead Generation vs Facebook: Which Delivers Better ROI?",
+      "slug": "linkedin-vs-facebook-lead-generation-roi-comparison",
+      "primaryKeyword": "linkedin lead generation",
       "secondaryKeywords": [
-        "Facebook ads agency pricing",
-        "Meta advertising costs",
-        "social media agency fees",
-        "Facebook ads management cost",
-        "Meta ads outsourcing",
-        "Instagram ads agency",
-        "social media marketing pricing"
+        "b2b lead generation",
+        "social media lead generation",
+        "lead generation platform",
+        "professional lead generation",
+        "LinkedIn ads",
+        "lead generation cost comparison"
       ],
-      "category": "Paid Social",
-      "angle": "Compare traditional agency models vs in-house costs, then present our pay-per-result model as the third option that eliminates both upfront costs and performance risk",
+      "category": "Lead Generation",
+      "angle": "Data-driven comparison of LinkedIn vs Facebook for B2B lead generation, focusing on cost-per-qualified-lead and emphasizing how pay-per-result eliminates platform risk",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How much does a Facebook ads agency charge?",
-        "Is it worth hiring a Meta ads agency?",
-        "What should I pay for Facebook ads management?",
-        "How much do Meta ads agencies charge per month?",
-        "Should I manage Facebook ads in-house or outsource?"
+        "Is LinkedIn better than Facebook for B2B leads?",
+        "How much do LinkedIn leads cost compared to Facebook?",
+        "Which platform has higher quality leads?",
+        "Should I use LinkedIn or Facebook ads for my business?",
+        "What's the average cost per lead on LinkedIn vs Facebook?"
       ],
-      "customerGenerationReason": "Businesses researching Meta ads agency costs are actively deciding how to handle their social media advertising and are cost-conscious about agency fees. Our pay-per-result model addresses their main concerns about agency costs and performance risk, making them highly likely to engage with our risk-free alternative."
+      "customerGenerationReason": "B2B businesses comparing lead generation platforms are typically spending significant amounts on customer acquisition and need qualified leads to grow. They're in research mode before making platform investments, making them ideal for our pay-per-qualified-lead model that removes the platform selection risk entirely."
     },
     {
       "id": 7,
-      "title": "Google Ads Lead Quality: How to Get Better Leads in 2024",
-      "slug": "google-ads-lead-quality-how-to-get-better-leads-2024",
-      "primaryKeyword": "Google Ads lead quality",
+      "title": "Performance Marketing Manager: When to Hire vs Outsource in 2024",
+      "slug": "performance-marketing-manager-hire-vs-outsource-2024",
+      "primaryKeyword": "performance marketing manager",
       "secondaryKeywords": [
-        "improve Google Ads leads",
-        "qualified leads Google Ads",
-        "Google Ads lead scoring",
-        "better lead generation",
-        "Google Ads conversion quality",
-        "lead qualification strategies",
-        "high-quality leads"
-      ],
-      "category": "Lead Generation",
-      "angle": "Address the common problem of low-quality leads from Google Ads and position our pay-per-qualified-lead model as the solution that ensures lead quality",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "Why are my Google Ads leads low quality?",
-        "How to improve lead quality in Google Ads?",
-        "What makes a qualified lead?",
-        "How to filter out bad leads from Google Ads?",
-        "How to score lead quality from paid search?"
-      ],
-      "customerGenerationReason": "Business owners searching for better Google Ads lead quality are frustrated with current lead generation results and wasting money on unqualified prospects. They're actively seeking solutions and are perfect candidates for our pay-per-qualified-lead model that guarantees the lead quality they're struggling to achieve."
-    },
-    {
-      "id": 8,
-      "title": "Pay Per Result Marketing: Why Smart Businesses Switch",
-      "slug": "pay-per-result-marketing-why-smart-businesses-switch",
-      "primaryKeyword": "pay per result advertising",
-      "secondaryKeywords": [
-        "performance-based marketing",
-        "results-based advertising",
-        "pay for performance marketing",
-        "outcome-based advertising",
-        "risk-free marketing",
-        "guaranteed results marketing",
-        "performance marketing agency"
+        "performance marketing services",
+        "marketing manager cost",
+        "digital marketing manager",
+        "performance marketing team",
+        "marketing outsourcing",
+        "marketing agency vs employee"
       ],
       "category": "Performance Marketing",
-      "angle": "Educate on the pay-per-result model benefits while positioning Seen By Many as the pioneering leader in this approach across multiple advertising platforms",
+      "angle": "Break down true costs of hiring full-time performance marketing manager vs outsourcing to performance-based agencies, including hidden costs, expertise gaps, and risk factors",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What is pay per result advertising?",
-        "How does performance-based marketing work?",
-        "Is pay per result marketing worth it?",
-        "What are the benefits of results-based advertising?",
-        "How to find pay per performance marketing agencies?"
+        "How much does a performance marketing manager cost?",
+        "Should I hire in-house or use a marketing agency?",
+        "What skills should a performance marketing manager have?",
+        "How do I find a good performance marketing manager?",
+        "What's the ROI of hiring vs outsourcing marketing?"
       ],
-      "customerGenerationReason": "Businesses researching pay-per-result marketing are likely frustrated with traditional agency models, retainer fees, or poor campaign performance. They're actively seeking alternative marketing approaches and represent our highest-intent prospects who are specifically looking for the exact service model we offer."
+      "customerGenerationReason": "Growing businesses researching whether to hire marketing talent are at a crucial scaling point with significant marketing budgets. They're weighing major financial commitments and are ideal prospects for demonstrating how pay-per-result outsourcing provides expert-level performance without the overhead, risk, and management complexity of hiring."
+    },
+    {
+      "id": 8,
+      "title": "Local Lead Generation: 5 Strategies That Work Without Big Budgets",
+      "slug": "local-lead-generation-strategies-small-budgets",
+      "primaryKeyword": "local lead generation",
+      "secondaryKeywords": [
+        "local business marketing",
+        "small business lead generation",
+        "local advertising",
+        "community marketing",
+        "local SEO",
+        "neighborhood marketing"
+      ],
+      "category": "Lead Generation",
+      "angle": "Focus on cost-effective local lead generation for small businesses, then introduce pay-per-lead model as the most budget-friendly option since there's no upfront risk or retainer",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "How can small businesses generate leads locally?",
+        "What's the cheapest way to get local leads?",
+        "How much should local businesses spend on advertising?",
+        "Do local lead generation services work?",
+        "How do you track local lead generation ROI?"
+      ],
+      "customerGenerationReason": "Local business owners searching for budget-friendly lead generation are typically cost-conscious and have been burned by expensive marketing with unclear results. They're perfect prospects for pay-per-result advertising because it addresses their primary concerns about upfront costs and ROI uncertainty while providing the customer acquisition they need to grow."
     }
   ]
 }
