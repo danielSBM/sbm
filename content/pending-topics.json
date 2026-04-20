@@ -1,222 +1,222 @@
 {
-  "date": "2026-04-20T09:10:41.461Z",
+  "date": "2026-04-20T09:13:51.609Z",
   "status": "pending_approval",
   "ideas": [
     {
       "id": 1,
-      "title": "TikTok Ads Account Setup: Complete Guide for Businesses 2024",
-      "slug": "tiktok-ads-account-setup-guide-businesses",
-      "primaryKeyword": "tiktok ads account",
-      "secondaryKeywords": [
-        "tiktok business ads",
-        "tiktok ad setup",
-        "tiktok ads manager",
-        "tiktok business account",
-        "how to create tiktok ads",
-        "tiktok advertising setup",
-        "tiktok ads for business"
-      ],
-      "category": "Paid Social",
-      "angle": "Position as experts who handle the complex setup and optimization so businesses don't waste money on trial-and-error",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "How much does it cost to set up TikTok ads?",
-        "What are the requirements for TikTok ads account?",
-        "How long does TikTok ads account approval take?",
-        "Can small businesses use TikTok ads effectively?",
-        "What's the minimum budget for TikTok ads?"
-      ],
-      "customerGenerationReason": "Businesses searching for TikTok ads setup are actively looking to start advertising but may be overwhelmed by the complexity. This positions our pay-per-result model as the perfect solution - they get expert setup and management without upfront costs, only paying when we deliver actual customers."
-    },
-    {
-      "id": 2,
-      "title": "YouTube Ads on Reddit: Why Everyone's Talking About This Strategy",
-      "slug": "youtube-ads-reddit-strategy-discussion",
-      "primaryKeyword": "youtube ads reddit",
-      "secondaryKeywords": [
-        "youtube advertising strategy",
-        "reddit marketing discussion",
-        "youtube ads performance",
-        "video advertising tips",
-        "youtube ads results",
-        "social media advertising",
-        "youtube ads case studies"
-      ],
-      "category": "Paid Social",
-      "angle": "Analyze Reddit discussions to reveal what really works in YouTube ads, backed by our AI-powered optimization expertise",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "Why are YouTube ads being discussed on Reddit?",
-        "What do Reddit users say about YouTube advertising?",
-        "Are YouTube ads worth it according to Reddit?",
-        "What YouTube ads strategies work best?",
-        "How much should I spend on YouTube ads?"
-      ],
-      "customerGenerationReason": "People searching this term are researching YouTube ads effectiveness and looking for real user experiences. They're likely considering YouTube advertising but want validation. Our article can showcase successful campaigns and position our pay-per-result model as risk-free way to test YouTube ads."
-    },
-    {
-      "id": 3,
-      "title": "Customer Acquisition Cost: How to Calculate and Reduce CAC in 2024",
-      "slug": "customer-acquisition-cost-calculate-reduce-cac",
-      "primaryKeyword": "customer acquisition cost",
-      "secondaryKeywords": [
-        "CAC calculation",
-        "reduce customer acquisition cost",
-        "customer acquisition metrics",
-        "CAC optimization",
-        "customer acquisition strategy",
-        "cost per acquisition",
-        "customer acquisition analysis"
-      ],
-      "category": "Business Growth",
-      "angle": "Show how our pay-per-result model eliminates CAC risk and provides transparent, measurable customer acquisition",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "medium",
-      "peopleAlsoAsk": [
-        "What is a good customer acquisition cost?",
-        "How do you reduce customer acquisition cost?",
-        "What's the difference between CAC and CPA?",
-        "How do you calculate customer acquisition cost?",
-        "Why is my customer acquisition cost so high?"
-      ],
-      "customerGenerationReason": "Business owners searching for CAC information are struggling with expensive, unpredictable advertising costs. This positions our pay-per-result model as the perfect solution - they only pay for actual customers, making CAC completely predictable and controllable."
-    },
-    {
-      "id": 4,
-      "title": "Ad Creative Strategy That Actually Converts: 2024 Framework",
-      "slug": "ad-creative-strategy-framework-converts",
-      "primaryKeyword": "ad creative strategy",
-      "secondaryKeywords": [
-        "creative advertising strategy",
-        "ad creative best practices",
-        "creative campaign strategy",
-        "ad creative optimization",
-        "creative strategy framework",
-        "advertising creative process",
-        "creative strategy planning"
-      ],
-      "category": "Performance Marketing",
-      "angle": "Reveal our AI-powered creative strategy framework that consistently produces winning ads across all platforms",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "What makes a good ad creative strategy?",
-        "How do you develop ad creative strategy?",
-        "What are the elements of creative strategy?",
-        "How often should you change ad creatives?",
-        "What's the best ad creative format for conversions?"
-      ],
-      "customerGenerationReason": "Businesses searching for creative strategy are likely struggling with poor-performing ads and wasted ad spend. This showcases our creative expertise and positions our pay-per-result model as the solution - they get professional creative strategy without upfront creative costs."
-    },
-    {
-      "id": 5,
-      "title": "Performance Marketing vs Traditional Ads: ROI Comparison 2024",
-      "slug": "performance-marketing-vs-traditional-advertising-roi",
-      "primaryKeyword": "performance marketing",
-      "secondaryKeywords": [
-        "performance marketing ROI",
-        "performance vs traditional marketing",
-        "performance marketing benefits",
-        "performance marketing strategy",
-        "digital performance marketing",
-        "performance marketing results",
-        "performance advertising comparison"
-      ],
-      "category": "Performance Marketing",
-      "angle": "Position our pay-per-result model as the ultimate evolution of performance marketing - true pay-for-performance advertising",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "medium",
-      "peopleAlsoAsk": [
-        "What is performance marketing exactly?",
-        "Is performance marketing better than traditional advertising?",
-        "How much does performance marketing cost?",
-        "What are performance marketing channels?",
-        "How do you measure performance marketing success?"
-      ],
-      "customerGenerationReason": "Business owners researching performance marketing are looking for accountable, measurable advertising solutions. This directly positions our pay-per-result model as the most advanced form of performance marketing where they truly only pay for results."
-    },
-    {
-      "id": 6,
-      "title": "AI Advertising Tools: Complete Guide to Automated Ad Optimization",
-      "slug": "ai-advertising-tools-automated-optimization-guide",
-      "primaryKeyword": "AI advertising",
-      "secondaryKeywords": [
-        "AI advertising tools",
-        "automated ad optimization",
-        "AI marketing automation",
-        "artificial intelligence advertising",
-        "AI ad management",
-        "AI marketing tools",
-        "automated advertising platforms"
-      ],
-      "category": "AI Advertising",
-      "angle": "Showcase our proprietary AI advertising technology and how it delivers superior results compared to manual campaign management",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "What are the best AI advertising tools?",
-        "How does AI improve advertising performance?",
-        "Can AI manage my advertising campaigns?",
-        "What's the ROI of AI advertising tools?",
-        "How much do AI advertising platforms cost?"
-      ],
-      "customerGenerationReason": "Businesses searching for AI advertising are looking for competitive advantages and better performance from their ads. This positions our AI-powered approach as cutting-edge while our pay-per-result model removes the risk of trying new technology."
-    },
-    {
-      "id": 7,
-      "title": "E-commerce Customer Acquisition: 7 Strategies That Actually Work",
-      "slug": "ecommerce-customer-acquisition-strategies-that-work",
-      "primaryKeyword": "e-commerce customer acquisition",
-      "secondaryKeywords": [
-        "ecommerce customer acquisition cost",
-        "online store customer acquisition",
-        "ecommerce marketing strategies",
-        "customer acquisition for online business",
-        "ecommerce growth strategies",
-        "digital customer acquisition",
-        "ecommerce lead generation"
-      ],
-      "category": "E-commerce Growth",
-      "angle": "Reveal proven customer acquisition strategies specifically for e-commerce, backed by our results across multiple online stores",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "What's the best customer acquisition strategy for e-commerce?",
-        "How much should e-commerce spend on customer acquisition?",
-        "What's a good customer acquisition cost for online stores?",
-        "How do successful e-commerce brands acquire customers?",
-        "What channels work best for e-commerce customer acquisition?"
-      ],
-      "customerGenerationReason": "E-commerce owners searching for customer acquisition strategies are actively looking to grow their business but may be struggling with expensive or ineffective advertising. Our pay-per-result model is perfect for e-commerce as they only pay when we deliver actual customers, not just clicks or impressions."
-    },
-    {
-      "id": 8,
-      "title": "Pay Per Result Advertising: The Future of Risk-Free Marketing",
-      "slug": "pay-per-result-advertising-risk-free-marketing",
+      "title": "Pay Per Result Advertising: The Ultimate Guide for 2024",
+      "slug": "pay-per-result-advertising-guide-2024",
       "primaryKeyword": "pay per result advertising",
       "secondaryKeywords": [
         "performance based advertising",
         "pay for performance marketing",
         "results based advertising",
-        "pay per customer advertising",
-        "risk free advertising",
-        "performance marketing agency",
-        "pay per conversion advertising"
+        "commission based advertising",
+        "ROI advertising",
+        "guaranteed advertising results",
+        "pay per lead advertising"
       ],
       "category": "Performance Marketing",
-      "angle": "Establish thought leadership in pay-per-result advertising and explain why it's the future of business advertising",
+      "angle": "Position Seen By Many as pioneers in pay-per-result model, showing exactly how it works and why it's superior to traditional retainer models",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What is pay per result advertising?",
-        "How does pay per performance advertising work?",
-        "Is pay per result advertising legitimate?",
-        "What are the benefits of pay per result marketing?",
-        "How much does pay per result advertising cost?"
+        "How does pay per result advertising work?",
+        "What is the difference between pay per result and pay per click?",
+        "Is pay per result advertising worth it?",
+        "How much does pay per result advertising cost?",
+        "What are the benefits of performance based advertising?"
       ],
-      "customerGenerationReason": "Businesses searching for pay-per-result advertising are likely frustrated with traditional advertising costs and poor ROI. They're actively looking for our exact service model, making this high-intent traffic that's likely to convert into customers for our agency."
+      "customerGenerationReason": "Business owners searching this term are frustrated with traditional advertising models and actively looking for alternatives. They're perfect prospects who will resonate with our risk-free model and are likely ready to switch from their current agency or try advertising for the first time without upfront costs."
+    },
+    {
+      "id": 2,
+      "title": "AI Advertising Tools That Actually Generate ROI in 2024",
+      "slug": "ai-advertising-tools-roi-2024",
+      "primaryKeyword": "AI advertising tools",
+      "secondaryKeywords": [
+        "artificial intelligence advertising",
+        "AI marketing tools",
+        "automated advertising platforms",
+        "AI ad optimization",
+        "machine learning advertising",
+        "AI powered marketing",
+        "smart advertising technology"
+      ],
+      "category": "AI Advertising",
+      "angle": "Reveal the specific AI tools and strategies we use internally at Seen By Many, with case studies showing actual ROI improvements",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "medium",
+      "peopleAlsoAsk": [
+        "What are the best AI tools for advertising?",
+        "How does AI improve advertising performance?",
+        "Can AI replace human advertisers?",
+        "What is the ROI of AI advertising tools?",
+        "How much do AI advertising tools cost?"
+      ],
+      "customerGenerationReason": "Marketing managers and business owners researching AI advertising tools are looking to modernize their marketing stack and improve performance. They're likely dissatisfied with current results and seeking competitive advantages, making them ideal prospects for our AI-powered approach."
+    },
+    {
+      "id": 3,
+      "title": "E-commerce Growth Strategies That Scale to 7 Figures",
+      "slug": "ecommerce-growth-strategies-7-figures",
+      "primaryKeyword": "e-commerce growth strategies",
+      "secondaryKeywords": [
+        "ecommerce scaling strategies",
+        "online store growth",
+        "ecommerce marketing tactics",
+        "retail growth strategies",
+        "ecommerce customer acquisition",
+        "scaling online business",
+        "ecommerce revenue growth"
+      ],
+      "category": "E-commerce Growth",
+      "angle": "Share the exact growth framework we use for e-commerce clients, with specific tactics for each growth stage from startup to 7-figures",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "medium",
+      "peopleAlsoAsk": [
+        "How do I scale my ecommerce business fast?",
+        "What are the best growth strategies for online stores?",
+        "How long does it take to reach 7 figures in ecommerce?",
+        "What marketing channels work best for ecommerce growth?",
+        "How much should I spend on advertising to grow my ecommerce store?"
+      ],
+      "customerGenerationReason": "E-commerce business owners searching for growth strategies are actively looking to scale and invest in marketing. They understand the need for advertising but want proven strategies, making them perfect prospects for our results-driven approach where they only pay when we deliver growth."
+    },
+    {
+      "id": 4,
+      "title": "Meta Ads Creative Strategy: 12 High-Converting Formats",
+      "slug": "meta-ads-creative-strategy-high-converting",
+      "primaryKeyword": "Meta ads creative strategy",
+      "secondaryKeywords": [
+        "Facebook ad creatives",
+        "Instagram ad creative ideas",
+        "social media ad design",
+        "Meta advertising creatives",
+        "Facebook ad creative strategy",
+        "high converting ad creatives",
+        "social media creative strategy"
+      ],
+      "category": "Paid Social",
+      "angle": "Reveal the 12 creative formats we've tested across thousands of campaigns, with performance data and templates readers can use",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "What makes a good Facebook ad creative?",
+        "How often should I change my Meta ad creatives?",
+        "What are the best performing Facebook ad formats?",
+        "How do I create engaging Instagram ad creatives?",
+        "What size should Meta ad creatives be?"
+      ],
+      "customerGenerationReason": "Marketers and business owners struggling with ad creative performance are looking for proven formats and strategies. They're likely experiencing poor ROAS and need expert help with creative strategy, making them ideal prospects for our comprehensive advertising management services."
+    },
+    {
+      "id": 5,
+      "title": "Lead Generation Cost: What to Expect Across Industries 2024",
+      "slug": "lead-generation-cost-by-industry-2024",
+      "primaryKeyword": "lead generation cost",
+      "secondaryKeywords": [
+        "cost per lead by industry",
+        "lead generation pricing",
+        "how much does lead generation cost",
+        "lead generation budget",
+        "cost per qualified lead",
+        "lead generation ROI",
+        "B2B lead generation cost"
+      ],
+      "category": "Lead Generation",
+      "angle": "Provide comprehensive industry benchmarks based on our client data, showing when pay-per-result makes more financial sense than traditional models",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "How much should I pay for a qualified lead?",
+        "What is a good cost per lead?",
+        "How do you calculate lead generation ROI?",
+        "What factors affect lead generation costs?",
+        "Is it cheaper to generate leads in-house or outsource?"
+      ],
+      "customerGenerationReason": "Business owners researching lead generation costs are budgeting for lead generation services and comparing options. They're likely frustrated with current lead quality or costs, making them perfect prospects for our pay-per-result model where they know exactly what they'll pay per qualified lead."
+    },
+    {
+      "id": 6,
+      "title": "Google Ads Audit Checklist: 47 Points to Check Monthly",
+      "slug": "google-ads-audit-checklist-2024",
+      "primaryKeyword": "Google Ads audit checklist",
+      "secondaryKeywords": [
+        "Google Ads account audit",
+        "PPC audit checklist",
+        "Google Ads optimization checklist",
+        "AdWords audit template",
+        "Google Ads performance review",
+        "PPC account audit",
+        "Google Ads management checklist"
+      ],
+      "category": "Performance Marketing",
+      "angle": "Provide the exact 47-point checklist our team uses for client audits, positioning it as a tool that reveals why most accounts underperform",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "How often should I audit my Google Ads account?",
+        "What should I look for in a Google Ads audit?",
+        "How do I know if my Google Ads are performing well?",
+        "What are common Google Ads mistakes?",
+        "Should I hire someone to audit my Google Ads?"
+      ],
+      "customerGenerationReason": "Business owners and marketers using this checklist will likely discover issues with their current Google Ads setup that they can't fix themselves. This positions us as the expert solution, and many will realize they need professional management to achieve the performance standards outlined in our comprehensive audit."
+    },
+    {
+      "id": 7,
+      "title": "Customer Acquisition Cost by Channel: 2024 Benchmarks",
+      "slug": "customer-acquisition-cost-by-channel-benchmarks",
+      "primaryKeyword": "customer acquisition cost by channel",
+      "secondaryKeywords": [
+        "CAC by marketing channel",
+        "customer acquisition cost benchmarks",
+        "CAC comparison by industry",
+        "cost to acquire customers",
+        "customer acquisition metrics",
+        "CAC optimization strategies",
+        "customer acquisition cost analysis"
+      ],
+      "category": "Business Growth",
+      "angle": "Share exclusive benchmark data from our client base across different channels, showing which channels deliver the lowest CAC and highest LTV",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "What is a good customer acquisition cost?",
+        "How do you reduce customer acquisition cost?",
+        "Which marketing channel has the lowest CAC?",
+        "How do you calculate customer acquisition cost?",
+        "What is the difference between CAC and cost per lead?"
+      ],
+      "customerGenerationReason": "Business owners researching CAC benchmarks are focused on profitable growth and optimizing their marketing spend. They're likely evaluating different marketing channels and agencies, making them ideal prospects for our results-focused approach where they can see exactly how our CAC compares to industry benchmarks."
+    },
+    {
+      "id": 8,
+      "title": "TikTok Ads for E-commerce: Complete Setup Guide 2024",
+      "slug": "tiktok-ads-ecommerce-setup-guide-2024",
+      "primaryKeyword": "TikTok ads for e-commerce",
+      "secondaryKeywords": [
+        "TikTok advertising for online stores",
+        "TikTok ecommerce marketing",
+        "TikTok ads setup guide",
+        "TikTok shopping ads",
+        "TikTok ads for Shopify",
+        "TikTok marketing strategy",
+        "TikTok ads campaign setup"
+      ],
+      "category": "Paid Social",
+      "angle": "Provide the complete setup process we use for e-commerce clients, including creative strategies and audience targeting specific to TikTok's algorithm",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "Do TikTok ads work for e-commerce?",
+        "How much do TikTok ads cost for online stores?",
+        "What types of TikTok ads work best for e-commerce?",
+        "How do I set up TikTok shopping ads?",
+        "Can you sell products directly on TikTok?"
+      ],
+      "customerGenerationReason": "E-commerce business owners exploring TikTok ads are looking to diversify their advertising channels and reach younger demographics. They're actively seeking to expand their marketing efforts and are perfect prospects for our multi-platform expertise, especially since TikTok ads require specialized knowledge that most businesses lack."
     }
   ]
 }
