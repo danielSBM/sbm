@@ -1,222 +1,223 @@
 {
-  "date": "2026-05-02T08:24:27.170Z",
+  "date": "2026-05-02T08:27:00.650Z",
   "status": "pending_approval",
   "ideas": [
     {
       "id": 1,
-      "title": "Google Ads Manager vs. Meta Ads Manager: Which Drives Better ROI?",
-      "slug": "google-ads-manager-vs-meta-ads-manager-roi-comparison",
-      "primaryKeyword": "google ads manager",
+      "title": "What Is Performance Marketing? Complete Guide for Business Owners",
+      "slug": "what-is-performance-marketing-guide",
+      "primaryKeyword": "what is performance marketing",
       "secondaryKeywords": [
-        "meta ads manager",
-        "facebook ads manager",
-        "ads manager comparison",
-        "google ads vs facebook ads",
-        "ad campaign management",
-        "advertising platform comparison",
-        "digital marketing ROI"
+        "performance marketing definition",
+        "performance marketing meaning",
+        "performance marketing examples",
+        "digital performance marketing",
+        "performance marketing strategy",
+        "performance in marketing",
+        "performance marketing company"
       ],
       "category": "Performance Marketing",
-      "angle": "Head-to-head comparison focusing on actual ROI metrics and performance data, with case studies showing how our AI-powered approach optimizes both platforms simultaneously for maximum results",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "medium",
+      "angle": "Educational guide that introduces the pay-per-result model as the evolution of performance marketing, showing how AI-powered campaigns eliminate traditional agency risks",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "Which is better Google Ads or Facebook Ads for my business?",
-        "How much does Google Ads Manager cost compared to Meta?",
-        "Can you run Google and Facebook ads at the same time?",
-        "What's the difference between Google Ads and Meta Ads Manager?",
-        "Which platform has better targeting options Google or Meta?"
+        "How does performance marketing differ from traditional advertising?",
+        "What are the benefits of performance marketing for small businesses?",
+        "How much does performance marketing cost?",
+        "What platforms are best for performance marketing?",
+        "How do you measure performance marketing success?"
       ],
-      "customerGenerationReason": "Business owners searching this comparison are actively evaluating paid advertising platforms and need help choosing the right strategy. They're likely frustrated with managing multiple platforms and poor ROI. Our pay-per-result model eliminates their risk while our AI expertise across both platforms positions us as the obvious solution for multi-platform success."
+      "customerGenerationReason": "Business owners searching this are at the awareness stage of understanding performance marketing. This article positions our pay-per-result model as the ultimate performance marketing solution, capturing leads who are evaluating alternatives to traditional agency retainers and looking for risk-free advertising options."
     },
     {
       "id": 2,
-      "title": "YouTube Ads Cost 2024: Real Pricing Data + Budget Calculator",
-      "slug": "youtube-ads-cost-2024-pricing-budget-calculator",
-      "primaryKeyword": "youtube ads cost",
+      "title": "Meta Ads Manager Tutorial: Setup & Optimization Guide 2024",
+      "slug": "meta-ads-manager-tutorial-guide",
+      "primaryKeyword": "meta ads manager",
       "secondaryKeywords": [
-        "youtube advertising cost",
-        "youtube ads pricing",
-        "youtube ads budget",
-        "cost per view youtube",
-        "youtube ads campaign cost",
-        "youtube marketing budget",
-        "video advertising costs"
+        "ads manager",
+        "meta business ads",
+        "meta ads account",
+        "facebook ads manager",
+        "instagram ads manager",
+        "meta for business",
+        "meta ad setup"
       ],
       "category": "Paid Social",
-      "angle": "Transparent breakdown of actual YouTube ad costs with interactive calculator and industry benchmarks, plus how our pay-per-result model eliminates budget waste and guarantees cost efficiency",
-      "searchIntent": "commercial",
+      "angle": "Comprehensive tutorial that reveals advanced Meta ads strategies while highlighting common costly mistakes that our AI-powered management prevents",
+      "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How much do YouTube ads cost per month?",
-        "What is the minimum budget for YouTube ads?",
-        "How much does it cost to advertise on YouTube for small business?",
-        "Are YouTube ads worth the money?",
-        "How do you calculate YouTube ad costs?"
+        "How do I set up Meta ads manager for my business?",
+        "What are the best Meta ads manager settings?",
+        "How much should I spend on Meta ads as a beginner?",
+        "Why are my Meta ads not performing well?",
+        "How do I optimize Meta ads for better results?"
       ],
-      "customerGenerationReason": "Searchers are in the planning phase of YouTube advertising and concerned about costs and budget allocation. They're likely hesitant due to uncertainty about ROI and budget waste. Our cost transparency and pay-per-result model directly addresses their main concern - they only pay when we deliver actual customers, making the investment decision risk-free."
+      "customerGenerationReason": "Users searching for Meta ads tutorials are actively trying to run their own campaigns but often struggle with complexity and poor results. This article demonstrates our expertise while showing the challenges of self-management, naturally leading to our pay-per-result solution for guaranteed performance without the learning curve."
     },
     {
       "id": 3,
-      "title": "AI Advertising Tools That Actually Increase ROAS (2024 Guide)",
-      "slug": "ai-advertising-tools-increase-roas-2024-guide",
-      "primaryKeyword": "AI advertising",
+      "title": "TikTok Ads Cost: Complete Pricing Guide & Budget Calculator",
+      "slug": "tiktok-ads-cost-pricing-guide",
+      "primaryKeyword": "tiktok ads cost",
       "secondaryKeywords": [
-        "AI marketing tools",
-        "artificial intelligence advertising",
-        "automated ad optimization",
-        "AI ad targeting",
-        "machine learning ads",
-        "programmatic advertising",
-        "ad automation tools"
+        "tiktok advertising cost",
+        "tiktok ads pricing",
+        "tiktok business ads cost",
+        "tiktok ads budget",
+        "how much do tiktok ads cost",
+        "tiktok ads minimum budget",
+        "tiktok cpm rates"
       ],
-      "category": "AI Advertising",
-      "angle": "Comprehensive review of AI advertising tools with real performance data and ROAS improvements, positioning our proprietary AI system as the next evolution beyond basic tools",
-      "searchIntent": "informational",
+      "category": "Paid Social",
+      "angle": "Transparent cost breakdown that reveals hidden expenses and poor ROAS risks, positioning our pay-per-result model as cost-effective since clients only pay for actual customers",
+      "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What are the best AI tools for advertising?",
-        "How does AI improve advertising performance?",
-        "Can AI really increase ROAS?",
-        "What is artificial intelligence in digital marketing?",
-        "How do I use AI for Google Ads optimization?"
+        "What is the minimum budget for TikTok ads?",
+        "Are TikTok ads cheaper than Facebook ads?",
+        "How much should I spend on TikTok ads per day?",
+        "What affects TikTok advertising costs?",
+        "Do TikTok ads work for small businesses?"
       ],
-      "customerGenerationReason": "Readers are marketing-savvy business owners or managers looking to leverage AI for better advertising results. They understand the importance of ROAS and are actively seeking competitive advantages. After learning about AI tools, they'll realize they need expert implementation - our AI-powered agency model with pay-per-result pricing offers them cutting-edge technology without the complexity of managing it themselves."
+      "customerGenerationReason": "Business owners researching TikTok ads costs are in the consideration phase and budget-conscious. This article addresses their cost concerns while highlighting the risk of wasted ad spend with traditional agencies, making our pay-per-result model extremely appealing since they only pay for actual customers, not clicks or impressions."
     },
     {
       "id": 4,
-      "title": "Google Ads Account Setup: 2024 Step-by-Step Success Guide",
-      "slug": "google-ads-account-setup-step-by-step-guide-2024",
-      "primaryKeyword": "google ads account",
+      "title": "Digital Performance Marketing: AI Tools & Strategies That Work",
+      "slug": "digital-performance-marketing-ai-strategies",
+      "primaryKeyword": "digital performance marketing",
       "secondaryKeywords": [
-        "google ads setup",
-        "how to create google ads account",
-        "google ads campaign setup",
-        "google advertising account",
-        "google ads beginner guide",
-        "google ads configuration",
-        "pay per click setup"
+        "performance marketing tools",
+        "AI performance marketing",
+        "digital marketing performance",
+        "performance marketing automation",
+        "marketing performance management",
+        "performance marketing technology",
+        "AI advertising tools"
       ],
-      "category": "Performance Marketing",
-      "angle": "Complete setup guide with advanced optimization techniques and common costly mistakes to avoid, plus how professional management delivers better results than DIY approaches",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "low",
+      "category": "AI Advertising",
+      "angle": "Showcase cutting-edge AI tools and strategies for performance marketing, positioning Seen By Many's AI-powered approach as the competitive advantage businesses need",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "How do I create a Google Ads account for my business?",
-        "Is it free to set up a Google Ads account?",
-        "What do I need to start Google Ads?",
-        "How long does Google Ads account approval take?",
-        "Can I manage Google Ads myself or should I hire someone?"
+        "What are the best AI tools for performance marketing?",
+        "How is AI changing digital performance marketing?",
+        "What performance marketing tools do professionals use?",
+        "How do you automate performance marketing campaigns?",
+        "Which AI advertising platforms deliver the best ROI?"
       ],
-      "customerGenerationReason": "These are business owners taking their first steps into Google Ads, representing high-value prospects. They're motivated to advertise but lack expertise, making them perfect for our services. After reading about the complexity and common pitfalls, they'll realize professional management is worth the investment - especially with our pay-per-result model that eliminates their learning curve risk."
+      "customerGenerationReason": "Readers searching for digital performance marketing with AI are sophisticated marketers or business owners looking for competitive advantages. They understand the value of performance marketing but need better tools and strategies. This positions our AI-powered pay-per-result service as the ultimate solution for businesses wanting cutting-edge performance without building internal capabilities."
     },
     {
       "id": 5,
-      "title": "Meta AI Ads: How Artificial Intelligence Transforms Ad Performance",
-      "slug": "meta-ai-ads-artificial-intelligence-ad-performance",
-      "primaryKeyword": "meta ai ads",
+      "title": "Performance Marketing Agency vs In-House: Cost & ROI Analysis",
+      "slug": "performance-marketing-agency-vs-inhouse",
+      "primaryKeyword": "performance marketing agency",
       "secondaryKeywords": [
-        "facebook ai advertising",
-        "meta artificial intelligence ads",
-        "automated facebook ads",
-        "meta ads optimization",
-        "AI powered social media ads",
-        "facebook machine learning",
-        "meta ads automation"
+        "performance marketing agencies",
+        "performance marketing services",
+        "performance marketing company",
+        "best performance marketing agency",
+        "performance marketing agency cost",
+        "digital performance marketing agency",
+        "hire performance marketing agency"
       ],
-      "category": "AI Advertising",
-      "angle": "Deep dive into Meta's AI advertising features with performance comparisons and advanced strategies for maximizing AI-driven results that most advertisers miss",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "low",
+      "category": "Business Growth",
+      "angle": "Honest comparison between agencies and in-house teams, revealing the flaws in traditional agency models and introducing pay-per-result as the superior third option",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "How does Meta use AI in advertising?",
-        "What are Meta AI ads and how do they work?",
-        "Can AI improve my Facebook ad performance?",
-        "How to enable AI optimization in Meta ads?",
-        "What's the difference between regular and AI-powered Meta ads?"
+        "Should I hire a performance marketing agency or build in-house?",
+        "How much do performance marketing agencies charge?",
+        "What should I look for in a performance marketing agency?",
+        "Are performance marketing agencies worth it?",
+        "How do I choose the best performance marketing agency?"
       ],
-      "customerGenerationReason": "Readers are existing advertisers or marketing professionals seeking to improve their Meta ads performance through AI. They're already spending money on ads but not getting optimal results. Our expertise in AI-powered advertising combined with pay-per-result pricing appeals to their desire for better performance without additional risk - they can access advanced AI strategies while only paying for actual customer acquisition."
+      "customerGenerationReason": "Business owners comparing agency vs in-house options are actively looking to invest in performance marketing. This article captures high-intent prospects who are evaluating their options and positions our pay-per-result model as eliminating the risks of both traditional agencies (retainers, poor performance) and in-house teams (high costs, expertise gaps)."
     },
     {
       "id": 6,
-      "title": "E-commerce Growth Strategies: Scale from 6 to 7 Figures in 2024",
-      "slug": "ecommerce-growth-strategies-scale-6-to-7-figures-2024",
-      "primaryKeyword": "e-commerce growth",
+      "title": "Google Local Service Ads: Complete Setup Guide for 2024",
+      "slug": "google-local-service-ads-setup-guide",
+      "primaryKeyword": "google local service ads",
       "secondaryKeywords": [
-        "ecommerce scaling strategies",
-        "online business growth",
-        "ecommerce marketing",
-        "scale ecommerce business",
-        "ecommerce revenue growth",
-        "online store optimization",
-        "ecommerce advertising"
+        "local service ads google",
+        "google local services",
+        "google local ads",
+        "local service ads setup",
+        "google guaranteed ads",
+        "local service ads cost",
+        "google local business ads"
       ],
-      "category": "E-commerce Growth",
-      "angle": "Proven growth strategies with specific tactics for scaling e-commerce businesses, emphasizing paid advertising as the primary growth lever and customer acquisition challenges at scale",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "medium",
-      "peopleAlsoAsk": [
-        "How do I scale my ecommerce business quickly?",
-        "What are the best marketing strategies for ecommerce growth?",
-        "How much should I spend on advertising to grow my online store?",
-        "What's the fastest way to increase ecommerce sales?",
-        "How do successful ecommerce businesses scale their marketing?"
-      ],
-      "customerGenerationReason": "These are ambitious e-commerce business owners with proven products looking to scale rapidly. They have revenue and understand the need for aggressive marketing but struggle with efficient customer acquisition at scale. Our pay-per-result model is perfect for scaling businesses because it aligns our success with their growth goals - they can scale their advertising spend confidently knowing they only pay for actual customers."
-    },
-    {
-      "id": 7,
-      "title": "Facebook Ads Library: Spy on Competitors + Steal Winning Strategies",
-      "slug": "facebook-ads-library-competitor-research-winning-strategies",
-      "primaryKeyword": "ads library",
-      "secondaryKeywords": [
-        "facebook ads library",
-        "meta ads library",
-        "competitor ad research",
-        "facebook ad spy tool",
-        "advertising research",
-        "competitive analysis",
-        "ad creative research"
-      ],
-      "category": "Paid Social",
-      "angle": "Advanced techniques for using Facebook Ads Library for competitive intelligence and creative inspiration, with frameworks for analyzing and adapting successful competitor strategies",
+      "category": "Lead Generation",
+      "angle": "Step-by-step guide for local businesses with emphasis on lead qualification challenges and why pay-per-qualified-lead models work better than pay-per-click",
       "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How do I use Facebook Ads Library to see competitor ads?",
-        "Can I copy competitor ads from Facebook Ads Library?",
-        "How to find successful Facebook ad examples?",
-        "What can I learn from competitor Facebook ads?",
-        "How to research competitor advertising strategies?"
+        "How much do Google Local Service Ads cost?",
+        "Are Google Local Service Ads worth it?",
+        "How do I get approved for Google Local Service Ads?",
+        "What's the difference between Google Ads and Local Service Ads?",
+        "How do Google Local Service Ads generate leads?"
       ],
-      "customerGenerationReason": "Readers are business owners or marketers doing competitive research to improve their own advertising. They're active advertisers looking for an edge but struggling with creative strategy and competitive positioning. After learning advanced research techniques, they'll realize the complexity of executing winning strategies consistently - our AI-powered creative optimization and pay-per-result model offers them proven creative strategies without the trial-and-error costs."
+      "customerGenerationReason": "Local business owners searching for Local Service Ads guidance are actively seeking more customers and leads. This article targets businesses that understand the value of local advertising but struggle with lead quality and costs. Our pay-per-qualified-lead model directly addresses their main pain point of paying for unqualified clicks and poor leads."
+    },
+    {
+      "id": 7,
+      "title": "ROAS Optimization: 7 Strategies to Double Your Ad Returns",
+      "slug": "roas-optimization-strategies-guide",
+      "primaryKeyword": "ROAS optimization",
+      "secondaryKeywords": [
+        "return on ad spend",
+        "improve ROAS",
+        "ROAS strategies",
+        "ad spend optimization",
+        "advertising ROI optimization",
+        "increase ROAS",
+        "ROAS best practices",
+        "maximize ad returns"
+      ],
+      "category": "Performance Marketing",
+      "angle": "Advanced ROAS optimization tactics while highlighting how pay-per-result eliminates ROAS concerns entirely since clients only pay for profitable outcomes",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "What is a good ROAS for advertising?",
+        "How do you calculate and improve ROAS?",
+        "Why is my ROAS so low?",
+        "What factors affect ROAS in advertising?",
+        "How can AI improve advertising ROAS?"
+      ],
+      "customerGenerationReason": "Businesses searching for ROAS optimization are already spending on ads but struggling with profitability. These are high-value prospects experiencing the exact pain our service solves. The article positions our pay-per-result model as the ultimate ROAS solution since clients are guaranteed profitable outcomes, making it irresistible to businesses currently losing money on ads."
     },
     {
       "id": 8,
-      "title": "Google Ads Campaign Types: Which Delivers Best ROI for Your Business?",
-      "slug": "google-ads-campaign-types-best-roi-business-guide",
-      "primaryKeyword": "google ads campaign",
+      "title": "E-commerce Facebook Ads Strategy: Scale to 7-Figures in 2024",
+      "slug": "ecommerce-facebook-ads-strategy-guide",
+      "primaryKeyword": "ecommerce facebook ads",
       "secondaryKeywords": [
-        "google advertising campaigns",
-        "types of google ads",
-        "google ads campaign strategy",
-        "search ads vs display ads",
-        "google ads campaign setup",
-        "ppc campaign types",
-        "google ads optimization"
+        "facebook ads for ecommerce",
+        "ecommerce advertising strategy",
+        "facebook ads ecommerce",
+        "online store facebook ads",
+        "ecommerce meta ads",
+        "facebook advertising ecommerce",
+        "shopify facebook ads"
       ],
-      "category": "Performance Marketing",
-      "angle": "ROI-focused comparison of all Google Ads campaign types with decision framework for choosing the right mix based on business goals and customer lifecycle stages",
+      "category": "E-commerce Growth",
+      "angle": "Advanced e-commerce scaling strategies with real case studies, positioning our AI-powered creative testing and pay-per-customer model as the key to sustainable growth",
       "searchIntent": "commercial",
       "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "Which Google Ads campaign type is most effective?",
-        "What's the difference between search and display campaigns?",
-        "How do I choose the right Google Ads campaign type?",
-        "Which Google Ads campaign gives best ROI?",
-        "Should I run multiple Google Ads campaign types?"
+        "How much should e-commerce stores spend on Facebook ads?",
+        "What are the best Facebook ad types for e-commerce?",
+        "How do you scale Facebook ads for online stores?",
+        "What's a good conversion rate for e-commerce Facebook ads?",
+        "How do you create winning Facebook ads for e-commerce?"
       ],
-      "customerGenerationReason": "These are business owners planning their Google Ads strategy and trying to allocate budget effectively across campaign types. They're serious about advertising but overwhelmed by options and concerned about wasting money on the wrong approach. Our expertise in multi-campaign optimization and pay-per-result pricing eliminates their decision paralysis - they get expert campaign selection and management while only paying for results."
+      "customerGenerationReason": "E-commerce owners searching for Facebook ads strategies are actively looking to scale their businesses and have budget to invest. They understand the value of paid advertising but need better results. This article targets high-value prospects who can benefit most from our AI-powered creative testing and pay-per-customer model, especially appealing since e-commerce businesses can easily track customer value."
     }
   ]
 }
