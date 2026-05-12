@@ -1,230 +1,222 @@
 {
-  "date": "2026-05-12T09:44:45.819Z",
+  "date": "2026-05-12T09:47:27.692Z",
   "status": "pending_approval",
   "ideas": [
     {
       "id": 1,
-      "title": "AI Lead Generation: How AI Transforms Customer Acquisition",
-      "slug": "ai-lead-generation-customer-acquisition",
-      "primaryKeyword": "ai lead generation",
+      "title": "AI Advertising Cost: What You'll Really Pay for AI-Powered Ads",
+      "slug": "ai-advertising-cost-pricing-guide",
+      "primaryKeyword": "AI advertising cost",
       "secondaryKeywords": [
-        "best lead generation",
-        "lead generation companies",
-        "ai advertising",
-        "customer acquisition",
-        "marketing lead generation",
-        "lead generation services",
-        "automated lead generation",
-        "ai marketing tools"
+        "AI advertising pricing",
+        "AI ads cost",
+        "AI marketing budget",
+        "performance-based advertising",
+        "pay per result advertising",
+        "AI advertising ROI",
+        "automated advertising costs"
       ],
       "category": "AI Advertising",
-      "angle": "Position Seen By Many as pioneers in AI-powered lead generation, showcasing how our AI algorithms optimize campaigns in real-time for better qualified leads while clients only pay for results",
+      "angle": "Transparent cost breakdown comparing traditional agency retainers vs pay-per-result AI advertising, positioning our model as risk-free and performance-focused",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How does AI improve lead generation quality?",
-        "What are the best AI tools for lead generation?",
-        "How much does AI lead generation cost?",
-        "Can AI lead generation work for small businesses?",
-        "What's the ROI of AI-powered lead generation?"
+        "How much does AI advertising cost per month?",
+        "Is AI advertising more expensive than traditional ads?",
+        "What is pay-per-result advertising pricing?",
+        "How do AI advertising agencies charge clients?",
+        "What's the ROI of AI-powered advertising?"
       ],
-      "customerGenerationReason": "Business owners searching for AI lead generation are already convinced they need leads but want modern, efficient solutions. They're likely frustrated with traditional agencies' retainer models and poor results. This article attracts decision-makers ready to invest in lead generation, making them ideal prospects for our pay-per-result model that guarantees they only pay when we deliver qualified leads."
+      "customerGenerationReason": "Business owners searching for AI advertising costs are actively evaluating AI solutions and comparing pricing models. They're likely frustrated with traditional agency retainers and looking for performance-based alternatives. This article positions our pay-per-result model as the transparent, risk-free solution they're seeking."
     },
     {
       "id": 2,
-      "title": "Local Lead Generation: Get More Customers in Your Area",
-      "slug": "local-lead-generation-strategies",
-      "primaryKeyword": "local lead generation",
+      "title": "TikTok Ads for Small Business: Complete 2024 Strategy Guide",
+      "slug": "tiktok-ads-small-business-strategy-guide",
+      "primaryKeyword": "TikTok ads for small business",
       "secondaryKeywords": [
-        "local business marketing",
-        "google ads local",
-        "facebook ads local",
-        "local customer acquisition",
-        "small business lead generation",
-        "local advertising strategies",
-        "geo-targeted ads",
-        "local seo lead generation"
+        "TikTok advertising small business",
+        "TikTok marketing strategy",
+        "small business TikTok campaigns",
+        "TikTok ad budget",
+        "TikTok lead generation",
+        "TikTok business advertising",
+        "TikTok ROI"
       ],
-      "category": "Lead Generation",
-      "angle": "Focus on how local businesses can dominate their geographic market using multi-platform advertising, emphasizing our pay-per-result model as risk-free for local businesses with tight budgets",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
+      "category": "Paid Social",
+      "angle": "Focus on how small businesses can compete on TikTok without big budgets through AI-optimized campaigns and performance-based partnerships",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "What is the best local lead generation strategy?",
-        "How do I generate leads for my local business?",
-        "Which platform works best for local advertising?",
-        "How much should I spend on local lead generation?",
-        "How do I track local lead generation ROI?"
+        "How much should small businesses spend on TikTok ads?",
+        "Do TikTok ads work for small businesses?",
+        "What types of TikTok ads are best for small business?",
+        "How to create TikTok ads on a small budget?",
+        "What's the minimum budget for TikTok advertising?"
       ],
-      "customerGenerationReason": "Local business owners searching this term are actively looking to grow their customer base and are likely struggling with inconsistent lead flow. They often have limited marketing budgets and are risk-averse about advertising spend. Our pay-per-result model directly addresses their main concern - they only pay when we bring them actual customers from their local area."
+      "customerGenerationReason": "Small business owners researching TikTok advertising are looking to expand their customer base but are budget-conscious and risk-averse. This article attracts business owners who want TikTok's growth potential but need guaranteed results, making our pay-per-result model highly appealing."
     },
     {
       "id": 3,
-      "title": "Best Lead Generation Companies: 2024 Complete Guide",
-      "slug": "best-lead-generation-companies-2024",
-      "primaryKeyword": "best lead generation companies",
+      "title": "Customer Acquisition Cost: How to Calculate and Reduce CAC",
+      "slug": "customer-acquisition-cost-calculate-reduce-cac",
+      "primaryKeyword": "customer acquisition cost",
       "secondaryKeywords": [
-        "lead generation services",
-        "lead generation company",
-        "b2b lead generation",
-        "lead generation business",
-        "top lead generation agencies",
-        "lead generation pricing",
-        "lead generation reviews",
-        "pay per lead companies"
+        "CAC calculation",
+        "reduce customer acquisition cost",
+        "customer acquisition strategy",
+        "CAC optimization",
+        "performance marketing CAC",
+        "digital advertising CAC",
+        "customer acquisition metrics"
       ],
-      "category": "Lead Generation",
-      "angle": "Create an objective comparison guide that positions Seen By Many's pay-per-result model as the most transparent and risk-free option compared to traditional retainer-based agencies",
+      "category": "Performance Marketing",
+      "angle": "Show how pay-per-result advertising eliminates CAC uncertainty and provides predictable customer acquisition costs compared to traditional advertising",
       "searchIntent": "commercial",
       "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "What should I look for in a lead generation company?",
-        "How much do lead generation companies charge?",
-        "What's the difference between lead generation agencies?",
-        "How do I choose the right lead generation service?",
-        "What questions should I ask lead generation companies?"
+        "What is a good customer acquisition cost?",
+        "How do you calculate customer acquisition cost?",
+        "Why is my customer acquisition cost so high?",
+        "How to reduce customer acquisition cost with ads?",
+        "What's the difference between CAC and CPC?"
       ],
-      "customerGenerationReason": "People comparing lead generation companies are in active buying mode and likely frustrated with their current lead generation efforts. They're researching options and evaluating different agencies, making them high-intent prospects. This article positions us favorably against competitors while our unique pay-per-result model becomes the key differentiator that reduces their decision risk."
+      "customerGenerationReason": "Business owners searching for CAC information are struggling with advertising profitability and need predictable customer acquisition costs. They're ideal prospects for our pay-per-result model since they only pay when we deliver actual customers, solving their CAC uncertainty problem."
     },
     {
       "id": 4,
-      "title": "Lead Generation Campaign: Strategy That Actually Works",
-      "slug": "lead-generation-campaign-strategy",
-      "primaryKeyword": "lead generation campaign",
+      "title": "Meta Ads Agency vs In-House: Which Gets Better Results?",
+      "slug": "meta-ads-agency-vs-in-house-comparison",
+      "primaryKeyword": "Meta ads agency",
       "secondaryKeywords": [
-        "lead generation strategy",
-        "multi-channel campaigns",
-        "facebook lead ads",
-        "google ads leads",
-        "campaign optimization",
-        "lead nurturing",
-        "conversion tracking",
-        "ad creative testing"
-      ],
-      "category": "Performance Marketing",
-      "angle": "Break down the anatomy of successful lead generation campaigns across multiple platforms, showcasing our expertise while demonstrating why campaign management is complex enough to warrant professional help",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "How do I create a successful lead generation campaign?",
-        "What platforms work best for lead generation campaigns?",
-        "How do I measure lead generation campaign success?",
-        "What's a good cost per lead for campaigns?",
-        "How long does it take to see results from lead generation campaigns?"
-      ],
-      "customerGenerationReason": "Business owners researching campaign strategies are either planning to run ads themselves or evaluating whether to hire an agency. After reading about the complexity of optimization, tracking, and multi-platform coordination, they'll realize they need professional help. The article demonstrates our expertise while our pay-per-result model eliminates the risk of paying for poorly performing campaigns."
-    },
-    {
-      "id": 5,
-      "title": "TikTok Ads for Business: Complete Beginner's Guide 2024",
-      "slug": "tiktok-ads-for-business-guide",
-      "primaryKeyword": "tiktok ads for business",
-      "secondaryKeywords": [
-        "tiktok advertising",
-        "tiktok business account",
-        "tiktok ad campaign",
-        "tiktok marketing strategy",
-        "tiktok ad costs",
-        "tiktok lead generation",
-        "tiktok ecommerce",
-        "tiktok ad creative"
+        "Facebook ads agency",
+        "Instagram ads management",
+        "Meta advertising services",
+        "Facebook ads consultant",
+        "social media advertising agency",
+        "Meta ads specialist",
+        "performance-based advertising"
       ],
       "category": "Paid Social",
-      "angle": "Position TikTok as an untapped goldmine for business growth while highlighting the platform's complexity and creative demands, making a case for professional management",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "How much do TikTok ads cost for small business?",
-        "Can TikTok ads work for B2B companies?",
-        "What type of TikTok ads work best?",
-        "How do I create effective TikTok ad content?",
-        "What's the minimum budget for TikTok ads?"
-      ],
-      "customerGenerationReason": "Businesses researching TikTok ads are looking to tap into younger demographics and expand their reach beyond traditional platforms. They recognize TikTok's potential but are intimidated by the platform's unique creative requirements and fast-paced culture. This creates an opportunity to offer our expertise in TikTok advertising while our pay-per-result model lets them test this new channel without upfront risk."
-    },
-    {
-      "id": 6,
-      "title": "ROAS Optimization: Maximize Your Ad Return in 2024",
-      "slug": "roas-optimization-maximize-ad-return",
-      "primaryKeyword": "roas optimization",
-      "secondaryKeywords": [
-        "return on ad spend",
-        "ad performance optimization",
-        "facebook roas",
-        "google ads roas",
-        "campaign optimization",
-        "ad spend efficiency",
-        "conversion rate optimization",
-        "profitable advertising"
-      ],
-      "category": "Performance Marketing",
-      "angle": "Deep dive into ROAS improvement tactics while emphasizing how our AI-powered optimization and pay-per-result model inherently aligns our success with client ROAS goals",
+      "angle": "Compare traditional agencies, in-house teams, and performance-based agencies, highlighting how pay-per-result eliminates the risks of both options",
       "searchIntent": "commercial",
       "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "What is a good ROAS for Facebook ads?",
-        "How do I improve my Google Ads ROAS?",
-        "What's the difference between ROAS and ROI?",
-        "How do you calculate ROAS optimization?",
-        "Why is my ROAS decreasing?"
+        "Should I hire a Facebook ads agency or do it myself?",
+        "How much do Meta ads agencies charge?",
+        "What should I look for in a Facebook ads agency?",
+        "Is it worth hiring a Meta ads specialist?",
+        "How to choose the best Facebook advertising agency?"
       ],
-      "customerGenerationReason": "Business owners searching for ROAS optimization are already running ads but struggling with profitability - they're bleeding money on ineffective campaigns. These are warm prospects who understand advertising but need better results. Our pay-per-result model directly solves their problem since they only pay when campaigns generate profitable outcomes, making ROAS optimization our responsibility, not theirs."
+      "customerGenerationReason": "Business owners comparing Meta ads solutions are actively seeking advertising help and evaluating different partnership models. This article attracts prospects who are ready to invest in professional Meta advertising but want performance guarantees, positioning our agency as the risk-free choice."
+    },
+    {
+      "id": 5,
+      "title": "YouTube Ads Cost 2024: Real Pricing + Budget Calculator",
+      "slug": "youtube-ads-cost-pricing-calculator-2024",
+      "primaryKeyword": "YouTube ads cost",
+      "secondaryKeywords": [
+        "YouTube advertising cost",
+        "YouTube ads pricing",
+        "YouTube ads budget",
+        "YouTube advertising rates",
+        "video advertising cost",
+        "YouTube marketing budget",
+        "YouTube ads ROI"
+      ],
+      "category": "Paid Social",
+      "angle": "Provide transparent YouTube advertising costs while introducing pay-per-result as an alternative to uncertain ad spend with guaranteed outcomes",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "How much do YouTube ads cost per view?",
+        "What's the minimum budget for YouTube advertising?",
+        "How much should I spend on YouTube ads per day?",
+        "Are YouTube ads expensive for small businesses?",
+        "How to calculate YouTube advertising budget?"
+      ],
+      "customerGenerationReason": "Business owners researching YouTube ads costs are budget-conscious and looking to minimize advertising risk while maximizing results. They're perfect prospects for our pay-per-result YouTube advertising since they only pay when we deliver actual customers, eliminating budget uncertainty."
+    },
+    {
+      "id": 6,
+      "title": "Lead Generation for E-commerce: 7 Strategies That Convert",
+      "slug": "lead-generation-ecommerce-strategies-convert",
+      "primaryKeyword": "lead generation for e-commerce",
+      "secondaryKeywords": [
+        "e-commerce lead generation",
+        "online store lead generation",
+        "e-commerce customer acquisition",
+        "digital marketing for e-commerce",
+        "e-commerce marketing strategies",
+        "online retail lead generation",
+        "e-commerce conversion optimization"
+      ],
+      "category": "E-commerce Growth",
+      "angle": "Focus on AI-powered lead generation strategies and how performance-based partnerships reduce risk for e-commerce businesses testing new channels",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "How do e-commerce businesses generate leads?",
+        "What are the best lead generation strategies for online stores?",
+        "How to get more customers for e-commerce business?",
+        "What is the cost of e-commerce lead generation?",
+        "How to measure e-commerce lead generation success?"
+      ],
+      "customerGenerationReason": "E-commerce business owners searching for lead generation strategies are actively looking to grow their customer base and increase sales. They're ideal prospects because e-commerce businesses can easily track customer value, making our pay-per-result model highly attractive for guaranteed customer acquisition."
     },
     {
       "id": 7,
-      "title": "E-commerce Lead Generation: Convert Browsers to Buyers",
-      "slug": "ecommerce-lead-generation-strategies",
-      "primaryKeyword": "ecommerce lead generation",
+      "title": "Performance Marketing Agency: How to Choose the Right One",
+      "slug": "performance-marketing-agency-how-to-choose",
+      "primaryKeyword": "performance marketing agency",
       "secondaryKeywords": [
-        "ecommerce customer acquisition",
-        "online store marketing",
-        "ecommerce conversion optimization",
-        "shopify lead generation",
-        "ecommerce email marketing",
-        "facebook ads ecommerce",
-        "google shopping ads",
-        "ecommerce growth strategies"
+        "performance-based marketing",
+        "performance advertising agency",
+        "results-driven marketing",
+        "performance marketing services",
+        "digital performance agency",
+        "pay-per-result marketing",
+        "performance marketing consultant"
       ],
-      "category": "E-commerce Growth",
-      "angle": "Focus on the unique challenges of e-commerce lead generation and customer acquisition, positioning our multi-platform expertise and performance-based pricing as ideal for online retailers",
+      "category": "Performance Marketing",
+      "angle": "Guide prospects through agency selection criteria while positioning pay-per-result as the ultimate performance marketing model that aligns agency and client interests",
       "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
+      "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "How do I get more customers for my online store?",
-        "What's the best way to generate ecommerce leads?",
-        "How much should I spend on ecommerce advertising?",
-        "Which platform works best for ecommerce ads?",
-        "How do I reduce ecommerce customer acquisition cost?"
+        "What does a performance marketing agency do?",
+        "How much do performance marketing agencies charge?",
+        "What questions to ask a performance marketing agency?",
+        "What's the difference between performance marketing and digital marketing?",
+        "How to measure performance marketing agency success?"
       ],
-      "customerGenerationReason": "E-commerce business owners searching for lead generation strategies are typically struggling with customer acquisition costs, seasonal fluctuations, or scaling challenges. They need consistent, profitable customer acquisition but often lack the expertise to manage complex multi-platform campaigns. Our pay-per-result model is particularly appealing to e-commerce businesses since they can directly track revenue attribution and only pay when we deliver actual customers."
+      "customerGenerationReason": "Business owners researching performance marketing agencies are sophisticated buyers looking for guaranteed results and accountability. They're frustrated with traditional agencies and actively seeking performance-based partnerships, making them highly qualified prospects for our pay-per-result advertising model."
     },
     {
       "id": 8,
-      "title": "Pay Per Result Advertising: Revolutionary Marketing Model",
-      "slug": "pay-per-result-advertising-model",
-      "primaryKeyword": "pay per result advertising",
+      "title": "ROAS Optimization: Boost Ad Returns with AI (2024 Guide)",
+      "slug": "roas-optimization-ai-advertising-guide",
+      "primaryKeyword": "ROAS optimization",
       "secondaryKeywords": [
-        "performance based marketing",
-        "pay per lead",
-        "results based advertising",
-        "no retainer marketing",
-        "guaranteed results advertising",
-        "risk free marketing",
-        "pay for performance",
-        "outcome based advertising"
+        "return on ad spend",
+        "ROAS improvement",
+        "AI ROAS optimization",
+        "advertising ROI optimization",
+        "performance marketing ROAS",
+        "ROAS calculator",
+        "improve ROAS"
       ],
-      "category": "Business Growth",
-      "angle": "Educate the market about the pay-per-result advertising model, comparing it to traditional retainer models while positioning Seen By Many as the leader in this space",
+      "category": "AI Advertising",
+      "angle": "Demonstrate how AI-powered optimization combined with pay-per-result pricing guarantees positive ROAS since clients only pay for actual results",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How does pay per result advertising work?",
-        "Is pay per result advertising better than retainers?",
-        "What are the benefits of performance based marketing?",
-        "How do agencies make money with pay per result?",
-        "What businesses work best with pay per result advertising?"
+        "What is a good ROAS for advertising?",
+        "How to calculate ROAS?",
+        "How can AI improve advertising ROAS?",
+        "What's the difference between ROAS and ROI?",
+        "How to optimize ROAS on Google Ads?"
       ],
-      "customerGenerationReason": "Business owners researching pay-per-result advertising are likely frustrated with traditional agency models where they pay regardless of results. They're actively seeking a better, more accountable way to handle their advertising spend. These prospects are pre-qualified and highly motivated since they're specifically looking for exactly what we offer - they just need to understand how it works and why we're the best provider."
+      "customerGenerationReason": "Business owners searching for ROAS optimization are struggling with advertising profitability and need better returns on their ad spend. They're perfect prospects for our AI-powered, pay-per-result model since it guarantees positive ROAS by only charging when we deliver profitable customers."
     }
   ]
 }
