@@ -1,195 +1,221 @@
 {
-  "date": "2026-05-21T10:45:40.651Z",
+  "date": "2026-05-22T10:27:00.726Z",
   "status": "pending_approval",
   "ideas": [
     {
       "id": 1,
-      "title": "TikTok Ads Cost Calculator: Budget Planning for 2024",
-      "slug": "tiktok-ads-cost-calculator-budget-planning-2024",
-      "primaryKeyword": "TikTok ads cost",
+      "title": "What Is Performance Marketing? Complete Guide for 2024",
+      "slug": "what-is-performance-marketing-guide-2024",
+      "primaryKeyword": "what is performance marketing",
       "secondaryKeywords": [
-        "TikTok advertising budget",
-        "TikTok ads pricing",
-        "TikTok campaign cost",
-        "TikTok ads ROI",
-        "TikTok marketing budget",
-        "cost per click TikTok",
-        "TikTok ads performance"
+        "performance marketing strategy",
+        "digital performance marketing",
+        "performance marketing services",
+        "performance marketing companies",
+        "online performance marketing",
+        "performance marketing tools",
+        "performance marketing agency"
       ],
-      "category": "Paid Social",
-      "angle": "Interactive cost calculator tool that shows potential savings with pay-per-result vs traditional retainer model",
-      "searchIntent": "commercial",
+      "category": "Performance Marketing",
+      "angle": "Position pay-per-result as the purest form of performance marketing, showing how Seen By Many eliminates risk by only charging for actual results",
+      "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How much do TikTok ads cost per day?",
-        "What is the minimum budget for TikTok ads?",
-        "How much does it cost to promote on TikTok?",
-        "Are TikTok ads cheaper than Facebook ads?",
-        "How do I calculate TikTok ad spend?"
+        "How does performance marketing differ from traditional advertising?",
+        "What are the benefits of performance marketing for small businesses?",
+        "How much does performance marketing cost?",
+        "What metrics should I track in performance marketing?",
+        "Is performance marketing better than brand marketing?"
       ],
-      "customerGenerationReason": "Business owners researching TikTok ad costs are actively planning campaigns and evaluating budget allocation. They're cost-conscious and looking for efficient spending options, making them ideal prospects for our pay-per-result model. This audience has clear intent to start advertising and will appreciate our risk-free pricing structure."
+      "customerGenerationReason": "Business owners searching for this are evaluating performance marketing as a strategy, indicating they want measurable results from advertising. This positions our pay-per-result model as the ultimate performance marketing solution, attracting cost-conscious businesses who want guaranteed ROI without upfront agency fees."
     },
     {
       "id": 2,
-      "title": "AI Ad Creative Strategy: 10x Your Campaign Performance",
-      "slug": "ai-ad-creative-strategy-10x-campaign-performance",
-      "primaryKeyword": "AI ad creative strategy",
+      "title": "AI for Advertising: How Smart Automation Boosts ROAS in 2024",
+      "slug": "ai-for-advertising-boost-roas-2024",
+      "primaryKeyword": "ai for advertising",
       "secondaryKeywords": [
-        "AI advertising creative",
-        "automated ad creative",
-        "AI-powered ads",
-        "creative optimization AI",
-        "AI ad generation",
-        "machine learning ads",
-        "AI marketing campaigns"
+        "ai in advertising",
+        "ai advertising companies",
+        "google ai",
+        "ai news",
+        "advertising news",
+        "ROAS optimization",
+        "AI advertising"
       ],
       "category": "AI Advertising",
-      "angle": "Case studies showing how AI-driven creative optimization outperforms traditional methods, with specific ROAS improvements",
-      "searchIntent": "informational",
+      "angle": "Showcase how Seen By Many uses proprietary AI to optimize campaigns in real-time, delivering better results than manual campaign management",
+      "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How does AI improve ad creative performance?",
-        "What is AI-powered advertising?",
-        "Can AI create better ads than humans?",
-        "How to use AI for ad creative optimization?",
-        "What are the benefits of AI in advertising?"
+        "How does AI improve advertising performance?",
+        "What AI tools are best for advertising?",
+        "Can AI replace human advertisers?",
+        "How much does AI advertising software cost?",
+        "What are the risks of using AI in advertising?"
       ],
-      "customerGenerationReason": "Marketers searching for AI ad creative strategies are looking for competitive advantages and performance improvements. They're likely frustrated with current results and seeking innovative solutions. This positions our AI-powered approach as cutting-edge while demonstrating why paying only for results ensures they get the performance gains they're seeking."
+      "customerGenerationReason": "Businesses researching AI advertising are looking for competitive advantages and better performance from their ad spend. They're likely frustrated with current results and seeking advanced solutions, making them ideal prospects for our AI-powered, results-guaranteed approach."
     },
     {
       "id": 3,
-      "title": "Pay Per Result Advertising: Complete Guide for 2024",
-      "slug": "pay-per-result-advertising-complete-guide-2024",
-      "primaryKeyword": "pay per result advertising",
+      "title": "Digital Performance Marketing Strategy: 7 Steps to Scale ROI",
+      "slug": "digital-performance-marketing-strategy-scale-roi",
+      "primaryKeyword": "digital performance marketing",
       "secondaryKeywords": [
-        "performance-based advertising",
-        "results-driven marketing",
-        "pay for performance ads",
-        "outcome-based advertising",
-        "risk-free advertising",
-        "performance marketing",
-        "advertising ROI guarantee"
+        "performance marketing strategy",
+        "performance marketing tools",
+        "digital marketing",
+        "performance marketing services",
+        "ROAS optimization",
+        "customer acquisition",
+        "lead generation"
       ],
       "category": "Performance Marketing",
-      "angle": "Comprehensive guide comparing traditional retainer models vs pay-per-result, with ROI calculations and risk assessments",
+      "angle": "Present a framework where pay-per-result is the final evolution of performance marketing, eliminating agency risk and aligning incentives",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What is pay per result advertising?",
-        "How does performance-based advertising work?",
-        "Is pay per result advertising better than retainers?",
-        "What are the benefits of performance-based marketing?",
-        "How much does pay per result advertising cost?"
+        "What makes a good performance marketing strategy?",
+        "How do you measure digital marketing performance?",
+        "What's the difference between performance marketing and growth marketing?",
+        "How do you optimize performance marketing campaigns?",
+        "What budget do you need for performance marketing?"
       ],
-      "customerGenerationReason": "Business owners specifically searching for pay-per-result advertising are our exact target market with high commercial intent. They're actively evaluating this pricing model, likely due to budget concerns or past disappointments with traditional agencies. This audience is primed for conversion as they're already interested in our core value proposition."
+      "customerGenerationReason": "Marketing managers and business owners searching for performance marketing strategies are actively planning advertising investments. They're seeking scalable, measurable approaches, making them prime candidates for our pay-per-result model that eliminates the risk of traditional agency retainers."
     },
     {
       "id": 4,
-      "title": "ROAS Optimization: From 2x to 8x in 90 Days (Case Study)",
-      "slug": "roas-optimization-2x-to-8x-90-days-case-study",
-      "primaryKeyword": "ROAS optimization",
+      "title": "Performance Marketing Agency vs In-House: Which Drives ROI?",
+      "slug": "performance-marketing-agency-vs-in-house-roi",
+      "primaryKeyword": "performance marketing agency",
       "secondaryKeywords": [
-        "return on ad spend",
-        "ROAS improvement",
-        "ad spend optimization",
-        "advertising ROI",
-        "campaign optimization",
-        "ad performance metrics",
-        "profitable advertising"
+        "performance marketing companies",
+        "performance marketing services",
+        "what is performance marketing",
+        "digital performance marketing",
+        "performance marketing strategy",
+        "pay-per-result advertising"
       ],
       "category": "Performance Marketing",
-      "angle": "Real client case study showing dramatic ROAS improvements using AI optimization and pay-per-result accountability",
+      "angle": "Compare traditional agencies vs in-house vs pay-per-result models, showing how our approach combines agency expertise with aligned incentives",
       "searchIntent": "commercial",
       "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "How to improve ROAS on Facebook ads?",
-        "What is a good ROAS for e-commerce?",
-        "How do you optimize ROAS quickly?",
-        "Why is my ROAS so low?",
-        "How to calculate and improve ROAS?"
+        "How much do performance marketing agencies charge?",
+        "What should I look for in a performance marketing agency?",
+        "Is it cheaper to hire in-house or use an agency?",
+        "How do performance marketing agencies get paid?",
+        "What's the average ROI from performance marketing agencies?"
       ],
-      "customerGenerationReason": "Business owners searching for ROAS optimization are experiencing poor advertising performance and actively seeking solutions to improve profitability. They have advertising budgets but aren't seeing returns, making them ideal candidates for our results-driven approach. The case study format builds credibility while the pay-per-result model eliminates their risk of continued poor performance."
+      "customerGenerationReason": "Businesses comparing agency options are actively looking to hire advertising help and evaluating cost structures. This article attracts decision-makers who are frustrated with traditional agency models and interested in performance-based partnerships, positioning our pay-per-result approach as the obvious choice."
     },
     {
       "id": 5,
-      "title": "Meta Ads Manager Tutorial: Advanced Strategies for 2024",
-      "slug": "meta-ads-manager-tutorial-advanced-strategies-2024",
-      "primaryKeyword": "Meta ads manager",
+      "title": "AI Advertising Companies: Top Tools & Platforms for 2024 ROI",
+      "slug": "ai-advertising-companies-tools-platforms-2024",
+      "primaryKeyword": "ai advertising companies",
       "secondaryKeywords": [
-        "Facebook ads manager",
-        "Meta advertising platform",
-        "Facebook ads tutorial",
-        "Meta ads optimization",
-        "Facebook advertising guide",
-        "Meta campaign setup",
-        "Instagram ads manager"
+        "ai for advertising",
+        "ai in advertising",
+        "AI advertising",
+        "google ai",
+        "advertising news",
+        "performance marketing tools",
+        "ROAS optimization"
       ],
-      "category": "Paid Social",
-      "angle": "Advanced tutorial focusing on profitable campaign structures and optimization techniques that justify pay-per-result pricing",
-      "searchIntent": "informational",
+      "category": "AI Advertising",
+      "angle": "Review AI advertising solutions and position Seen By Many as the only AI company that guarantees results through pay-per-performance pricing",
+      "searchIntent": "commercial",
       "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "How to use Facebook Ads Manager effectively?",
-        "What are the best Meta ads strategies?",
-        "How to optimize Facebook ads for better results?",
-        "How to set up profitable Facebook ad campaigns?",
-        "What are advanced Facebook advertising techniques?"
+        "Which AI advertising platform is best?",
+        "How much do AI advertising tools cost?",
+        "Can AI advertising companies guarantee results?",
+        "What's the ROI of AI advertising platforms?",
+        "How do I choose an AI advertising company?"
       ],
-      "customerGenerationReason": "Users seeking advanced Meta ads tutorials are likely struggling with their current campaigns or managing ads in-house without success. They're investing time to learn, indicating they have budgets but lack expertise. This audience will appreciate the complexity we handle and may prefer outsourcing to experts who only charge for successful results."
+      "customerGenerationReason": "Business owners researching AI advertising companies are actively evaluating vendors and looking for technological advantages in their advertising. They're likely willing to invest in advanced solutions but want guaranteed returns, making them ideal prospects for our AI-powered, pay-per-result offering."
     },
     {
       "id": 6,
-      "title": "E-commerce Growth Strategies That Actually Work in 2024",
-      "slug": "ecommerce-growth-strategies-that-work-2024",
-      "primaryKeyword": "e-commerce growth strategies",
+      "title": "YouTube Ads Performance Marketing: Scale With AI Optimization",
+      "slug": "youtube-ads-performance-marketing-ai-optimization",
+      "primaryKeyword": "YouTube ads",
       "secondaryKeywords": [
-        "ecommerce marketing",
-        "online store growth",
-        "ecommerce advertising",
-        "digital commerce growth",
-        "ecommerce optimization",
-        "online retail marketing",
-        "ecommerce customer acquisition"
+        "performance marketing",
+        "AI advertising",
+        "ROAS optimization",
+        "digital performance marketing",
+        "ad creative strategy",
+        "customer acquisition",
+        "pay-per-result advertising"
       ],
-      "category": "E-commerce Growth",
-      "angle": "Data-driven growth strategies with specific focus on paid advertising channels and measurable customer acquisition costs",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "medium",
-      "peopleAlsoAsk": [
-        "How to grow an e-commerce business quickly?",
-        "What are the best marketing strategies for e-commerce?",
-        "How to increase e-commerce sales in 2024?",
-        "What advertising works best for e-commerce?",
-        "How to scale an online store effectively?"
-      ],
-      "customerGenerationReason": "E-commerce owners searching for growth strategies are actively looking to scale their businesses and increase revenue. They understand the need for customer acquisition and are evaluating different marketing approaches. Our pay-per-result model directly addresses their growth goals while minimizing risk, making this audience highly likely to convert into paying customers."
-    },
-    {
-      "id": 7,
-      "title": "Lead Generation Cost Calculator: What Should You Pay?",
-      "slug": "lead-generation-cost-calculator-what-should-you-pay",
-      "primaryKeyword": "lead generation cost",
-      "secondaryKeywords": [
-        "cost per lead",
-        "lead generation pricing",
-        "qualified lead cost",
-        "lead gen budget",
-        "customer acquisition cost",
-        "lead generation ROI",
-        "pay per lead pricing"
-      ],
-      "category": "Lead Generation",
-      "angle": "Interactive calculator comparing industry benchmarks with guaranteed cost-per-lead pricing models",
+      "category": "Paid Social",
+      "angle": "Show how AI-driven YouTube advertising delivers measurable performance, with case studies of our pay-per-result YouTube campaigns",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How much should I pay for a qualified lead?",
-        "What is a good cost per lead by industry?",
-        "How to calculate lead generation costs?",
-        "What affects lead generation pricing?",
-        "How to reduce cost per lead effectively?"
+        "How much do YouTube ads cost?",
+        "What's a good ROI for YouTube advertising?",
+        "How do you optimize YouTube ad performance?",
+        "Can YouTube ads work for B2B companies?",
+        "How do you track YouTube ad conversions?"
       ],
-      "customerGenerationReason": "Business owners researching lead generation costs are actively planning or evaluating their current lead generation efforts. They have clear commercial intent and are cost-conscious about their investment. This audience is perfect for our pay-per-result model as they want predictable costs and guaranteed outcomes, exactly what our pricing structure provides."
+      "customerGenerationReason": "Businesses searching for YouTube ads information are exploring new advertising channels and looking for performance-focused approaches. They're likely experienced with other platforms but want to expand reach, making them perfect prospects for our multi-platform, results-guaranteed advertising services."
+    },
+    {
+      "id": 7,
+      "title": "Performance Content Marketing: AI-Driven Strategy for Leads",
+      "slug": "performance-content-marketing-ai-strategy-leads",
+      "primaryKeyword": "performance content marketing",
+      "secondaryKeywords": [
+        "content marketing",
+        "performance marketing strategy",
+        "lead generation",
+        "AI advertising",
+        "customer acquisition",
+        "digital performance marketing",
+        "performance marketing tools"
+      ],
+      "category": "Lead Generation",
+      "angle": "Connect content marketing with performance advertising, showing how AI optimizes both organic and paid content for measurable lead generation",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "How do you measure content marketing performance?",
+        "What's the ROI of content marketing vs paid ads?",
+        "How does performance content marketing work?",
+        "Can content marketing generate immediate leads?",
+        "How do you optimize content for conversions?"
+      ],
+      "customerGenerationReason": "Marketing managers searching for performance content marketing are looking to make their content efforts more measurable and ROI-focused. They're likely frustrated with content that doesn't drive clear business results, making them ideal prospects for our performance-based approach that combines content strategy with paid amplification."
+    },
+    {
+      "id": 8,
+      "title": "Performance Marketing Brands: Case Studies & Success Strategies",
+      "slug": "performance-marketing-brands-case-studies-strategies",
+      "primaryKeyword": "performance marketing brands",
+      "secondaryKeywords": [
+        "performance marketing strategy",
+        "performance marketing companies",
+        "digital performance marketing",
+        "ROAS optimization",
+        "customer acquisition",
+        "e-commerce growth",
+        "pay-per-result advertising"
+      ],
+      "category": "Business Growth",
+      "angle": "Showcase successful brands using performance marketing with focus on pay-per-result models, featuring Seen By Many client success stories",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "Which brands use performance marketing successfully?",
+        "How do successful brands structure performance marketing?",
+        "What performance marketing strategies work best for e-commerce?",
+        "How much should brands invest in performance marketing?",
+        "What results can brands expect from performance marketing?"
+      ],
+      "customerGenerationReason": "Business owners researching successful performance marketing brands are looking for proof and inspiration for their own marketing efforts. They want to emulate success stories and are actively considering performance marketing investments, making them highly qualified prospects for our proven, results-guaranteed approach."
     }
   ]
 }
