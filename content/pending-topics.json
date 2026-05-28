@@ -1,222 +1,223 @@
 {
-  "date": "2026-05-27T11:00:23.486Z",
+  "date": "2026-05-28T10:59:59.000Z",
   "status": "pending_approval",
   "ideas": [
     {
       "id": 1,
-      "title": "AI Lead Generation: How Smart Automation Gets You More Customers",
-      "slug": "ai-lead-generation-smart-automation-customers",
-      "primaryKeyword": "ai lead generation",
+      "title": "What is Performance Marketing? Guide for Small Business Owners",
+      "slug": "what-is-performance-marketing-guide-small-business",
+      "primaryKeyword": "what is performance marketing",
       "secondaryKeywords": [
-        "lead generation automation",
-        "AI-powered lead generation",
-        "automated customer acquisition",
-        "smart lead generation tools",
-        "AI marketing automation",
-        "machine learning leads",
-        "intelligent lead scoring"
-      ],
-      "category": "AI Advertising",
-      "angle": "Position Seen By Many's AI-powered approach as the next evolution beyond traditional lead generation, emphasizing how our AI optimizes ad spend to deliver only qualified leads with measurable ROI",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "How does AI improve lead generation results?",
-        "What are the best AI tools for lead generation?",
-        "Can AI replace traditional lead generation methods?",
-        "How much does AI lead generation cost?",
-        "What's the difference between AI and manual lead generation?"
-      ],
-      "customerGenerationReason": "Business owners searching for AI lead generation are already frustrated with manual processes and poor lead quality. This article attracts decision-makers ready to invest in better solutions, positioning our pay-per-result model as risk-free compared to expensive AI tools with uncertain outcomes."
-    },
-    {
-      "id": 2,
-      "title": "Local Lead Generation: Get More Customers in Your Area (2024)",
-      "slug": "local-lead-generation-get-customers-your-area",
-      "primaryKeyword": "local lead generation",
-      "secondaryKeywords": [
-        "local customer acquisition",
-        "geo-targeted advertising",
-        "local business marketing",
-        "neighborhood lead generation",
-        "location-based ads",
-        "local SEO leads",
-        "community marketing"
-      ],
-      "category": "Lead Generation",
-      "angle": "Focus on how local businesses can compete with big chains by using targeted advertising, showcasing our ability to generate local leads without upfront costs or long-term contracts",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "How do I generate leads for my local business?",
-        "What's the best way to advertise locally?",
-        "How much should I spend on local advertising?",
-        "Do Facebook ads work for local businesses?",
-        "How do I compete with big chains locally?"
-      ],
-      "customerGenerationReason": "Local business owners searching this term are typically struggling with customer acquisition and have limited marketing budgets. They're perfect candidates for our pay-per-result model since they can't afford to waste money on ineffective advertising campaigns."
-    },
-    {
-      "id": 3,
-      "title": "Customer Acquisition Cost: How to Lower CAC and Boost Profits",
-      "slug": "customer-acquisition-cost-lower-cac-boost-profits",
-      "primaryKeyword": "customer acquisition cost",
-      "secondaryKeywords": [
-        "CAC optimization",
-        "reduce customer acquisition cost",
-        "customer acquisition strategy",
-        "lower CAC",
-        "CAC calculation",
-        "customer acquisition ROI",
-        "profitable customer acquisition"
-      ],
-      "category": "Business Growth",
-      "angle": "Demonstrate how our pay-per-result model eliminates CAC uncertainty by providing predictable costs upfront, contrasting with traditional agencies that charge regardless of results",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "medium",
-      "peopleAlsoAsk": [
-        "What is a good customer acquisition cost?",
-        "How do you calculate customer acquisition cost?",
-        "Why is my customer acquisition cost so high?",
-        "How can I reduce my CAC quickly?",
-        "What's the difference between CAC and LTV?"
-      ],
-      "customerGenerationReason": "Companies researching CAC are actively trying to improve their marketing efficiency and profitability. These searchers are likely spending money on advertising but not getting good returns, making them ideal prospects for our cost-effective, results-driven approach."
-    },
-    {
-      "id": 4,
-      "title": "TikTok Ads Cost: What You'll Really Pay (+ Budget Calculator)",
-      "slug": "tiktok-ads-cost-what-youll-really-pay-budget-calculator",
-      "primaryKeyword": "tiktok ads cost",
-      "secondaryKeywords": [
-        "TikTok advertising costs",
-        "TikTok ad pricing",
-        "TikTok ad budget",
-        "cost of TikTok ads",
-        "TikTok ads pricing model",
-        "TikTok CPM costs",
-        "TikTok advertising rates"
-      ],
-      "category": "Paid Social",
-      "angle": "Provide transparent cost breakdowns while positioning our pay-per-result model as a way to eliminate unpredictable TikTok ad spending and focus budget only on actual conversions",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "How much do TikTok ads cost per month?",
-        "Are TikTok ads cheaper than Facebook ads?",
-        "What's the minimum budget for TikTok ads?",
-        "Do TikTok ads actually work for business?",
-        "How much should I spend on TikTok advertising?"
-      ],
-      "customerGenerationReason": "Businesses researching TikTok ad costs are considering investing in the platform but are concerned about budget and ROI uncertainty. Our pay-per-result model directly addresses their fear of wasting money on unproven advertising channels."
-    },
-    {
-      "id": 5,
-      "title": "Performance Marketing Agency: How to Choose the Right Partner",
-      "slug": "performance-marketing-agency-choose-right-partner",
-      "primaryKeyword": "performance marketing agency",
-      "secondaryKeywords": [
-        "digital performance marketing agency",
+        "performance marketing definition",
+        "performance marketing examples",
+        "digital performance marketing",
+        "performance marketing strategy",
+        "marketing performance metrics",
         "performance marketing services",
-        "performance marketing companies",
-        "choose marketing agency",
-        "performance advertising agency",
-        "results-based marketing",
-        "performance marketing partner"
+        "performance marketing company"
       ],
       "category": "Performance Marketing",
-      "angle": "Create a buyer's guide that subtly positions pay-per-result pricing as the gold standard for performance marketing, highlighting red flags of traditional agency models",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "medium",
-      "peopleAlsoAsk": [
-        "What should I look for in a performance marketing agency?",
-        "How much do performance marketing agencies charge?",
-        "What's the difference between performance and traditional marketing?",
-        "Do performance marketing agencies guarantee results?",
-        "How do I evaluate a performance marketing agency?"
-      ],
-      "customerGenerationReason": "Companies actively searching for performance marketing agencies are ready to hire external help and are comparing options. This content positions us as the obvious choice by educating them on what to look for, with our model being the clear winner."
-    },
-    {
-      "id": 6,
-      "title": "Facebook Lead Generation: Complete Guide to More Qualified Leads",
-      "slug": "facebook-lead-generation-complete-guide-qualified-leads",
-      "primaryKeyword": "facebook lead generation",
-      "secondaryKeywords": [
-        "Facebook lead ads",
-        "Meta lead generation",
-        "Facebook ads for leads",
-        "social media lead generation",
-        "Facebook lead forms",
-        "Facebook marketing leads",
-        "Meta advertising leads"
-      ],
-      "category": "Paid Social",
-      "angle": "Showcase advanced Facebook lead generation strategies while emphasizing how our AI optimization and pay-per-result model ensures businesses only pay for qualified leads, not just clicks or impressions",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "How do Facebook lead ads work?",
-        "Are Facebook lead ads worth it?",
-        "How much do Facebook lead ads cost?",
-        "What makes a good Facebook lead ad?",
-        "How do I improve my Facebook lead quality?"
-      ],
-      "customerGenerationReason": "Businesses searching for Facebook lead generation tactics are likely already running ads but struggling with lead quality or costs. They're prime candidates for our service since we solve both problems with AI optimization and qualified-lead-only pricing."
-    },
-    {
-      "id": 7,
-      "title": "New Customer Acquisition: 7 Proven Strategies That Actually Work",
-      "slug": "new-customer-acquisition-7-proven-strategies",
-      "primaryKeyword": "new customer acquisition",
-      "secondaryKeywords": [
-        "customer acquisition strategy",
-        "customer acquisition marketing",
-        "acquire new customers",
-        "customer acquisition methods",
-        "customer acquisition tactics",
-        "new customer marketing",
-        "customer acquisition channels"
-      ],
-      "category": "Business Growth",
-      "angle": "Present a comprehensive strategy guide that positions paid advertising as the fastest, most scalable method, with our pay-per-result model removing the typical risks associated with ad spend",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "What are the best customer acquisition strategies?",
-        "How do I get new customers quickly?",
-        "What's the most cost-effective way to acquire customers?",
-        "How do successful companies acquire customers?",
-        "What customer acquisition channels work best?"
-      ],
-      "customerGenerationReason": "Business owners searching for new customer acquisition strategies are typically experiencing growth challenges or stagnation. They need immediate solutions and are willing to invest in proven methods, making them ideal prospects for our guaranteed-results advertising approach."
-    },
-    {
-      "id": 8,
-      "title": "Performance Marketing Examples: Real Case Studies & Results",
-      "slug": "performance-marketing-examples-real-case-studies-results",
-      "primaryKeyword": "performance marketing examples",
-      "secondaryKeywords": [
-        "performance marketing case studies",
-        "performance marketing success stories",
-        "performance advertising examples",
-        "performance marketing results",
-        "performance marketing campaigns",
-        "digital marketing case studies",
-        "advertising success stories"
-      ],
-      "category": "Performance Marketing",
-      "angle": "Showcase real client results and case studies that demonstrate the power of pay-per-result advertising, using concrete examples to build credibility and trust with potential customers",
+      "angle": "Educational guide that contrasts traditional marketing costs vs. pay-per-result models, positioning Seen By Many's approach as the evolution of performance marketing",
       "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What are some successful performance marketing campaigns?",
-        "How do you measure performance marketing success?",
-        "What results can I expect from performance marketing?",
-        "Which companies use performance marketing effectively?",
-        "What metrics matter in performance marketing?"
+        "How does performance marketing differ from traditional marketing?",
+        "What are examples of performance marketing channels?",
+        "How much does performance marketing cost?",
+        "What metrics matter most in performance marketing?",
+        "Is performance marketing worth it for small businesses?"
       ],
-      "customerGenerationReason": "People searching for performance marketing examples want proof that these strategies work before investing. By showcasing our results and client success stories, we build trust and credibility with prospects who are evaluating whether to hire a performance marketing agency."
+      "customerGenerationReason": "Business owners searching this are evaluating marketing approaches and cost structures. They're likely frustrated with traditional agency retainers and want accountability. This positions our pay-per-result model as the purest form of performance marketing, attracting cost-conscious business owners ready to try a risk-free advertising approach."
+    },
+    {
+      "id": 2,
+      "title": "AI Lead Generation: 2024 Tools & Strategies That Actually Work",
+      "slug": "ai-lead-generation-tools-strategies-2024",
+      "primaryKeyword": "ai lead generation",
+      "secondaryKeywords": [
+        "lead generation process",
+        "lead generation strategies",
+        "lead generation meaning",
+        "best lead generation",
+        "lead generation agency",
+        "facebook lead generation",
+        "linkedin lead generation",
+        "ai for advertising"
+      ],
+      "category": "AI Advertising",
+      "angle": "Showcase how AI transforms lead quality and cost-effectiveness, featuring case studies and positioning our AI-powered approach as cutting-edge",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "How does AI improve lead generation quality?",
+        "What are the best AI tools for lead generation?",
+        "Can AI reduce lead generation costs?",
+        "How to implement AI in lead generation campaigns?",
+        "What's the ROI of AI-powered lead generation?"
+      ],
+      "customerGenerationReason": "Searchers are actively looking for better lead generation methods and are interested in AI solutions. They're likely spending money on leads already but want better results. This positions our AI-powered, pay-per-qualified-lead model as the modern solution, appealing to businesses wanting both innovation and accountability."
+    },
+    {
+      "id": 3,
+      "title": "What is Customer Acquisition Cost? Calculate & Optimize Your CAC",
+      "slug": "what-is-customer-acquisition-cost-calculate-optimize",
+      "primaryKeyword": "what is customer acquisition cost",
+      "secondaryKeywords": [
+        "customer acquisition cost",
+        "average customer acquisition cost",
+        "customer acquisition definition",
+        "customer acquisition strategies",
+        "customer acquisition model",
+        "new customer acquisition",
+        "customer acquisition plan"
+      ],
+      "category": "Business Growth",
+      "angle": "Practical calculator and optimization strategies, highlighting how pay-per-result eliminates CAC uncertainty and provides predictable customer acquisition",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "How do you calculate customer acquisition cost?",
+        "What is a good customer acquisition cost?",
+        "How can I reduce my customer acquisition cost?",
+        "What factors affect customer acquisition cost?",
+        "How does CAC relate to customer lifetime value?"
+      ],
+      "customerGenerationReason": "Business owners searching CAC information are actively managing advertising spend and concerned about profitability. They're likely experiencing unpredictable acquisition costs with current agencies. Our pay-per-result model directly solves their main pain point by making CAC predictable and controllable, appealing to data-driven business owners."
+    },
+    {
+      "id": 4,
+      "title": "Meta Ads Manager Tutorial: Setup & Optimization for Beginners",
+      "slug": "meta-ads-manager-tutorial-setup-optimization-beginners",
+      "primaryKeyword": "ads manager",
+      "secondaryKeywords": [
+        "meta ads",
+        "facebook ads",
+        "meta business ads",
+        "what is meta ads",
+        "meta advertising",
+        "meta ads api",
+        "google ads vs facebook ads"
+      ],
+      "category": "Paid Social",
+      "angle": "Beginner-friendly tutorial that reveals the complexity of proper Meta ads management, subtly showing why professional management provides better ROI",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "medium",
+      "peopleAlsoAsk": [
+        "How do I set up Meta Ads Manager?",
+        "What's the difference between Meta ads and Facebook ads?",
+        "How much should I spend on Meta ads?",
+        "Why are my Meta ads not performing well?",
+        "How do I track Meta ads performance?"
+      ],
+      "customerGenerationReason": "These are DIY business owners struggling with Meta ads complexity. They're spending their own money on ads but not getting results. After showing them the complexity involved, we can position our done-for-you, pay-per-result service as the solution that eliminates their learning curve and guarantees results."
+    },
+    {
+      "id": 5,
+      "title": "Local Lead Generation Strategies: Get More Customers in 2024",
+      "slug": "local-lead-generation-strategies-get-customers-2024",
+      "primaryKeyword": "local lead generation",
+      "secondaryKeywords": [
+        "lead generation strategies",
+        "lead generation business",
+        "best lead generation",
+        "lead generation services",
+        "lead generation companies",
+        "facebook lead generation",
+        "local business marketing"
+      ],
+      "category": "Lead Generation",
+      "angle": "Focus on local businesses and service providers, showing multi-platform strategies while emphasizing the importance of qualified local leads over quantity",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "What are the best lead generation strategies for local businesses?",
+        "How do I generate leads for my service business?",
+        "What's the most cost-effective local lead generation method?",
+        "How many leads should I expect per month locally?",
+        "Should I use Google or Facebook for local leads?"
+      ],
+      "customerGenerationReason": "Local business owners searching this are actively seeking more customers and evaluating lead generation options. They're typically budget-conscious and want guaranteed results. Our pay-per-qualified-lead model perfectly addresses local businesses' needs for cost control and quality leads, making this a high-conversion topic."
+    },
+    {
+      "id": 6,
+      "title": "Customer Acquisition Strategies: 9 Proven Methods for 2024",
+      "slug": "customer-acquisition-strategies-proven-methods-2024",
+      "primaryKeyword": "customer acquisition strategies",
+      "secondaryKeywords": [
+        "new customer acquisition",
+        "customer acquisition plan",
+        "customer acquisition model",
+        "customer acquisition examples",
+        "digital customer acquisition",
+        "customer acquisition marketing",
+        "customer acquisition services"
+      ],
+      "category": "Business Growth",
+      "angle": "Comprehensive strategy guide that positions paid advertising as the most scalable method, with emphasis on ROI measurement and risk mitigation",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "medium",
+      "peopleAlsoAsk": [
+        "What are the most effective customer acquisition strategies?",
+        "How do I create a customer acquisition plan?",
+        "What's the fastest way to acquire new customers?",
+        "How much should I invest in customer acquisition?",
+        "Which customer acquisition channels have the best ROI?"
+      ],
+      "customerGenerationReason": "Business owners searching for acquisition strategies are actively looking to grow and likely have budget allocated for customer acquisition. They're comparing different methods and agencies. This comprehensive guide positions paid advertising as essential while our pay-per-result model eliminates the main barrier (risk), converting strategy-seekers into customers."
+    },
+    {
+      "id": 7,
+      "title": "Performance Marketing Tools: Best Platforms & Analytics in 2024",
+      "slug": "performance-marketing-tools-best-platforms-analytics-2024",
+      "primaryKeyword": "performance marketing tools",
+      "secondaryKeywords": [
+        "performance marketing strategy",
+        "marketing performance metrics",
+        "digital performance marketing",
+        "performance marketing examples",
+        "performance marketing services",
+        "ai for advertising",
+        "marketing automation tools"
+      ],
+      "category": "Performance Marketing",
+      "angle": "Tool comparison guide that reveals the complexity of managing multiple platforms effectively, positioning our integrated AI approach as the simpler solution",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "What tools do I need for performance marketing?",
+        "How do I track performance marketing results?",
+        "What's the best performance marketing platform?",
+        "How much do performance marketing tools cost?",
+        "Can AI improve performance marketing results?"
+      ],
+      "customerGenerationReason": "Searchers are either setting up their own performance marketing or evaluating their current tools. They're likely spending money on various platforms and tools but struggling with complexity and integration. Our AI-powered, unified approach eliminates tool management headaches while our pay-per-result model provides better accountability than tool subscriptions."
+    },
+    {
+      "id": 8,
+      "title": "AI for Advertising: How Smart Campaigns Boost ROI by 300%",
+      "slug": "ai-for-advertising-smart-campaigns-boost-roi",
+      "primaryKeyword": "ai for advertising",
+      "secondaryKeywords": [
+        "ai in advertising",
+        "ai advertising generator",
+        "performance marketing tools",
+        "digital performance marketing",
+        "marketing automation",
+        "programmatic advertising",
+        "smart bidding strategies"
+      ],
+      "category": "AI Advertising",
+      "angle": "Data-driven article showcasing ROI improvements with AI, featuring case studies and positioning our AI-powered approach as next-generation advertising",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "How does AI improve advertising performance?",
+        "What are the benefits of AI in advertising?",
+        "Can AI reduce advertising costs?",
+        "How to implement AI in advertising campaigns?",
+        "What's the ROI of AI-powered advertising?"
+      ],
+      "customerGenerationReason": "These searchers are forward-thinking business owners interested in leveraging AI for competitive advantage. They're likely already spending on advertising but want better performance. The focus on ROI improvement attracts results-driven businesses who will appreciate our pay-per-result model combined with AI optimization as the perfect solution for guaranteed, cutting-edge performance."
     }
   ]
 }
