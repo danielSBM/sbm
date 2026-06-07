@@ -1,209 +1,222 @@
 {
-  "date": "2026-06-06T09:29:11.142Z",
+  "date": "2026-06-07T10:08:16.036Z",
   "status": "pending_approval",
   "ideas": [
     {
       "id": 1,
-      "title": "What Is Performance Marketing? Complete Guide for Businesses",
-      "slug": "what-is-performance-marketing-guide",
-      "primaryKeyword": "what is performance marketing",
+      "title": "Google Ads Cost Guide: How Much Should You Really Spend?",
+      "slug": "google-ads-cost-guide-how-much-spend",
+      "primaryKeyword": "google ads cost",
       "secondaryKeywords": [
-        "performance marketing definition",
-        "performance marketing meaning",
-        "digital performance marketing",
-        "performance marketing strategy",
-        "performance marketing services",
-        "performance in marketing"
+        "google ads campaign",
+        "google ads account",
+        "google search ads",
+        "google ads manager",
+        "google business",
+        "cost per click",
+        "ad spend budget"
       ],
       "category": "Performance Marketing",
-      "angle": "Position pay-per-result as the purest form of performance marketing, contrasting with traditional retainer models that don't guarantee results",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "low",
+      "angle": "Data-driven cost analysis that reveals why most businesses overspend on Google Ads and how pay-per-result pricing eliminates budget waste by only charging for actual customers acquired",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "How does performance marketing differ from traditional advertising?",
-        "What are the benefits of performance marketing?",
-        "How much does performance marketing cost?",
-        "What platforms are best for performance marketing?",
-        "How do you measure performance marketing success?"
+        "How much do Google Ads cost per month for small business?",
+        "What is the average cost per click on Google Ads?",
+        "How do I set a Google Ads budget?",
+        "Why are my Google Ads so expensive?",
+        "What factors affect Google Ads pricing?"
       ],
-      "customerGenerationReason": "Business owners searching this are likely new to digital advertising and seeking education. They're perfect prospects for our pay-per-result model since they want guaranteed outcomes rather than paying upfront fees with uncertain results. We can position ourselves as the logical choice for risk-averse business owners."
+      "customerGenerationReason": "Business owners searching for Google Ads costs are actively considering paid advertising but concerned about budget waste. This positions our pay-per-result model as the risk-free alternative to traditional retainer agencies, attracting cost-conscious businesses ready to invest in advertising with guaranteed ROI."
     },
     {
       "id": 2,
-      "title": "Customer Acquisition Cost Calculator + Optimization Guide 2024",
-      "slug": "customer-acquisition-cost-calculator-guide",
-      "primaryKeyword": "customer acquisition cost",
+      "title": "AI for Advertising: 7 Ways to Automate Your Ad Campaigns",
+      "slug": "ai-for-advertising-automate-ad-campaigns",
+      "primaryKeyword": "ai for advertising",
       "secondaryKeywords": [
-        "cost of customer acquisition",
-        "cac customer acquisition cost",
-        "cost per customer acquisition",
-        "what is customer acquisition cost",
-        "customer acquisition costs",
-        "cac"
+        "ai in advertising",
+        "advertising agency",
+        "ai advertising tools",
+        "automated campaigns",
+        "machine learning ads",
+        "smart bidding",
+        "ad optimization"
       ],
-      "category": "Business Growth",
-      "angle": "Provide a free CAC calculator while demonstrating how our pay-per-result model eliminates CAC uncertainty and risk",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "medium",
+      "category": "AI Advertising",
+      "angle": "Comprehensive guide to AI advertising tools and strategies, showcasing how Seen By Many's proprietary AI technology delivers superior results compared to manual campaign management",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What is a good customer acquisition cost?",
-        "How do you calculate customer acquisition cost?",
-        "How can I reduce my customer acquisition cost?",
-        "What's the difference between CAC and LTV?",
-        "Why is my customer acquisition cost so high?"
+        "What is AI advertising and how does it work?",
+        "Which AI tools are best for advertising?",
+        "How can AI improve my ad performance?",
+        "Is AI advertising better than manual campaigns?",
+        "What are the benefits of automated advertising?"
       ],
-      "customerGenerationReason": "Businesses actively calculating CAC are likely struggling with advertising costs or want to optimize their marketing spend. They're ideal prospects because they understand the value of customers and will appreciate our pay-per-result model that provides predictable CAC."
+      "customerGenerationReason": "Marketing professionals and business owners researching AI advertising are seeking competitive advantages and efficiency gains. They represent tech-forward companies with advertising budgets who will appreciate our AI-powered approach and performance-based pricing as innovation leadership in the space."
     },
     {
       "id": 3,
-      "title": "Performance Marketing Manager: Skills, Salary & Career Guide",
-      "slug": "performance-marketing-manager-guide",
-      "primaryKeyword": "performance marketing manager",
+      "title": "Meta Ads Manager Complete Guide for Beginners 2024",
+      "slug": "meta-ads-manager-complete-guide-beginners",
+      "primaryKeyword": "meta ads manager",
       "secondaryKeywords": [
-        "performance marketing jobs",
-        "digital marketing manager",
-        "performance marketing career",
-        "marketing manager skills",
-        "performance marketing salary"
+        "ads manager",
+        "facebook ads",
+        "meta business ads",
+        "meta advertising",
+        "business manager",
+        "ads library",
+        "meta ads api"
       ],
-      "category": "Performance Marketing",
-      "angle": "Target both job seekers and business owners considering hiring, positioning our agency as an alternative to expensive in-house hires",
+      "category": "Paid Social",
+      "angle": "Step-by-step tutorial that reveals common Meta Ads Manager mistakes costing businesses thousands, with case studies showing how professional management delivers superior results",
       "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "What does a performance marketing manager do?",
-        "How much does a performance marketing manager make?",
-        "What skills does a performance marketing manager need?",
-        "Should I hire a performance marketing manager?",
-        "Is performance marketing manager a good career?"
+        "How do I use Meta Ads Manager effectively?",
+        "What is the difference between Meta Ads Manager and Business Manager?",
+        "How do I create my first Facebook ad campaign?",
+        "What are the best practices for Meta advertising?",
+        "How do I optimize my Meta ad performance?"
       ],
-      "customerGenerationReason": "Business owners researching this role are considering hiring marketing talent, indicating budget for marketing. When they see the costs and complexity of hiring skilled managers, our pay-per-result agency model becomes an attractive alternative with no hiring risks."
+      "customerGenerationReason": "Users searching for Meta Ads Manager guides are either new to Facebook advertising or struggling with current performance. They're actively trying to learn paid advertising, indicating budget and intent, but the complexity often leads them to seek professional help - perfect prospects for our expert management and pay-per-result model."
     },
     {
       "id": 4,
-      "title": "Meta Ads Manager Tutorial: Complete Setup Guide for 2024",
-      "slug": "meta-ads-manager-tutorial-setup-guide",
-      "primaryKeyword": "ads manager",
+      "title": "E-commerce Growth Strategies That Generated 300% More Sales",
+      "slug": "ecommerce-growth-strategies-300-percent-more-sales",
+      "primaryKeyword": "ecommerce growth",
       "secondaryKeywords": [
-        "facebook ads manager",
-        "meta ads manager",
-        "ads manager tutorial",
-        "facebook ads",
-        "meta business ads",
-        "meta ads account"
+        "e-commerce growth",
+        "online store marketing",
+        "ecommerce advertising",
+        "customer acquisition",
+        "conversion optimization",
+        "digital marketing strategy",
+        "sales funnel"
       ],
-      "category": "Paid Social",
-      "angle": "Provide comprehensive tutorial while highlighting the complexity and time investment needed, positioning our done-for-you service as the better alternative",
-      "searchIntent": "informational",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "How do I set up Meta Ads Manager?",
-        "Why is Meta Ads Manager so confusing?",
-        "How much does it cost to use Meta Ads Manager?",
-        "Can I use Meta Ads Manager for free?",
-        "What's the difference between Facebook and Meta ads?"
-      ],
-      "customerGenerationReason": "People searching for Meta Ads Manager tutorials are either new to advertising or struggling with the platform. After seeing the complexity involved, many will prefer to outsource to experts. Our pay-per-result model appeals to those wanting results without the learning curve."
-    },
-    {
-      "id": 5,
-      "title": "Customer Acquisition Strategy: 12 Proven Methods for 2024",
-      "slug": "customer-acquisition-strategy-proven-methods",
-      "primaryKeyword": "customer acquisition strategy",
-      "secondaryKeywords": [
-        "customer acquisition marketing",
-        "new customer acquisition",
-        "customer acquisition process",
-        "what is customer acquisition",
-        "customer acquisition services"
-      ],
-      "category": "Business Growth",
-      "angle": "Present paid advertising as the most scalable customer acquisition method, with our pay-per-result model eliminating the typical risks",
-      "searchIntent": "commercial",
-      "estimatedDifficulty": "low",
-      "peopleAlsoAsk": [
-        "What is the best customer acquisition strategy?",
-        "How do you create a customer acquisition plan?",
-        "What are customer acquisition channels?",
-        "How do you measure customer acquisition success?",
-        "What's the fastest way to acquire customers?"
-      ],
-      "customerGenerationReason": "Business owners searching for acquisition strategies are actively looking to grow and likely have budget allocated for customer acquisition. They're ideal prospects because they understand the value of new customers and will appreciate our guaranteed results approach."
-    },
-    {
-      "id": 6,
-      "title": "Performance Marketing Agency: How to Choose the Right Partner",
-      "slug": "how-to-choose-performance-marketing-agency",
-      "primaryKeyword": "performance marketing agency",
-      "secondaryKeywords": [
-        "performance marketing companies",
-        "performance marketing services",
-        "digital performance marketing",
-        "performance marketing agencies",
-        "marketing agency"
-      ],
-      "category": "Performance Marketing",
-      "angle": "Create a comprehensive buyer's guide that naturally positions pay-per-result pricing as the superior agency model compared to traditional retainer fees",
+      "category": "E-commerce Growth",
+      "angle": "Data-backed case studies of e-commerce businesses that achieved explosive growth through strategic paid advertising, emphasizing the role of performance-based partnerships in scaling",
       "searchIntent": "commercial",
       "estimatedDifficulty": "medium",
       "peopleAlsoAsk": [
-        "How much does a performance marketing agency cost?",
-        "What should I look for in a performance marketing agency?",
-        "Are performance marketing agencies worth it?",
-        "How do performance marketing agencies charge?",
-        "What questions should I ask a performance marketing agency?"
+        "How do I grow my e-commerce business fast?",
+        "What marketing strategies work best for online stores?",
+        "How do successful e-commerce brands acquire customers?",
+        "What's the best advertising platform for e-commerce?",
+        "How do I scale my online store profitably?"
       ],
-      "customerGenerationReason": "These searchers are actively shopping for marketing agencies and are highly qualified leads. They're comparing options and evaluating different service providers, making them prime prospects for our unique pay-per-result positioning versus traditional agency models."
+      "customerGenerationReason": "E-commerce owners searching for growth strategies are actively looking to scale their businesses and likely have products ready to sell but need customer acquisition expertise. They represent high-value prospects with clear revenue potential who would benefit from our multi-platform advertising approach and risk-free pricing model."
     },
     {
-      "id": 7,
-      "title": "AI Advertising: How Machine Learning Transforms Ad Performance",
-      "slug": "ai-advertising-machine-learning-ad-performance",
-      "primaryKeyword": "AI advertising",
+      "id": 5,
+      "title": "Google Ads Certification: Is It Worth It? (Honest Review)",
+      "slug": "google-ads-certification-worth-it-honest-review",
+      "primaryKeyword": "google ads certification",
       "secondaryKeywords": [
-        "artificial intelligence marketing",
-        "AI marketing tools",
-        "machine learning advertising",
-        "automated advertising",
-        "AI ad optimization"
+        "google ads training",
+        "google ads course",
+        "digital marketing certification",
+        "ppc certification",
+        "google ads skills",
+        "advertising certification",
+        "marketing credentials"
       ],
-      "category": "AI Advertising",
-      "angle": "Showcase our AI-powered approach as the competitive advantage that enables us to offer pay-per-result pricing with confidence",
+      "category": "Performance Marketing",
+      "angle": "Honest assessment of Google Ads certification value for business owners vs. hiring certified professionals, highlighting why expertise and results matter more than credentials alone",
       "searchIntent": "informational",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How does AI improve advertising results?",
-        "What are the best AI advertising tools?",
-        "Is AI advertising expensive?",
-        "How accurate is AI advertising?",
-        "Will AI replace advertising jobs?"
+        "How long does Google Ads certification take?",
+        "Is Google Ads certification free?",
+        "What jobs require Google Ads certification?",
+        "How difficult is the Google Ads certification exam?",
+        "Do I need Google Ads certification to run ads?"
       ],
-      "customerGenerationReason": "Forward-thinking business owners researching AI advertising are looking for competitive advantages and better performance. They're likely frustrated with current advertising results and seeking innovative solutions, making them perfect prospects for our AI-powered, results-guaranteed approach."
+      "customerGenerationReason": "People researching Google Ads certification are either business owners considering DIY advertising or professionals looking to manage ads internally. Both groups represent opportunities - DIY researchers often realize the complexity and seek professional help, while businesses researching internal capabilities may prefer outsourcing to proven experts with our risk-free model."
     },
     {
-      "id": 8,
-      "title": "Content Performance Marketing: Drive Sales with Strategic Content",
-      "slug": "content-performance-marketing-drive-sales",
-      "primaryKeyword": "content performance marketing",
+      "id": 6,
+      "title": "Pay Per Result Advertising: Why Smart Brands Are Making the Switch",
+      "slug": "pay-per-result-advertising-smart-brands-switch",
+      "primaryKeyword": "pay per result advertising",
       "secondaryKeywords": [
-        "content marketing strategy",
-        "performance content",
-        "content marketing ROI",
-        "content advertising",
-        "content marketing performance"
+        "performance based marketing",
+        "result driven advertising",
+        "pay for performance",
+        "roi advertising",
+        "commission based marketing",
+        "outcome based advertising",
+        "results only marketing"
       ],
-      "category": "Performance Marketing",
-      "angle": "Show how content marketing becomes truly performance-driven when combined with paid amplification and proper tracking, positioning our integrated approach",
+      "category": "Business Growth",
+      "angle": "Industry analysis of the shift toward performance-based advertising models, featuring case studies and ROI comparisons that demonstrate why pay-per-result is the future of digital marketing",
       "searchIntent": "commercial",
       "estimatedDifficulty": "low",
       "peopleAlsoAsk": [
-        "How do you measure content marketing performance?",
-        "What is performance-based content marketing?",
-        "How does content marketing drive sales?",
-        "What's the ROI of content marketing?",
-        "How do you optimize content for performance?"
+        "What is pay per result advertising?",
+        "How does performance-based marketing work?",
+        "Is pay per result advertising better than retainers?",
+        "What are the benefits of outcome-based marketing?",
+        "How do I find pay per result marketing agencies?"
       ],
-      "customerGenerationReason": "Businesses searching this term want content that actually drives measurable results, not just engagement metrics. They're likely frustrated with content that doesn't convert and are perfect candidates for our performance-focused approach that guarantees business outcomes."
+      "customerGenerationReason": "Businesses researching pay-per-result advertising are likely frustrated with traditional agency models or cautious about advertising spend. They're actively seeking our exact service model, making them highly qualified prospects ready to discuss how our approach eliminates their risk while delivering guaranteed results."
+    },
+    {
+      "id": 7,
+      "title": "YouTube Ads That Convert: 5 Campaign Types That Actually Work",
+      "slug": "youtube-ads-that-convert-campaign-types-work",
+      "primaryKeyword": "youtube ads",
+      "secondaryKeywords": [
+        "youtube advertising",
+        "video marketing",
+        "youtube campaign",
+        "video ads strategy",
+        "youtube marketing",
+        "google ads youtube",
+        "video advertising"
+      ],
+      "category": "Performance Marketing",
+      "angle": "Tactical breakdown of high-converting YouTube ad formats with creative examples and performance benchmarks, positioning video advertising expertise as a key competitive advantage",
+      "searchIntent": "informational",
+      "estimatedDifficulty": "medium",
+      "peopleAlsoAsk": [
+        "What types of YouTube ads are most effective?",
+        "How much do YouTube ads cost?",
+        "How do I create a successful YouTube ad campaign?",
+        "What makes a YouTube ad convert well?",
+        "Should I use YouTube ads for my business?"
+      ],
+      "customerGenerationReason": "Businesses researching YouTube advertising are exploring video marketing to reach new audiences and stay competitive. They likely have marketing budgets but lack video advertising expertise, making them ideal clients for our comprehensive platform management and results-focused approach that takes the guesswork out of video advertising."
+    },
+    {
+      "id": 8,
+      "title": "Lead Generation Costs by Industry: What You Should Expect",
+      "slug": "lead-generation-costs-by-industry-what-expect",
+      "primaryKeyword": "lead generation costs",
+      "secondaryKeywords": [
+        "cost per lead",
+        "lead generation pricing",
+        "customer acquisition cost",
+        "lead gen budget",
+        "marketing cost analysis",
+        "cpl benchmarks",
+        "lead generation ROI"
+      ],
+      "category": "Lead Generation",
+      "angle": "Comprehensive cost analysis across industries with benchmarking data that helps businesses understand realistic lead generation investments and identify when they're overpaying for poor results",
+      "searchIntent": "commercial",
+      "estimatedDifficulty": "low",
+      "peopleAlsoAsk": [
+        "What is a good cost per lead by industry?",
+        "How much should I pay for qualified leads?",
+        "What factors affect lead generation costs?",
+        "How do I reduce my cost per lead?",
+        "What's the average customer acquisition cost?"
+      ],
+      "customerGenerationReason": "Business owners researching lead generation costs are actively planning or evaluating their customer acquisition strategies. They have clear revenue goals and understand the value of qualified leads, making them prime candidates for our pay-per-result model where they only pay for the qualified leads we actually deliver."
     }
   ]
 }
