@@ -1,0 +1,86 @@
+name: Viral Video Engine
+
+on:
+  schedule:
+    # Daily at 8 AM UTC — scout viral X + YouTube posts and send scripts to Slack.
+    # Set repo variable VIRAL_AUTOPILOT=true to also render the top ideas automatically.
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'scout = find ideas · produce = render chosen ids · auto = scout + render top ideas'
+        type: choice
+        options: [scout, produce, auto]
+        default: scout
+      idea_ids:
+        description: 'For "produce": idea ids from the brief (e.g. "1,3")'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: viral-videos
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      MODE: ${{ github.event_name == 'schedule' && (vars.VIRAL_AUTOPILOT == 'true' && 'auto' || 'scout') || inputs.mode }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+      HEYGEN_API_KEY: ${{ secrets.HEYGEN_API_KEY }}
+      HEYGEN_AVATAR_ID: ${{ vars.HEYGEN_AVATAR_ID }}
+      HEYGEN_VOICE_ID: ${{ vars.HEYGEN_VOICE_ID }}
+      HEYGEN_AVATAR_TYPE: ${{ vars.HEYGEN_AVATAR_TYPE }}
+      VIDEOS_PER_DAY: ${{ vars.VIDEOS_PER_DAY }}
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      GITHUB_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Scout viral content + write scripts
+        if: env.MODE == 'scout' || env.MODE == 'auto'
+        run: npx tsx scripts/viral-scout.ts
+
+      - name: Render with HeyGen (chosen ideas)
+        if: env.MODE == 'produce'
+        env:
+          IDEA_IDS: ${{ inputs.idea_ids }}
+        run: npx tsx scripts/viral-produce.ts --download
+
+      - name: Render with HeyGen (top ideas)
+        if: env.MODE == 'auto'
+        run: npx tsx scripts/viral-produce.ts --auto --download
+
+      - name: Upload videos
+        if: always() && hashFiles('output/videos/*') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: viral-videos-${{ github.run_id }}
+          path: output/videos/
+          retention-days: 14
+
+      - name: Commit ideas + history
+        if: always()
+        run: |
+          git config user.name "SEO Bot"
+          git config user.email "bot@seenbymany.com"
+          git add content/video-ideas/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "viral: ${MODE} run $(date +%Y-%m-%d)"
+          git pull --rebase
+          git push

@@ -14,7 +14,10 @@
     "generate-images": "tsx scripts/images.ts",
     "publish-post": "tsx scripts/publish.ts",
     "auto-publish": "tsx scripts/auto-publish.ts",
-    "local-seo": "tsx scripts/generate-local.ts"
+    "local-seo": "tsx scripts/generate-local.ts",
+    "viral:scout": "tsx scripts/viral-scout.ts",
+    "viral:produce": "tsx scripts/viral-produce.ts",
+    "heygen:list": "tsx scripts/heygen-list.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
